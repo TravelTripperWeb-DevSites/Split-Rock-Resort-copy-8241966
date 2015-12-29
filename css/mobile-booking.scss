@@ -1,0 +1,55 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/*#cd-lateral-nav{
+    z-index:3;
+}*/
+
+#mobile-booking {
+    display: none;
+    position: fixed;
+    top: 50px;
+	top: 185px;
+    z-index: 3;
+}
+
+
+#mobile-booking #search-container h1 { width: 100% }
+#mobile-booking #search-container a.option-link{
+                 float:none;
+}
+#mobile-booking .row {
+    width: 90%;
+}
+
+#mobile-booking #form-res .hotel_select {
+    width: 100px
+}
+
+@media only screen and (max-width: 1000px) {
+    #mobile-booking #form-res .more_hotel_options_2 {
+        display: block;
+    }
+}
+#mobile-booking-close{
+    float:right;
+}
+
+
+@media only screen and (max-width: 880px) {
+    #mobile-booking #search-container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #mobile-booking { /*display: block;*/ position: absolute; top: 10%; }
+	#search-container { max-width: auto; }
+}
+
+
+@media only screen and (max-width: 355px) {
+    #mobile-booking { /*display: block;*/ position: absolute; top: 10%; }
+
+}

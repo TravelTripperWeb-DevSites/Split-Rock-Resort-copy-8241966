@@ -1,0 +1,7 @@
+[
+
+{
+    "_template": "resort-home",
+    "content": ["<img data-interchange='[/img/heros/650x600-property-overview.jpg, (small)],[/img/heros/1500x600-property-overview.jpg, (medium)], [/img/heros/2000x600-property-overview.jpg, (xlarge)]' src='/img/heros/1500x600-property-overview.jpg' alt='Split Rock Resort'>","<a href='https://gc.synxis.com/rez.aspx?hotel=63406&shell=GCFH&template=GCFH&locale=en-us&rate=bdbr&src=prop'><img src='/img/435x215-Resort-Overview-Special-Bed-and-Breakfast.jpg' alt='Bed and Breakfast Package - BookNow'></a><p><span style='font-size:18px;'>Start your day off right with a delicious and energizing breakfast. Our <strong>Bed &amp; Breakfast Package</strong> includes accommodations and daily breakfast at <strong>on-site Split Rock Grille</strong>.</p><div><p class='pricing'><span class='tag'><strong>Rates Start at</strong></span><span class='price'><strong>$134</strong></span><span class='nights'>per night&nbsp;</span><a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108799&vr=3' class='bttn empty'>Book Now</a><span class='disclaimer'>*Excluding taxes, $3 per person per night Recreation Fee and 19% Service Charge.</span>"]
+}
+]

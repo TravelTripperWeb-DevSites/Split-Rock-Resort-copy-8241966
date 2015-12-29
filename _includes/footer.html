@@ -1,0 +1,58 @@
+
+<footer class="footer-wrapper">
+<div class="row" id="footer">
+	<a href="index.html"><img itemprop="image" src="{{obj.logo-footer}}" alt="Split Rock Resort & Golf Club" class="logo"></a>
+    <ul class="footer-menu">
+         
+                
+
+                {% for items in obj.footer-links %}
+
+                <li><a href="{{items.url}}">{{items.name}}</a></li>
+                    
+                {% endfor %}
+    
+     
+      </ul>
+    <div class="contact right">
+        <ul class="social-media right">
+
+
+                {% for items in obj.social-media %}
+
+                <li><a href="{{items.url]}}" rel="nofollow" target="_blank"><i class="{{items.class-name}}"></i></a></li>
+        
+                {% endfor %}
+                    
+        </ul>
+        <ul class="contact-options right">
+
+                
+
+
+
+            <li><a href="{{obj.contacts-info.url}}"><i class="fa  fa-envelope"></i> {{obj.contacts-info.contact-name}}</a></li>
+            <li><a href="{{obj.phone.url}}"><i class="fa  fa-phone"></i> <span itemprop="telephone" class="phone"> {{obj.phone.contact-no}}</span></a></li>
+        </ul>
+
+
+
+        <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> <span itemprop="streetAddress">{{obj.addr-info[0]}}</span>, <span itemprop="addressLocality">{{obj.addr-info[1]}}</span>, <span itemprop="addressRegion">{{obj.addr-info[2]}}</span> <span itemprop="postalCode">{{obj.addr-info[3]}}</span><br>
+                
+                
+
+                <br>
+
+                {{obj.copy-rights[0]}}
+
+                <br/> 
+                {{obj.copy-rights[1]}}
+
+            </p> 
+
+           
+</div> 
+</div> 
+
+</footer>
+</span>

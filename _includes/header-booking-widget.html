@@ -1,0 +1,116 @@
+  <!-- Book your stay widget on only the Home page-->
+
+     <style type="text/css">#reservation-widget { display: none; } </style>
+<div id="reservation-widget" class="desktop-booking">
+    	<div class="row">
+        	<h2>Plan your trip</h2>
+        	<!--<a href"#" class="actionlink">Book now</a>-->
+            <form id="form-res" class="topreswidget clearfix" name="BookingBarHome_Split_Rock_Resort" action="https://splitrockresort.reztrip.com/search">
+             
+                  <div class="arrive_depart_container left">
+                    <div class="hotel_arrive left">
+                        <input type="text" value="Check-in" readonly id="datein-page" name="arrival_date" class="date_picker datein"/>
+                    </div>
+                    <div class="hotel_depart left">
+                        <input type="text" value="Check-out" readonly id="dateout-page" name="departure_date" class="date_picker dateout"/>
+                    </div>
+                    <div class="more_hotel_options">
+                        <div class="hotel_select left rac">
+                            <div class="hotel_custom_select_small">
+                                <select name="rooms" id="hotel-rooms">
+                                	<option>Rooms</option>
+                                    <option value="1" selected label="1 Room">1 Room</option>
+                                    <option value="2" label="2 Rooms">2 Rooms</option>
+                                    <option label="3 Rooms" value="3">3 Rooms</option>
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hotel_select left rac">
+                            <div class="hotel_custom_select_small">
+                                <select id="hotel-adults" name="adults[]">
+                                	<option>Adults</option>
+                                    <option label="1 Adult" value="1">1 Adult</option>
+                                    <option value="2" selected label="2 Adults">2 Adults</option>
+                                    <option label="3 Adults" value="3">3 Adults</option>
+                                    <option label="4 Adults" value="4 ">4 Adults</option>
+                                    <option label="5 Adults" value="5">5 Adults</option>
+                                    <option label="6 Adults" value="6">6 Adults</option>
+                                    <option label="7 Adults" value="7">7 Adults</option>
+                                    <option label="8 Adults" value="8">8 Adults</option>
+                                    <option label="9 Adults" value="9">9 Adults</option>
+                                    <option label="10 Adults" value="10">10 Adults</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hotel_select left rac child_num">
+                            <div class="hotel_custom_select_small">
+                                <select id="hotel-child" name="children[]">
+                                	<option>Children</option>
+                                    <option label="0" value="0">0</option>
+                                    <option label="1" value="1">1</option>
+                                    <option label="2" value="2">2</option>
+                                    <option label="3" value="3">3</option>
+                                    <option label="4" value="4">4</option>
+                                    <option label="5" value="5">5</option>
+                                    <option label="6" value="6">6</option>
+                                    <option label="7" value="7">7</option>
+                                    <option label="8" value="8">8</option>
+                                    <option label="9" value="9">9</option>
+                                    <option label="10" value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                  	</div>
+                    <div class="more_hotel_options_2">
+
+                        <div class="options_wrapper">
+
+                            <div class="optionalCodes">
+                                <input type="checkbox" value="1" id="optionalCodes" name="check" />
+                                <label for="optionalCodes"></label>
+                                <span class="info">Options</span>
+                            </div>
+                        </div>
+                        <div class="options_wrapper">
+                        
+                        </div>
+                    </div>
+                    <div class="hotel_submit">
+                        <input type="submit" class="bttn filled" value="Book Now">
+                    </div>
+                </div>
+                
+                <div class="promo_codes clearfix">
+
+
+                    <div class="hotel_select left rac" style="margin-right: 15px; white-space: nowrap;">
+                    	<label for="promocode" class="booking_label">Promo Code:</label>
+                        <input type="text" id="promocode" name="offer_code" maxlength="20" value="">
+                    </div>
+                   
+                    <div class="hotel_select left rac" style="white-space: nowrap;">
+                    	<label for="iatacode" class="booking_label">IATA Code:</label>
+                        <input type="text" id="iatacode" name="iata_code" maxlength="20" value="">
+                    </div>
+                    <div class="more_hotel_options_2 left inner-flex-dates">
+                        <div class="options_wrapper">
+                            <div class="flexDates">
+
+                                <input type="hidden" value="availresults" name="start"/>
+                                <input type="checkbox" value="1" id="flexDates" name="flexDates" />
+                                <label for="flexDates"></label>
+                                <span class="info">Are Your Days Flexible?</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</header>
+
+
+
+    <!-- End of widget -->

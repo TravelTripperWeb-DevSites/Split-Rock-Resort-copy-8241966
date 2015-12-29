@@ -1,0 +1,158 @@
+---
+---
+
+/*@charset "utf-8";*/
+/* CSS Document */
+/*
+body {
+    color: #1a70a2;
+    font-family: "Titillium Web",sans-serif;
+    font-size: 100%;
+}
+*/
+ 
+/* General button style (reset) */
+.bttn {
+	border: none;
+	/*font-family: inherit;*/
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 0 30px;
+	display: inline-block;
+	white-space: nowrap;
+	/*margin: 15px 30px;*/
+    text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 45px;
+	width: auto;
+	/*fix ie*/
+    position:relative;
+	z-index: 2;
+	zoom:1;
+}
+a.bttn.filled {
+	padding: 0 43px;
+}
+
+.bttn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+a.bttn:hover, a.bttn:active { text-decoration: none !important; }
+
+a.bttn:focus, a.bttn:active, 
+input[type='submit']:focus, input[type='submit']:active, 
+input[type='button']:focus, input[type='button']:active { 
+  outline: none; -moz-outline-style: none; 
+}
+
+
+/* Button 1 */
+.bttn.empty {
+	border: 3px solid #ff9800;
+	color: #ff9800;
+	overflow: hidden;
+}
+
+/* Button 2 */
+.bttn.filled {
+	background: none repeat scroll 0 0 #ff9800;
+	border-bottom: solid 5px #E17104;
+	transition: none 0s ease 0s;
+	color: #fff;
+}
+.bttn.empty:after {
+	width: 100%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background: #ff9800;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.bttn.filled:after {
+	background: none repeat scroll 0 0 #E17A00;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 0;
+}
+.bttn.empty:hover, .bttn.empty:active {
+	color: #fff;
+}
+.bttn.filled:active {
+	border-bottom: solid 0 #E17104;
+	margin-bottom: 5px;
+	top: 5px;
+	top: 6px;
+}
+.bttn.empty:hover:after {
+	height: 260%;
+	opacity: 1;
+}
+.bttn.empty:active:after {
+	height: 400%;
+	opacity: 1;
+}
+
+.bttn.filled:hover, .bttn.filled:active {
+	background: none repeat scroll 0 0 #FF7700;
+}
+
+
+/* special fields */
+
+
+#form-res.topreswidget .hotel_submit input[type=submit] {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      border-radius: 5px;
+	  font-size: 14px;
+	  cursor: pointer;
+      width: 120px;
+      line-height: 32px;
+	  padding: 0 15px;	  
+}
+
+#form-res.topreswidget .hotel_submit input[type=submit]:hover {
+	background: none repeat scroll 0 0 #FF7700;
+}
+
+.special .offer p a {
+  color: #fff;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.8);
+  line-height: 41px;
+  display: block;
+  border: solid 4px #fff;
+  width: 70%;
+  text-align: center;
+  margin-top: 12px; 
+  display: inline-block;
+}
+  
+.special .offer a:hover  { background-color: #4cb3ca; }
+.special .offer a:active { background-color: #3e92a4; }
+  

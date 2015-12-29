@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+
+  {% include header-booking-widget.html %}
+
+  {% region homeregions %}
+ 
+<div id="toggleheader"></div>
+
+    <!-- Book your stay widget home page widget -->
+
+
+    <section>
+<div class="row">
+	<div id="search-container" class="clearfix desktop-booking">
+    	<h1 class="left">Book your stay</h1>
+        <!--<a href="https://gc.synxis.com/rez.aspx?start=searchres&amp;hotel=63406&amp;src=prop" class="option-link">Modify / cancel a reservation</a>-->
+        <div class="hr"></div>
+        
+               <form id="form-res" name="BookingBarHome_Split_Rock_Resort" action="https://splitrockresort.reztrip.com/search">
+
+        
+        
+  
+         <div class="arrive_depart_container left">
+            <div class="hotel_arrive left"><label for="datein-home" class="booking_label">Check-in</label>
+                <input type="text" placeholder="MM/DD/YYYY" readonly id="datein-home" name="arrival_date" class="date_picker datein"/>
+            </div>
+            <div class="hotel_depart left"><label for="dateout-home" class="booking_label ">Check-out</label>
+                <input type="text" placeholder="MM/DD/YYYY" readonly id="dateout-home" name="departure_date" class="date_picker dateout"/>
+            </div>
+        </div>
+        <div class="more_hotel_options">
+            <div class="hotel_select left rac"><label for="hotel-rooms" class="booking_label">Rooms:</label>
+                <div class="hotel_custom_select_small">
+                    <select name="rooms" id="hotel-rooms">
+                    	
+                        <option value="1" selected label="1 Room">1 Room</option>
+                        <option label="2 Rooms" value="2">2 Rooms</option>
+                        <option label="3 Rooms" value="3">3 Rooms</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="hotel_select left rac"><label for="hotel-adults" class="booking_label">Adults:</label>
+                <div class="hotel_custom_select_small">
+                    <select id="hotel-adults" name="adults[]">
+                        <option label="1 Adult" value="1">1 Adult</option>
+                          <option value="2" selected label="2 Adults">2 Adults</option>
+                        <option label="3 Adults" value="3">3 Adults</option>
+                        <option label="4 Adults" value="4">4 Adults</option>
+                        <option label="5 Adults" value="5">5 Adults</option>
+                        <option label="6 Adults" value="6">6 Adults</option>
+                        <option label="7 Adults" value="7">7 Adults</option>
+                        <option label="8 Adults" value="8">8 Adults</option>
+                        <option label="9 Adults" value="9">9 Adults</option>
+                        <option label="10 Adults" value="10">10 Adults</option>
+                    </select>
+                </div>
+            </div>
+            <div class="hotel_select left rac child_num"><label for="hotel-child" class="booking_label">Children:</label>
+                <div class="hotel_custom_select_small">
+                    <select id="hotel-child" name="children[]">
+                        <option label="0" value="0">0</option>
+                        <option label="1" value="1">1</option>
+                        <option label="2" value="2">2</option>
+                        <option label="3" value="3">3</option>
+                        <option label="4" value="4">4</option>
+                        <option label="5" value="5">5</option>
+                        <option label="6" value="6">6</option>
+                        <option label="7" value="7">7</option>
+                        <option label="8" value="8">8</option>
+                        <option label="9" value="9">9</option>
+                        <option label="10" value="10">10</option>
+                    </select>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+			
+            <div class="hotel_submit">
+                <input type="submit" value="Check Availability" class="bttn filled">
+            </div>
+            
+            <div class="more_hotel_options_2">
+            	<div class="options_wrapper">
+                	<div class="flexDates">
+
+                        <input type="hidden" value="availresults" name="start"/>
+                        <input type="checkbox" id="flexDates" name="flexDates" />
+                        <label for="flexDates"></label>
+                        <span class="info">Flexible Dates</span>
+                    </div>
+                </div>
+                <div class="options_wrapper">
+                	<div class="optionalCodes">
+                        <input type="checkbox" value="1" id="optionalCodes" name="check" />
+                        <label for="optionalCodes"></label>
+                        <span class="info">Optional Codes</span>
+                    </div>
+                </div>
+                <div class="options_wrapper">
+                
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="promo_codes">
+            	<!--<span class="heading">Add Your Promo Codes</span>-->
+                <div class="hotel_select left rac" style="margin-right: 15px; white-space: nowrap;">
+                <label for="promocode" class="booking_label">Promo Code:</label>
+                    <input type="text" id="promocode" name="offer_code" maxlength="20" value="">
+                </div>
+                
+                <div class="hotel_select left rac" style="white-space: nowrap;">
+                	<label for="iatacode" class="booking_label">IATA Code:</label>
+                    <input type="text" id="iatacode" name="iata_code" maxlength="20" value="">
+                </div>
+            </div>
+
+       	</div>
+	</form>
+    </div>
+</div>
+</section>
+<div class="main-hr"></div>
+<section>
+<div class="single-image">
+    <div class="row">
+    	<a href="{{obj.promo-section.url}}"><img src="{{obj.promo-section.img-src}}" alt="Split Rock Resort"></a>
+    </div>
+</div>
+</section>
+
+
+
+    <!-- end of widget -->
+
+    <section>
+<div class="text-with-gallery">
+    <div class="row">
+        <div class="content">
+            <h2>LET YOUR SPIRIT RUN FREE</h2>
+            <div class="text left">
+                <p>Enjoy four  seasons of fun in the stunning western region of the <strong>Poconos</strong> at <strong itemprop="name">Split Rock Resort</strong>. Whether you&rsquo;re seeking a retreat from the everyday or a <strong>family adventure</strong>, Split Rock Resort  is an experience you&rsquo;ll look forward to year after year.  </p>
+<p>You don&rsquo;t have to  go very far to feel like you&rsquo;re a world away. Situated on over <strong>1,200 acres of forest and mountains</strong>,  our resort is a <a href="resort-overview/index.html" ><strong>beautiful escape</strong></a> located only 4 miles from Exit 277 off Interstate 80 and exit 95 of the NE  Extension of the Pennsylvania Turnpike. </p>
+<p>Split Rock Resort hosts a variety of <a href="events/index.html"><strong>on-site events and live entertainment</strong></a>, from local bands to award-winning festivals<!-- the award-winning <a href="/events/blues-festival/"><strong>Pennsylvania Blues Festival</strong></a>, taking place July&nbsp;24 - 26--><!--, and the Great Brews Classic Beer Festival on November 21, 2015-->. There's always something going on at our resort: check out our weekly <a target="_blank" href="pdfs/Split-Rock-Resort-Activity-Schedule.pdf"><strong>Activity Schedule</strong></a> or pick up a copy in the lobby.  </p>
+
+
+
+
+          </div>
+            <div class="gallery right">
+            <div class="gallerygroup">
+                <a href="img/photo-gallery/SRR-800x600-Lodge-Lake-Harmony.jpg" title="Split Rock Resort Lodge Lake Harmony"><img src="img/photo-gallery/SRR-435x275-Lodge-Lake-Harmony.jpg" width="215" height="137" alt="Split Rock Resort Lodge Lake Harmony"></a>
+                <a href="img/photo-gallery/SRR-800x600-Exterior-Split-Rock.jpg" title="Split Rock Resort Exterior"><img src="img/photo-gallery/SRR-435x275-Exterior-Split-Rock.jpg" width="215" height="137" alt="Split Rock Resort Exterior"></a>
+                <a href="img/photo-gallery/SRR-800x600-Willowbrook-Two-Bedroom.jpg" title="Split Rock Resort Willowbrook Two Bedroom"><img src="img/photo-gallery/SRR-435x275-Willowbrook-Two-Bedroom.jpg" width="215" height="137" alt="Split Rock Resort Willowbrook Two Bedroom"></a>
+                <a href="img/photo-gallery/SRR-800x600-Lakeside-Lodge.jpg" title="Split Rock Resort Lakeside Lodge"><img src="img/photo-gallery/SRR-435x275-Lakeside-Lodge.jpg" width="215" height="137" alt="Split Rock Resort Lakeside Lodge"></a> 
+                </div><div class="clearfix"></div>
+<br class="clearfix"><p align="center"><a href="resort-overview/rooms-suites/index.html" class="bttn filled">Rooms &amp; Amenities</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background: url('img/sprite-2.png') repeat-x scroll 0 -1203px #969681;">
+        <div class="content">
+            <h3 style="color: #ffffff;">Exciting Property Improvements Complete</h3>
+            <p style="color: #ffffff;">We’ve been working hard here at Split Rock Resort! Come see all of our changes including the <strong>new food court</strong>, <strong>digital theater</strong> showing the very best in <strong>first-run movies</strong>, and <strong>two new restaurants</strong>. The <strong>Split Rock Grill</strong> serves the best in traditional family fare. The <strong>Lake View Tavern</strong> offers handcrafted, modern American cuisine overlooking <strong>Lake Harmony</strong>. We’ve also completely <strong>renovated our main lobby</strong>, <strong>upgraded our guest rooms</strong> in the <strong>historic lakeside lodge</strong>, and much more!  This summer promises to be one to remember. We can’t wait to welcome you back to Split Rock!</p>
+
+<!--<p style="color: #ffffff;">We appreciate your patience while we undergo these renovations and will make every effort to make your stay with us a pleasant one!</p>-->
+        </div>
+  </div>
+</div>
+</section>
+<section>
+<div class="special" data-interchange="[img/home-special.jpg, (default)], [img/home-special-large.jpg, (only screen and (min-width: 1500px))]">
+    <div class="row">
+        <div class="offer-wrapper clearfix">
+            <div class="offer">
+                <a href="waterpark/index.html"><img src="img/special-home-details.png" width="363" height="119" alt="Indoor Water Park On-Site at Split Rock Resort"></a>
+                <p>
+                Enjoy the 4-story slides in our amazing indoor water park.
+                 <a href="https://tix.extremetix.com/Online/?siteID=2552" target="_blank">Buy Tickets</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section>
+<div class="full-text">
+    <div class="row">
+        <h2>LIVE, LAUGH &amp; PLAY IN THE POCONOS</h2>
+        <p>Split Rock Resort  offers a variety of <a href="resort-overview/rooms-suites/index.html" ><strong>suites</strong>, <strong>lodge rooms</strong>, and <strong>villas</strong></a> that exude distinctive mountain  town charm.  Our <strong>lodge rooms</strong>, part of the  historic <strong>Split Rock Lodge</strong>, overlook  expansive <strong>Lake Harmony</strong>. Our suites  are elegant and cozy, while our villas, which feature a <strong>fireplace</strong>, <strong>full kitchen</strong>, and <strong>dining  area</strong>, are perfect for long stays.</p>
+<p>What  makes a vacation at Split Rock Resort a memorable one is our <a href="resort-overview/amenities/index.html" ><strong>fantastic selection of resort amenities</strong></a>.  With access to <strong>sporting courts</strong>, <strong>pools</strong>, a <strong>fitness center</strong>, <a href="golf/index.html" ><strong>golf course</strong></a>, <strong>salon</strong>, <a href="resort-overview/resort-dining/index.html" ><strong>variety of dining options</strong></a>, and <strong>more</strong>, you won&rsquo;t ever want to leave! Children and adults especially  love our <a href="waterpark/index.html" ><strong>H2Oooohh! Indoor Waterpark</strong></a>,  with fun for the entire family. </p>
+
+    
+<h3>One  visit to Split Rock Resort and you&rsquo;ll be hooked! Guests return  every year to the Poconos for the <strong>on-site  activities</strong>, <strong>outdoor adventures</strong>,  and <strong>charming accommodations</strong>.</h3>
+    </div>
+</div>
+</section>
+
+    {% include sign-up.html %}
+
+    
+    {% include scripts.html %}
+   
+    {% include footer.html %}
+
+
+  </body>
+
+</html>

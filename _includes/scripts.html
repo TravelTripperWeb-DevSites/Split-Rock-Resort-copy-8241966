@@ -1,0 +1,77 @@
+<script type="text/javascript" src="/js/modernizr.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/nav2.js"></script>
+<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="/js/foundation.min.js"></script>
+<script type="text/javascript" src="/js/foundation.interchange.js"></script>
+<script type="text/javascript" src="/js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
+<script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+
+
+
+
+
+
+
+<script>
+
+$(document).ready(function(){
+
+	$('.slick-prev').css('opacity', 0); 
+	$('.slick-next').css('opacity', 0); 
+  
+  
+// when hover over the selected image change the opacity to 1  
+$('#hero-section').hover(  
+   function(){  
+      $(this).find('.slick-prev').stop().fadeTo('slow', 1); 
+      $(this).find('.slick-next').stop().fadeTo('slow', 1); 	  
+   },  
+   function(){  
+      $(this).find('.slick-prev').stop().fadeTo('slow', 0); 
+      $(this).find('.slick-next').stop().fadeTo('slow', 0);   
+   });  
+}); 
+  
+$(document).ready(function() {
+	var waypoint = new Waypoint({
+	  element: document.getElementById('toggleheader'),
+	  handler: function(direction) {
+		$("#header-wrapper").toggleClass("stickynav");
+		$("#reservation-widget").toggle();
+		//alert("i am 20 pixels away");
+	  },
+	  offset: 20 
+	})
+	$('.home-slider').slick({
+		dots: true,
+		arrows: true,
+		speed: 700,
+		autoplay: true,
+        autoplaySpeed: 5000,
+		adaptiveHeight: true
+	});
+})
+
+<!-- Magnific Popup Function -->
+$('.gallerygroup').each(function() { // the containers for all your galleries
+    $(this).magnificPopup({
+        delegate: 'a', // the selector for gallery item
+        type: 'image',
+        gallery: {
+          enabled:true
+        },
+		zoom: {
+			enabled: true,
+			duration: 300 // don't foget to change the duration also in CSS
+		}
+    });
+});
+
+
+
+
+</script>

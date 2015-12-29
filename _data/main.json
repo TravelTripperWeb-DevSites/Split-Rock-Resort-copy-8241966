@@ -1,0 +1,169 @@
+
+{  
+    
+      
+      "logo-footer":"/img/logo-footer.png",
+      "logo-header":"/img/logo.png",
+     
+      "meta-info":[  
+         
+         {"property":"og:locale", "content":"en_US"},
+         {"property":"og:type", "content":"website"},
+         {"property":"og:site_name", "content":"Split Rock Resort & Golf Club"},
+         {"property":"og:url", "content":"http://www.splitrockresort.com/"},
+         {"property":"og:email", "content":"info@splitrockresort.com"},
+         {"property":"og:phone_number", "content":"800-255-7625"},
+         {"property":"og:fax_number", "content":""},
+         {"property":"og:locale", "content":"en_US"},
+         {"property":"og:type", "content":"website"},
+         {"property":"og:site_name", "content":"Split Rock Resort & Golf Club"},
+         {"property":"og:url", "content":"http://www.splitrockresort.com/"},
+         {"property":"og:email", "content":"info@splitrockresort.com"},
+         {"property":"og:phone_number", "content":"800-255-7625"},
+         {"property":"og:fax_number", "content":""},
+         {"property":"og:title", "content":"Poconos Resort Pennsylvania | Split Rock Resort"},
+         {"property":"og:description", "content":"Our four-season Poconos resort in Pennsylvania, Split Rock Resort, sits on the 125-acre Lake Harmony, surrounded by the quiet, rolling hills of Eastern PA."},
+         {"property":"og:type", "content":"website"},
+         {"property":"og:image", "content":"img/logo-footer.png"},
+         {"property":"og:street-address", "content":"100 Moseywood Road"},
+         {"property":"og:locality", "content":"Lake Harmony"},
+         {"property":"og:region", "content":"PA"},
+         {"property":"og:postal-code", "content":"18624"},
+         {"property":"og:country-name", "content":"USA"},
+         {"property":"og:latitude", "content":"41.064566"},
+         {"property":"og:longitude", "content":"-75.620645"}
+
+         
+      ],
+
+
+      "css":[  
+         "/css/buttons.css",
+         "/css/style-v=1429586643.css",
+         "/css/font-awesome.css",
+         "/css/slick.css",
+         "/css/jquery-ui.css",
+         "/css/nav2-v=1432143717.css",
+         "/css/magnific-popup.css",
+         "/css/mobile-booking.css"
+      ],
+
+      "footer-links":[
+
+                        {"name":"Carrers", "url":"/careers/"},
+                        {"name":"Groups", "url":"/groups/"},
+                        {"name":"Weddings", "url":"/weddings/"},
+                        {"name":"Directions", "url":"/directions/"},
+                        {"name":"Sitemap", "url":"/sitemap/"},
+                        {"name":"Email signup", "url":"/email-signup/"},
+                        {"name":"Owners", "url":"http://www.splitrockowner.com/"}
+
+                     ],
+
+      "top-links":[
+
+                        {"name":"Special Offers", "url":"/special-offers/", "isDropdown":"no"},
+                        {"name":"Resort Overview", "url":"/resort-overview/", "isDropdown":"yes",
+                               
+                               "drop-links":[
+                                                {"name":"Rooms &amp; Suites","url":"/resort-overview/rooms-suites/"},
+                                                {"name":"Amenities","url":"/resort-overview/amenities/"},
+                                                {"name":"Resort Dining","url":"/resort-overview/resort-dining/"},
+                                                {"name":"Meetings","url":"/resort-overview/meetings/"},
+                                                {"name":"Photo Gallery","url":"/resort-overview/Photo Gallery/"}
+                                            ]
+
+
+                        },
+                        {"name":"Events", "url":"/events/", "isDropdown":"yes",
+
+                              "drop-links":[
+                                                      {"name":"Wine &amp; Food Festival","url":"/events/wine-festival/"},
+                                                      {"name":"Blues Festival","url":"/events/blues-festival/"},
+                                                      {"name":"Beer Festival","url":"/events/brew-fest/"},
+                                                      {"name":"Bridal Showcase","url":"/events/bridal-showcase/"}
+                                                      
+                                          ]
+
+                        },
+
+
+                        {"name":"Explore", "url":"/explore/", "isDropdown":"yes",
+
+                              "drop-links":[
+                                                   {"name":"Cultural Activities","url":"/explore/#cultural"},
+                                                   {"name":"Spring &amp; Summer Activities","url":"/explore/#spring-summer"},
+                                                   {"name":"Fall &amp; Winter Activities","url":"/explore/#fall-winter"},
+                                                   {"name":"Shopping","url":"explore/#shopping"},
+                                                   {"name":"Nature","url":"explore/#nature"}
+                                                   
+                                          ]
+
+
+
+                        },
+
+
+                        {"name":"Waterpark", "url":"waterpark/","isDropdown":"yes",
+
+                              "drop-links":[
+                                                   {"name":"Party Packages","url":"/waterpark/party-packages/"}
+                                          ]
+
+
+
+
+                        },
+                        {"name":"Golf", "url":"/golf/", "isDropdown":"no"}
+                       
+
+                  ],
+
+      "home-slider":[
+
+
+            {"url":"events/brew-fest/index.html", "imgArray":["img/heros/1500x740-Beer-Fest.jpg, (small)","img/heros/1500x740-Beer-Fest.jpg, (medium)","img/heros/2000x740-Beer-Fest.jpg, (xlarge)"]},
+            {"url":"special-offers/index.html", "imgArray":["img/heros/home-slide-1-mob.jpg, (small)","img/heros/home-slide-1-default.jpg, (medium)","img/heros/home-slide-1-large.jpg, (xlarge)"]},
+            {"url":"golf/index.html", "imgArray":["img/heros/home-slide-5-mob.jpg, (small)","img/heros/home-slide-5-default.jpg, (medium)","img/heros/home-slide-5-large.jpg, (xlarge)"]}
+            
+
+
+        ],
+
+        "promo-section": {"img-src":"/img/single-photo-home.jpg", "url":"/resort-overview/rooms-suites/index.html"},
+
+      "social-media":[
+
+
+                        {"class-name":"fa fa-facebook", "url":"http://www.facebook.com/splitrockresortpa/"},
+                        {"class-name":"fa fa-twitter", "url":"https://twitter.com/splitrockresort/"},
+                        {"class-name":"fa fa-youtube", "url":"http://www.youtube.com/splitrockresort"},
+                        {"class-name":"fa fa-pinterest", "url":"http://pinterest.com/splitrockresort/"},
+
+
+                    ],
+
+      "contacts-info": {"contact-name":"Contact", "url":"/contact/index.html"},
+
+      "phone":          {"contact-no":"(800) 255-7625", "url":"tel:800-255-7625"},
+
+      "addr-info":[
+
+                     "100 Moseywood Road",
+                     "Lake Harmony",
+                     "PA",
+                     "18624"
+
+                  ],
+
+
+      "copy-rights":[
+
+                        "Copyright &copy; 2012-2015 Split Rock Resort",
+                        "All rights reserved"
+
+                    ]
+
+                    
+
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "_template": "slider",
+    "content": "<section><div id='hero-section' class='full slideshow' style='padding-top:47px;'><div class='home-slider'><div><a href='events/brew-fest/index.html'><img data-interchange='[img/heros/1500x740-Beer-Fest.jpg, (small)],[img/heros/1500x740-Beer-Fest.jpg, (medium)], [img/heros/2000x740-Beer-Fest.jpg, (xlarge)]' alt='Split Rock Resort'></a></div></div></div></section>"
+  }
+ 
+]
