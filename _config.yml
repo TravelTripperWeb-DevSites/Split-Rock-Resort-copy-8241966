@@ -4,8 +4,6 @@ email: info@splitrockresort.com
 description: > # Our four-season Poconos resort in Pennsylvania, Split Rock Resort, sits on the 125-acre Lake Harmony, surrounded by the quiet, rolling hills of Eastern PA..
 baseurl: ""
 url: "http://www.splitrockresort.com/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 permalink: pretty
 
 # Build settings
