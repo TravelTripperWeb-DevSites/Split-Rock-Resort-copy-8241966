@@ -104,6 +104,49 @@ input[type='button']:focus, input[type='button']:active {
 	top: 5px;
 	top: 6px;
 }
+#bigbtn.bttn.empty:hover:after {
+	height: 725%;
+	opacity: 1;
+}
+
+#movie-btn.bttn.empty:hover:after {
+	height: 625%;
+	opacity: 1;
+}
+
+#midbtn.bttn.empty:hover:after {
+	height: 670%;
+	opacity: 1;
+}
+#smallbtn.bttn.empty:hover:after {
+	height: 390%;
+	opacity: 1;
+}
+
+#sp-btn.bttn.empty:hover:after {
+	height: 325%;
+	opacity: 1;
+}
+
+#t-btn.bttn.empty:hover:after {
+	height: 485%;
+	opacity: 1;
+}
+#new-eve.bttn.empty:hover:after {
+	height: 420%;
+	opacity: 1;
+}
+
+#park-btn.bttn.empty:hover:after {
+	height: 598%;
+	opacity: 1;
+}
+#bowl.bttn.empty:hover:after {
+	height: 540%;
+	opacity: 1;
+}
+
+
 .bttn.empty:hover:after {
 	height: 260%;
 	opacity: 1;
@@ -155,4 +198,3 @@ input[type='button']:focus, input[type='button']:active {
   
 .special .offer a:hover  { background-color: #4cb3ca; }
 .special .offer a:active { background-color: #3e92a4; }
-  

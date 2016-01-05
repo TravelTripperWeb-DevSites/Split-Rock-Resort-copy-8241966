@@ -54,6 +54,8 @@
                         {"name":"Groups", "url":"/groups/"},
                         {"name":"Weddings", "url":"/weddings/"},
                         {"name":"Directions", "url":"/directions/"},
+                        {"name":"Press", "url":"/press/"},
+                        {"name":"Resort Fee", "url":"/resort-fee/"},
                         {"name":"Sitemap", "url":"/sitemap/"},
                         {"name":"Email signup", "url":"/email-signup/"},
                         {"name":"Owners", "url":"http://www.splitrockowner.com/"}
