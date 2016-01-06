@@ -124,15 +124,15 @@
       "home-slider":[
 
 
-            {"url":"events/brew-fest/index.html", "imgArray":["img/heros/1500x740-Beer-Fest.jpg, (small)","img/heros/1500x740-Beer-Fest.jpg, (medium)","img/heros/2000x740-Beer-Fest.jpg, (xlarge)"]},
-            {"url":"special-offers/index.html", "imgArray":["img/heros/home-slide-1-mob.jpg, (small)","img/heros/home-slide-1-default.jpg, (medium)","img/heros/home-slide-1-large.jpg, (xlarge)"]},
-            {"url":"golf/index.html", "imgArray":["img/heros/home-slide-5-mob.jpg, (small)","img/heros/home-slide-5-default.jpg, (medium)","img/heros/home-slide-5-large.jpg, (xlarge)"]}
+            {"url":"/events/brew-fest/", "imgArray":["/img/heros/1500x740-Beer-Fest.jpg, (small)","/img/heros/1500x740-Beer-Fest.jpg, (medium)","/img/heros/2000x740-Beer-Fest.jpg, (xlarge)"]},
+            {"url":"/special-offers/", "imgArray":["/img/heros/home-slide-1-mob.jpg, (small)","/img/heros/home-slide-1-default.jpg, (medium)","/img/heros/home-slide-1-large.jpg, (xlarge)"]},
+            {"url":"/golf/", "imgArray":["/img/heros/home-slide-5-mob.jpg, (small)","/img/heros/home-slide-5-default.jpg, (medium)","/img/heros/home-slide-5-large.jpg, (xlarge)"]}
             
 
 
         ],
 
-        "promo-section": {"img-src":"/img/single-photo-home.jpg", "url":"/resort-overview/rooms-suites/index.html"},
+        "promo-section": {"img-src":"/img/single-photo-home.jpg", "url":"/resort-overview/rooms-suites/"},
 
       "social-media":[
 
@@ -145,7 +145,7 @@
 
                     ],
 
-      "contacts-info": {"contact-name":"Contact", "url":"/contact/index.html"},
+      "contacts-info": {"contact-name":"Contact", "url":"/contact/"},
 
       "phone":          {"contact-no":"(800) 255-7625", "url":"tel:800-255-7625"},
 

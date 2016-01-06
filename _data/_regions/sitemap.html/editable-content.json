@@ -1,0 +1,7 @@
+[
+
+{
+    "_template": "innertemp",
+    "content": "<h1>Sitemap</h1> <ul class='left' style='display:inline-block;width:48%;'> <li><a href='/'>Home</a></li> <li><a href='/special-offers/'>Specials Offers</a></li> <li><a href='/resort-overview/'>Resort Overview</a></li> <ul> <li><a href='/resort-overview/rooms-suites/'>Rooms &amp; Suites</a></li> <li><a href='/resort-overview/photo-gallery/'>Photo Gallery</a></li> <li><a href='/resort-overview/amenities/'>Amenities</a></li> <li><a href='/resort-overview/meetings/'>Meetings</a></li> <li><a href='/resort-overview/resort-dining/'>Resort Dining</a></li> </ul> <li><a href='/explore/'>Explore</a></li> <li><a href='/events/'>Events</a></li> <ul> <li><a href='/events/wine-festival/'>Wine and Food Festival</a></li> <li><a href='/events/blues-festival/'>Blues Festival</a></li><li><a href='/events/brew-fest/index.html'>Beer Festival</a></li></ul> <li><a href='/waterpark/'>Waterpark</a></li> <ul> <li><a href='/waterpark/party-packages/'>Party Packages</a></li> </ul><li><a href='/golf/'>Golf</a></li> <li><a href='/weddings/'>Weddings</a></li> <li><a href='/groups/'>Groups</a></li> <li><a href='/directions/'>Directions</a></li> <li><a href='/contact/'>Contact Us</a></li> <li>Sitemap</li> <li><a href='/email-signup/'>Email Signup</a></li> </ul>"
+}
+]
