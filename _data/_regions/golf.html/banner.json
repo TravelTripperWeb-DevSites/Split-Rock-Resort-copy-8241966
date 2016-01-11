@@ -1,0 +1,7 @@
+[
+
+{
+    "_template": "slider",
+    "content": "<img data-interchange='[/img/heros/650x600-Golf.jpg, (small)],[/img/heros/1500x600-Golf.jpg, (medium)], [/img/heros/2000x600-Golf.jpg, (xlarge)]' src='/img/heros/1500x600-Golf.jpg' alt='Golf Course'>"
+}
+]

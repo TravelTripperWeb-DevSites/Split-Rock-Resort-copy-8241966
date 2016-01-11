@@ -10,7 +10,7 @@
 
   {% include header-booking-widget.html %}
 
-  {% region editable-content %}
+  {% region homeregions %}
  
 <div id="toggleheader"></div>
 
@@ -217,14 +217,15 @@
 <div class="two-column-text">
     <div class="row">
         <div class="col1 left"><br/>
+            
+            {% region editable-content-1 %}
 
-            <a href="{{mod[0].url}}"><img data-interchange="[{{mod[0].img-path}}, (default)], [{{mod[0].img-path}}, (only screen and (max-width: 400px))]" src="{{mod[0].img-path}}" alt="Indoor Waterpark"></a>
-            {{mod[0].content}}
         </div>
 
         <div class="col2 right"><br/>
-            <a href="{{mod[1].url}}"><img src="{{mod[1].img-path}}" alt="Star Wars Weekend"></a>
-            {{mod[1].content}}
+            
+
+             {% region editable-content-2 %}
 
 
         </div>

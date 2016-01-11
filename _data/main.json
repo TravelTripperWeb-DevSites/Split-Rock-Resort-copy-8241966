@@ -106,7 +106,7 @@
                         },
 
 
-                        {"name":"Waterpark", "url":"waterpark/","isDropdown":"yes",
+                        {"name":"Waterpark", "url":"/waterpark/","isDropdown":"yes",
 
                               "drop-links":[
                                                    {"name":"Party Packages","url":"/waterpark/party-packages/"}
