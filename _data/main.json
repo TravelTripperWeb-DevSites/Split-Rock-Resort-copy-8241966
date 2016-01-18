@@ -82,8 +82,8 @@
                               "drop-links":[
                                                       {"name":"Wine &amp; Food Festival","url":"/events/wine-festival/"},
                                                       {"name":"Blues Festival","url":"/events/blues-festival/"},
-                                                      {"name":"Beer Festival","url":"/events/brew-fest/"},
-                                                      {"name":"Bridal Showcase","url":"/events/bridal-showcase/"}
+                                                      {"name":"Beer Festival","url":"/events/brew-fest/"}
+                                                     
                                                       
                                           ]
 
