@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
   {% include head.html %}
@@ -8,85 +7,77 @@
     {% include mobile.html %}
     {% include header.html %}
   {% include booking-widget-all-pages.html %}
-    <section>
-<div id="hero-section" class="page full">
-    <div class="caption-wrapper">
-        <div class="caption right">
-            <h1>Meetings</h1>
-            <h4>Plan Your Meeting In The Poconos</h4>
-        </div>
-    </div>
-    <div class="single-image-hero">
-        <!--
-        <img data-interchange="[/img/heros/650x600-property-overview.jpg, (small)],[/img/heros/1500x600-property-overview.jpg, (medium)], [/img/heros/2000x600-property-overview.jpg, (xlarge)]" src="/img/heros/1500x600-property-overview.jpg" alt="Split Rock Resort">-->
-
-        {% region banner %}
-    </div>
-</div>
-</section>
-<div id="toggleheader"></div>
-
-                <!-- section 1 START-->
 
 
-                <section>
-<div class="text-with-gallery detail">
-    <div class="row  detail">
-        <div class="content">
-          <h2>Let’s Get Down to Business</h2>
-            <p>Imagine your next  business meeting, conference, convention, tradeshow, group gathering, or  special event with a backdrop of the Pocono Mountains. With spacious facilities  and a staff devoted to ensuring every detail is worry-free, Split Rock Resort  is the ideal venue to host your next meeting or event. Whether you&rsquo;re putting  the finishing touches on a new product, energizing your sales teams, or holding  workshops or training sessions, our dedicated sales team guarantees the success  of your meeting or event by consistently delivering high-quality meeting rooms,  audiovisual equipment to meet your exact needs, and fantastic catering.</p>
-            
-            
-          <h3>Our Facilities</h3>
-          
-          <p>If you are planning a meeting or event in Northeastern Pennsylvania, our resort can offer 76,000 square feet of extensive banquet and meeting facilities, accommodating anywhere from 15 to 1,500 people. Download our <a href="../../pdfs/SR_MPG.pdf" target="_blank">Meeting Planner Guide</a> (PDF) to see a full capacity chart and floor plan.</p>
-          
-          <h3>Tradeshows &amp; Conventions</h3>  
-            
-          <p>Our on-site Expo Center offers some of the largest right-to-work exhibit space in the Pocono Mountain region of Northeastern Pennsylvania. We feature over 76,000 gross square feet of space, which can accommodate up to 250 10x10 booths. We offer set-up and tear-down of shows for convenience with a standard loading dock for tractor trailers, as well as a two-story high garage door for easy vehicle access if needed. The center also has a permanent registration desk and plenty of complimentary parking spaces.</p>
-          
-            
-          <p>Key Features of the Expo Center include:</p>
-           <ul>
-             <li>Carpeted  Space for (Two) Exhibit Areas - Sizes: 120' x 220' and 75' x 155' </li>
-             <li>Easy  Set-up and Tear-down with a Standard Loading Dock for Tractor Trailers, as well  as a Two-story High Garage Door for Vehicle Access </li>
-             <li>Vehicles  are permitted on the floor - Stipulations: Plastic must be placed under the  vehicle once in place, minimal gas should be in the gas tank and the battery  must be disconnected prior to the start of the show </li>
-             <li>Permanent  Registration Desk with (Two) Phone Lines capable for outside calling, as well  as Landline Access for Internet or Credit Card Machines </li>
-             <li>Wireless  High Speed Internet Access available throughout the whole Expo Center </li>
-             <li>Electricity  available from standard 110v Hook-up to complete 220 Phase Hard-wired into our  system - Onsite Electricians are available for assistance with all your  electricity needs </li>
-             <li>All  events in the Expo Center include Cleaning and Garbage Removal - Rental of  Garbage Dumpsters available at a charge for appropriate sizes </li>
-             <li>Vendor  parking areas close to the Exhibit areas</li>
-           </ul>
+    {% for items in site.data.banners.slider %}
 
-    <div class="hr-content-width" style="margin: 0 0 25px 0;"></div>
+        {% if page.title == items.title %}
 
-         
-         {% region editable-content-1 %}
+              <section>
 
-           
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
             </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="text-with-gallery special-offers">
+    <div class="row  detail">
+    
+        <div class="content">
+
+             
+
+          {% region editable-content %}
+
+
+
+
+
         </div>
     </div>
 </div>
 </section>
 
+<div class="hr-page-full"></div>
+
+
+
+  {% include sign-up.html %}
 
     
-
-    {% include sign-up.html %}
-
-    
-
-
-
-
-
 {% include script-all-pages.html %}
+   
+    {% include footer.html %}
 
-{% include footer.html %}
 
 
-
-  </body>
-
+</body>
 </html>

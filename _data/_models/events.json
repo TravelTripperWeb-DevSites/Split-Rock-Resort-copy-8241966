@@ -1,0 +1,108 @@
+{
+	"specials":
+			
+			[
+
+				{
+					"id":1,
+					"category": "none",
+					"tag-name":"stay-2-nights",
+					"heading":"Stay 2 Nights and get 3rd Night FREE",
+					"img-data":"<img src='/img/SRR-435x275-Lodge-Exterior-offer.jpg' data-interchange='[/img/SRR-435x275-Lodge-Exterior-offer.jpg, (default)], [/img/SRR-435x275-Lodge-Exterior-offer.jpg, (only screen and (max-width: 400px))]' alt='stay-2-nights'>",
+					"content":"<p><strong>Now through March 31, 2016</strong></p><p></p><p>Escape today to Split Rock Resort now through March 31 for a fun filled getaway with spectacular winter savings. Stay 2 Nights and get the 3rd Night FREE. Don’t wait, take advantage of this exclusive deal today.</p><p ><a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=130524&vr=3' class='bttn empty'>BOOK Now</a></p><p><span class='disclaimer'>*Three night minimum required. Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort</a> Fee is valid for all reservations confirmed on/after December 14, 2015. Offer cannot be combined with any other offer or discount program. Higher rates and/or minimum stay may be in effect for certain special events, holidays, and peak travel periods. Rates subject to change without notice. Some restrictions/blackout dates apply.</span></p>"
+
+				},
+
+				{
+					"id":2,
+					"category": "none",
+					"tag-name":"skystay",
+					"heading":"Ski and Stay Package",
+					"img-data":" <a href='/special-offers/ski-stay/index.html'><img src='/img/435x275-ski-stay.jpg' data-interchange='[/img/435x275-ski-stay.jpg, (default)], [/img/435x275-nski-stay.jpg, (only screen and (max-width: 400px))]' alt='Ski and Stay Package'></a><p>For more information click <a href='ski-stay/' target='_blank'> here</a>.</p>",
+					"content":"<p><strong>Now through March 31, 2016</strong></p><p></p><p>Escape today to Split Rock Resort now through March 31 for a fun filled getaway with spectacular winter savings. Stay 2 Nights and get the 3rd Night FREE. Don’t wait, take advantage of this exclusive deal today.</p><p ><a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=130524&vr=3' class='bttn empty'>BOOK Now</a></p><p><span class='disclaimer'>*Three night minimum required. Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort</a> Fee is valid for all reservations confirmed on/after December 14, 2015. Offer cannot be combined with any other offer or discount program. Higher rates and/or minimum stay may be in effect for certain special events, holidays, and peak travel periods. Rates subject to change without notice. Some restrictions/blackout dates apply.</span></p>"
+
+				},
+
+				{
+					"id":3,
+					"category": "none",
+					"tag-name":"bedandbreakfast",
+					"heading":"Bed &amp; Breakfast",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108799&vr=3'><img src='/img/435x275-Specials-and-Offers-Bed-and-Breakfast.jpg' data-interchange='[/img/435x275-Specials-and-Offers-Bed-and-Breakfast.jpg, (default)], [/img/435x275-Specials-and-Offers-Bed-and-Breakfast.jpg, (only screen and (max-width: 400px))]'  alt='Bed & Breakfast Package'></a>",
+					"content":"<p> Start your day off right with a delicious and energizing breakfast. Our <strong>Bed &amp; Breakfast Package</strong> includes accommodations and daily breakfast at <strong>on-site Split Rock Grille</strong>.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$114</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108799&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":4,
+					"tag-name":"splash",
+					"category": "Water Park Package",
+					"heading":"Splash &amp; Stay",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108800&vr=3'><img src='../img/435x275-Specials-and-Offers-Splash-and-Stay.jpg' data-interchange='[/img/435x275-Specials-and-Offers-Splash-and-Stay.jpg, (default)], [/img/435x275-Specials-and-Offers-Splash-and-Stay.jpg, (only screen and (max-width: 400px))]'  alt='Splash & Stay Water Park Package'></a>",
+					"content":"<p> Our <strong>Splash &amp; Stay Package</strong> includes accommodations for up to 4 at <strong>Split Rock Resort</strong> and 2 single-day passes to on-site <a href='../waterpark/index.html'><strong>H2Oooohh! water park</strong></a>. With over <strong>53,000 square feet</strong> of <strong>exciting slides, activity pools, wave pools</strong> and other <strong>water attractions</strong>, H2Oooohh! offers excitement for all ages.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$135</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108800&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Travel dates based on <a href='../waterpark/index.html'>water park schedule</a><br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":5,
+					"tag-name":"romance",
+					"category": "none",
+					"heading":"Romance Package",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108874&vr=3'><img src='/img/435x275-Specials-and-Offers-Romance.jpg' data-interchange='[/img/435x275-Specials-and-Offers-Romance.jpg, (default)], [/img/435x275-Specials-and-Offers-Romance.jpg, (only screen and (max-width: 400px))]' alt='Romance Package'></a>",
+					"content":"<p>Spend a <strong>romantic getaway</strong> in the <strong>Poconos</strong> on tranquil <strong>Lake Harmony</strong>. Our <strong>Romance Package</strong> includes accommodations in a spacious <strong>Willowbrook Suite</strong>, complete with fireplace and jacuzzi, <strong>dinner for two</strong>, <strong>daily breakfast</strong>, and <strong>champagne</strong> and <strong>chocolate-covered strawberries</strong> upon arrival.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$219</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108874&vr=3' class='bttn empty'>BOOK NOW</a> <br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":6,
+					"tag-name":"senior",
+					"category": "none",
+					"heading":"Senior Discount - Ages 50 and Better",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108788&vr=3'><img src='/img/435x275-Specials-and-Offers-Senior.jpg' data-interchange='[/img/435x275-Specials-and-Offers-Senior.jpg, (default)], [/img/435x275-Specials-and-Offers-Senior.jpg, (only screen and (max-width: 400px))]'  alt='Senior Discount'></a>",
+					"content":"<p> You're not over the hill. You’ve simply conquered it! We offer <strong>exclusive vacation savings</strong> at <strong>Split Rock Resort</strong> for guests 50 and better. Valid ID required at check-in. </p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$89</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108788&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":7,
+					"tag-name":"aaa",
+					"category": "none",
+					"heading":"AAA/CAA Membership Discount",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108687&vr=3'><img src='/img/435x275-Specials-and-Offers-AAA.jpg' data-interchange='[/img/435x275-Specials-and-Offers-AAA.jpg, (default)], [/img/435x275-Specials-and-Offers-AAA.jpg, (only screen and (max-width: 400px))]'  alt='Are you a AAA member? Show your card and save!'></a>",
+					"content":"<p>We are pleased to offer <strong>discounted rates</strong> to members of <strong>AAA</strong> (American Automobile Association) and <strong>CAA</strong> (Canadian Automobile Association). Just be sure to show your membership at check-in.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$89</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108687&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":8,
+					"tag-name":"corporate",
+					"category": "none",
+					"heading":"Corporate Travelers",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3'><img src='/img/435x275-Corporate.jpg' data-interchange='[/img/435x275-Corporate.jpg, (default)], [/img/435x275-Corporate.jpg, (only screen and (max-width: 400px))]'  alt='Corporate travelers save 10%'></a>",
+					"content":"<p>Whether you’re traveling for business or pleasure, you can enjoy great savings at <strong>Split Rock Resort</strong>. Please present your business card at check-in.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$89</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":10,
+					"tag-name":"government-special",
+					"category": "none",
+					"heading":"Government Discount",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108801&vr=3'><img src='/img/435x275-Specials-and-Offers-Government.jpg' data-interchange='[/img/435x275-Specials-and-Offers-Government.jpg, (default)], [/img/435x275-Specials-and-Offers-Government.jpg, (only screen and (max-width: 400px))]'  alt='Government Rates'></a>",
+					"content":"<p> <strong>Special discounted rates</strong> are available for all <strong>federal, state and local government employees <strong>and</strong> contractors</strong>. Valid government ID required at check-in.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$89</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108801&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				},
+
+				{
+					"id":11,
+					"tag-name":"military-special",
+					"category": "none",
+					"heading":"Military Appreciation Rate",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108787&vr=3'><img src='/img/435x275-Military.jpg' data-interchange='[/img/435x275-Military.jpg, (default)], [/img/435x275-Military.jpg, (only screen and (max-width: 400px))]'  alt='Military Discount'></a>",
+					"content":"<p> Thank you for your service! <strong>Active military members</strong> enjoy <strong>discounted rates</strong> at <strong>Split Rock Resort</strong>. Valid military ID required at check-in. </p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$89</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108787&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+
+				}
+
+
+			]
+}

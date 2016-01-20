@@ -1,0 +1,314 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="text-with-gallery">
+  <div class="row">
+    <div class="content">
+        <h2>Dining</h2>
+            <p>Indulge your cravings at the delicious restaurants exclusive to <strong>Split Rock Resort</strong>. From pizza at the <strong>H20 Island Oasis </strong>to the delicious breakfast spread at <strong>Split Rock Grill</strong> and traditional American favorites and brews at <strong>Thirsty Moose Saloon</strong>, we've got something to please every taste. <em>Dining hours of operation are subject to change without notice.</em> Don’t forget to visit our Food Court for coffee, ice cream, pizza, sandwich and more! <strong>Click here to check out our <a href="/pdfs/SR-Flyer-PIZZA-8.5x11-12-2015-FINAL.pdf" target="_blank">pizza</a> and <a href="/pdfs/SR-MENU-Deli-8.5x11-12-2015-FINAL.pdf" target="_blank">deli</a> menus.*</strong></p>
+</div>
+    </div>
+</div>
+</section>
+<section>
+<div class="two-column-text special-offers">
+    <a name="culture-and-history"></a>
+        <div class="row ">
+    <h3>Split Rock Grill</h3>
+      <div class="col1 left">
+          <img src="/img/435x275-Dining-Split-Rock-Grille.jpg"  alt="Split Rock Grill">
+        </div>
+        <div class="col2 right">
+            <p>
+            This is continental dining at its best. Relax in our terraced dining room for delicious breakfast selections, Saturday and Sunday from 7:30am to 11:00am and Monday through Friday 7:30am to 11:00am in the Rock Lounge. Or join us for dinner, Friday and Saturday from 5:00pm to 10:00pm and Sunday through Thursday from 5:00pm to 10:00pm in the Rock Lounge.</p>
+          <div class="explore-info-icons" id="icons-col1">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-clock-o"> </i> 
+                        Breakfast<br>
+                        7:30am&ndash;11:00am Daily<br> 
+                        Dinner<br> 
+                        5:00pm&ndash;10:00pm Daily
+                        
+                  </li>
+                <li>
+                <i class="icon-li fa  fa-phone"> </i> (570) 722-9111
+                  </li>
+
+              </ul>
+          </div>
+          <div class="explore-info-icons" id="icons-col2">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-calendar"> </i> 
+                        Entertainment Schedule:
+                        <br>
+          8/01 - Alexander and Rimma
+                    <br>
+                    8/08 - Long Time Comin'
+                    <br>
+                    8/15 - DJ Island Jamz
+                    <br>
+                    8/22 - Jerry Hludzik
+                    <br>
+                    8/29 - DJ Island Jamz
+                    </li>
+              </ul>
+          </div>
+        </div>
+        <div class="hr-2" ></div>
+    </div>
+</div>
+</section>
+
+<section>
+<div class="two-column-text special-offers">
+    <div class="row extra-padding">
+    <h3>Lake View Tavern</h3>
+      <div class="col1 left">
+          <img src="/img/435x275-Dining-Lake-View-Tavern-Steak.jpg"  alt="Lake View Tavern">
+        </div>
+        <div class="col2 right">
+            <p>Our newest dining destination in the historic lodge with a deck overlooking Lake Harmony. The perfect place to relax and enjoy a cold drink, good food and a beautiful view.   </p>
+            
+
+          <div class="explore-info-icons" id="icons-col1">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-clock-o"> </i> 
+                       
+                        Monday:  Closed<br>
+                        Tuesday: Closed<br>
+                        Wednesday:<br> 5:00pm to 9:00pm<br>
+                        Thursday:<br> 5:00pm to 9:00pm<br>
+                        Friday:<br> 5:00pm to 10:00pm<br>
+                        Saturday:<br> 5:00pm to 10:00pm<br>
+                        Sunday:<br> 5:00pm to 9:00pm<br>
+
+                        
+                  </li>
+              </ul>
+          </div>
+          <div class="explore-info-icons" id="icons-col2">
+           
+          </div>
+
+           
+            
+        </div>
+        <div class="hr-2" ></div>
+        <br><br>
+    </div>
+</div>
+</section>
+
+
+
+<section>
+<div class="two-column-text special-offers">
+    <div class="row">
+    <h3>Rock Lounge/Bar</h3>
+      <div class="col1 left">
+          <img src="/img/435x275-Dining-Split-Rock-Lounge.jpg"  alt="Rock Lounge/Bar">
+        </div>
+        <div class="col2 right">
+            <p>
+            Offering <strong>handcrafted drinks</strong> and <strong>lively entertainment</strong>, the <strong>Rock Lounge</strong>, located in Split Rock Resort's Galleria, is the perfect way to spend the evening. Relax after a day of outdoor activities, enjoy a nightcap, or catch one of our entertainers.</p>
+            
+          <div class="explore-info-icons" id="icons-col1">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-clock-o"> </i> 7:30am&ndash;10:00pm Daily
+                  </li>
+                <li>
+                <i class="icon-li fa  fa-phone"> </i> (570) 722-9111
+                  </li>
+
+                  
+              </ul>
+          </div>
+          <div class="explore-info-icons" id="icons-col2">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-calendar"> </i> 
+                        Entertainment Schedule:
+                        <br>
+          8/01 - Alexander and Rimma
+                    <br>
+                    8/08 - Long Time Comin'
+                    <br>
+                    8/15 - DJ Island Jamz
+                    <br>
+                    8/22 - Jerry Hludzik
+                    <br>
+                    8/29 - DJ Island Jamz                   </li>
+              </ul>
+          </div>
+            
+        </div>
+        <div class="hr-2" ></div>
+        <br><br>
+    </div>
+</div>
+
+</section>
+
+
+<section>
+<div class="two-column-text special-offers">
+    <div class="row">
+    <h3>Thirsty Moose Saloon</h3>
+      <div class="col1 left">
+          <img src="/img/435x275-Dining-Thirsty-Moose-Saloon.jpg"  alt="Thirsty Moose Saloon">
+        </div>
+        <div class="col2 right">
+            <p>
+          Enjoy stunning views of Lake Harmony from the <strong>Thirsty Moose</strong>. Enjoy a refreshing brew or sip cocktails while taking in the majestic surroundings and relaxing atmosphere.</p>
+            
+            <p>
+          The <strong>Thirsty Moose Saloon</strong> is known for its selection of brews, live entertainment, and daily drink specials. You can even kick back and watch your <strong>favorite sports team</strong> on one of our many monitors and big screen television. The best spot in the area to enjoy the <strong>NFL Sunday Ticket!</strong></p>
+
+          <div class="explore-info-icons" id="icons-col1">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-clock-o"> </i> 
+                        4:00pm&ndash;11:00pm Fri
+                        2:00pm&ndash;11:00pm Sat 
+                        12noon&ndash;7:00pm Sun 
+                  </li>                
+                <li>
+                <i class="icon-li fa  fa-phone"> </i> (570) 722-9111
+                  </li>
+
+                  <!--<li> <i class="icon-li fa  fa-cutlery"> </i>
+          <a href="/pdfs/Thirsty_moose_menu.pdf" target="_blank">Thirsty Moose Menu</a> (PDF) </li>-->
+              </ul>
+          </div>
+          <div class="explore-info-icons" id="icons-col2">
+            <ul class="icons-ul">
+                  <li>
+            <i class="icon-li fa  fa-calendar"> </i> 
+                        Entertainment Schedule:
+                        <br>
+                    07/31 - Daisy Jug Band
+                    <br>
+                    8/01 - DJ Island Jamz
+                    <br>
+                    8/07 - High Strung
+                    <br>
+                    8/08 - DJ Island Jamz
+                    <br>
+                    8/14 - Group DuJour
+                    <br>
+                    8/15 - Nikki Briar
+                    <br>
+                    8/21 - Daisy Jug Band
+                    <br>
+                    8/22 - Sons of Izzy
+                    <br>
+                    8/28 - Harlan-Tucker 
+                    <br>
+                    8/29 - Sara Spicer
+                    </li>
+              </ul>
+          </div>
+            
+        </div>
+        <div class="hr-2" ></div>
+        <br><br>
+    </div>
+</div>
+
+</section>
+
+<section>
+<div class="two-column-text special-offers">
+    <div class="row">
+    <h3>H2O Island Oasis</h3>
+      <div class="col1 left">
+          <img src="/img/435x275-Dining-H20-Island-Oasis.jpg"  alt="H2O Island Oasis">
+        </div>
+        <div class="col2 right">
+            <p>
+            Famished after a few too many spins on The Viper slide? We’ve got your hunger covered!  
+Enjoy a savory bite, <strong>from pizza and burgers to funnel cake fries</strong>. Our cabana themed island bar offers <strong>delicious frozen margaritas, piña coladas, and more tasty beverages</strong>. H2O Island Oasis is open during water park hours. </p>
+
+
+          <div class="explore-info-icons" id="icons-col1">
+          </div>
+          <div class="explore-info-icons" id="icons-col2">
+            <ul class="icons-ul">
+
+              </ul>
+          </div>
+
+           
+            
+        </div>
+        <div class="hr-2" ></div>
+        <span class="disclaimer">*Menu subject to change.</span>
+        <br><br>
+        
+    </div>
+</div>
+</section>
+
+
+
+
+    
+{% include script-all-pages.html %}
+   
+    {% include footer.html %}
+
+
+
+</body>
+</html>

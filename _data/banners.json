@@ -86,7 +86,56 @@
 					"src-medium":"/img/heros/1500x600-Amenities.jpg",
 					"src-large":"/img/heros/2000x600-Amenities.jpg",
 					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				},
+
+				{
+					"id":8,
+					"title":"Poconos Resort Pennsylvania | Split Rock Resort",
+					"heading": "Resort Dining",
+					"sub-heading":"Convenient Cuisine At Split Rock Resort",
+					"tool-tip":"Hotel Dining",
+					"src-small":"/img/heros/650x600-Hotel-Dining.jpg",
+					"src-medium":"/img/heros/1500x600-Hotel-Dining.jpg",
+					"src-large":"/img/heros/2000x600-Hotel-Dining.jpg",
+					"src-main":"/img/heros/1500x600-Hotel-Dining.jpg"
+				},
+
+				{
+					"id":9,
+					"title":"Poconos Events | Meetings | Split Rock Resort",
+					"heading": "Meetings",
+					"sub-heading":"Convenient Cuisine At Split Rock Resort",
+					"tool-tip":"Hotel Dining",
+					"src-small":"/img/heros/650x600-Meetings.jpg",
+					"src-medium":"/img/heros/1500x600-Meetings.jpg",
+					"src-large":"/img/heros/2000x600-Meetings.jpg",
+					"src-main":"/img/heros/1500x600-Meetings.jpg"
+				},
+
+				{
+					"id":10,
+					"title":"Resort in Poconos PA | Gallery | Split Rock Resort",
+					"heading": "Meetings",
+					"sub-heading":"Convenient Cuisine At Split Rock Resort",
+					"tool-tip":"Hotel Dining",
+					"src-small":"/img/heros/650x600-Meetings.jpg",
+					"src-medium":"/img/heros/1500x600-Meetings.jpg",
+					"src-large":"/img/heros/2000x600-Meetings.jpg",
+					"src-main":"/img/heros/1500x600-Meetings.jpg"
+				},
+
+				{
+					"id":11,
+					"title":"Events In The Poconos | Upcoming Events | Split Rock Resort",
+					"heading": "Events",
+					"sub-heading":"Exciting Entertainment at Split Rock",
+					"tool-tip":"Events",
+					"src-small":"/img/heros/650x600-Events.jpg",
+					"src-medium":"/img/heros/1500x600-Events.jpg",
+					"src-large":"/img/heros/2000x600-Events.jpg",
+					"src-main":"/img/heros/1500x600-Events.jpg"
 				}
+
 
 			]
 }

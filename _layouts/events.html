@@ -1,0 +1,407 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+
+    <div class="entry">
+
+      <div class="row ">
+
+        <div class="intro-text">
+
+          <h2>Upcoming Events and Entertainment</h2>
+
+          <p>From <strong>live music</strong> to Pennsylvania’s most popular <strong>wine and food festival</strong>, Split Rock Resort continues to host some of the <strong>most anticipated events in the Poconos</strong>. Our signature events, <!--the <strong>Great Brews Classic Beer Festival</strong> and--> including the <strong>Great Tastes of Pennsylvania Wine & Food Festival</strong>, are held annually on the shores of <strong>Lake Harmony</strong>. Book your stay with us, and you will have <strong>convenient access</strong> to all of our fun events.</p>
+
+          <p>Don't forget to check out the weekly <a href="/pdfs/Split-Rock-Resort-Activity-Schedule.pdf" target="_blank" onClick="ga('send', 'event', 'pdflink', 'click', 'Split-Rock-Resort-Activity-Schedule');"><strong>Activity Schedule</strong></a> or pick up a copy in the lobby. From <strong>board games</strong> and <strong>bingo</strong> to <strong>dodgeball</strong> and <strong>turtle racing</strong>, there's always something fun going on at Split Rock Resort.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+        <div class="col1 left hide"> <br/>
+
+          <img data-interchange="[/img/end-of-summer-pig-roast.jpg, (default)], [/img/end-of-summer-pig-roast.jpg, (only screen and (max-width: 400px))]" src="/img/end-of-summer-pig-roast.jpg" alt="Pennsylvania Firemen's Convention"></a>
+
+          <h3>End of Summer Pig Roast</h3>
+
+          <p>Looking for a great way to end summer? We are
+
+            hosting a End of Summer Pig Roast September 6th. A
+
+            good old fashioned all you can eat BBQ down by the
+
+            beach with Live entertainment all day long. Tickets are
+
+            available online at www.splitrockresort.com/events
+
+            or can be purchased at the fron desk of the Town
+
+            Center/Galleria. </p>
+
+          <p>Save The Date:  September 6, 2015</p>
+
+          <p><a href="https://tix.extremetix.com/Online/?siteID=1998" class="bttn filled">Buy Tickets Now</a></p>
+
+        </div>
+
+        <div class="col1 left"> 
+
+           <br/>
+
+          <a href="new-years-eve/index.html"><img data-interchange="[/img/636x343-new-years-eve.jpg, (default)], [/img/636x343-new-years-eve.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-new-years-eve.jpg" alt="New Years Eve"></a>
+
+          <h3>New Year’s Eve Bash</h3>
+
+
+          <p><strong>Eat. Drink. Celebrate.</strong></p>
+
+          <p>More details coming soon!</p>
+
+        </div>
+
+        <div class="col1 right"> 
+
+           <br/>
+
+          <a href="wine-festival/index.html"><img data-interchange="[/img/636x343-Events-Wine.jpg, (default)], [/img/636x343-Events-Wine.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Events-Wine.jpg" alt="Great Tastes of Pennsylvania Wine Festival"></a>
+
+          <h3>Annual Great Tastes of  Pennsylvania Wine Festival</h3>
+
+          <p><strong>The Great Tastes of Pennsylvania Wine &amp; Food Festival</strong> is held annually on resort grounds in June. This two-day, outdoor festival features <strong>musical entertainment</strong>, many of Pennsylvania's <strong>finest wineries</strong>, and a wide selection of <strong>food and craft vendors</strong>. Educational seminars are held during festival hours. Don’t miss all the fantastic new things happening each year as we celebrate some of the best things in life! </p>
+
+          <p>Save The Date: June 25th &amp; 26th, 2016</p>
+
+          <p><a href="/wine-festival/" class="bttn filled">View More Info</a></p>
+
+          
+        </div> 
+
+        
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+   
+
+  </section>
+
+  
+
+
+
+  
+
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+        <div class="col1 left"> 
+
+         
+<br/>
+
+          <a href="/blues-festival/"><img data-interchange="[/img/636x343-Events-Blues.jpg, (default)], [/img/636x343-Events-Blues.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Events-Blues.jpg" alt="Pennsylvania Blues Festival"></a>
+
+          <h3>The Pennsylvania Blues Festival</h3>
+
+          <p><strong>The Pennsylvania  Blues Festival</strong> is an <strong>award-winning festival</strong> celebrating over 20 outstanding years of  the Blues in the Poconos. Join us for two days of performances from <strong>international and national artists</strong>.<!--, featuring headliner <strong>Shemekia Copeland,  "Queen of the Blues."</strong>--> Musicians perform on two stages on the grounds of  Split Rock Resort with evening concerts held inside the spacious Galleria Conference Center, within walking distance of the festival.</p>
+
+          <p>Save The Date: September 16 – 18, 2016</p>
+
+          <p><a href="/blues-festival/" class="bttn filled">View More Info</a></p>
+          
+
+          
+        </div>
+
+
+
+        <div class="col1 right"> 
+
+           
+<br/>
+
+          <a href="brew-fest/index.html"><img data-interchange="[/img/636x343-Beerfest.jpg, (default)], [/img/636x343-Beerfest.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Beerfest.jpg" alt="Great Tastes of Pennsylvania Wine Festival"></a>
+
+          <h3>26th Annual Great Brews Beer Festival</h3>
+
+          <p><strong>Two days. Twice the fun!</strong></p>
+
+          <p>This is the beer event of the season! The 26th Annual Great Brews Beer Festival is going to top the charts of beer festivals! From bold fall flavors and crisp hard ciders to your favorite stouts and ales, we have a beer style for everyone! With live music, tasty food and of course BEER this festival is the place to be!</p>
+
+          <p>Save The Date:  November 19-20, 2016</p>
+
+          <p><a href="/brew-fest" class="bttn filled">View More Info</a></p>
+         
+
+        </div>
+
+        
+
+
+         
+
+
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  
+
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+        
+          <div class="col1 left"> 
+
+          
+<br/>
+
+          <img data-interchange="[/img/636x343-Events-Raceway.jpg, (default)], [/img/636x343-Events-Raceway.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Events-Raceway.jpg" alt="Pocono Raceway Series"></a>
+
+          <h3>Pocono Raceway Series</h3>
+
+          <p>The energy of racing season is upon us. With <strong>Pocono Raceway</strong> just a <strong>15 minute drive</strong> from Split Rock, our resort serves as the perfect base to enjoy a <strong>weekend of racing excitement</strong>. There's nothing more electrifying than experiencing the speed and power of these high performance machines in person. </p>
+
+          <p> Pennsylvania 400 (NASCAR):  July 31 - August 2, 2015<br>
+
+            ABC Supply 500 (INDYCAR):  August 22-23, 2015<br>
+
+          </p>
+
+          <p><a href="https://splitrockresort.reztrip.com/" class="bttn filled">Book Your Stay</a></p>
+          
+
+        </div>
+
+
+        
+<div class="col1 right">
+
+
+
+        
+          
+        </div> 
+          
+
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section>
+
+    <div class="text-with-gallery detail">
+
+      <div class="row detail">
+
+        <div class="hr-content-width" style="margin: -25px 20px 0px 20px;"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row ">
+
+        <h2>
+
+        On-Site Musical Entertainment Schedule
+
+        </h3>
+
+         <div class="col1 left">
+
+          <h4>Rock Lounge</h4>
+
+          
+
+<p>
+ 1/15 - John Graham Magic<br>
+
+1/16 - Steel Creek Band<br>
+
+1/22 - John Graham Magic<br>
+
+1/23 - Krazy Ken DJ<br>
+
+1/29 - John Graham Magic<br>
+
+1/30 - Who Knows Trio<br>
+
+
+
+            
+
+          </p>
+
+          <h4>Thirsty Moose </h4>
+
+          
+
+                <p>
+
+               1/15 - Wisecrackers Comedy Show<br>
+
+1/16 - Who Knows Band<br>
+
+1/22 - Wisecrackers Comedy Show<br>
+
+1/22 – DJ Mike<br>
+
+1/23 - High Strung<br>
+
+1/29 - Wisecrackers Comedy Show<br>
+
+1/30 - Krazy Ken DJ<br>
+
+
+</p>
+
+          
+          
+
+        </div>
+
+        <div class="col2 right"> 
+
+          <!--  <h4>Lake View Tavern <br><span style="font-weight:normal;">(Exclusive Dinner 6pm-11pm)</span></h4>
+
+                    <p>
+
+          07/03 - Harry Western
+
+                     <br><br>
+
+
+
+                </p> -->
+
+          
+<h4>Waterpark</h4>
+
+          
+
+                <p>
+
+              Teen Night with DJ Marc Anthony<br>
+
+Friday, January 15th<br>
+
+Friday, January 22nd<br>
+
+Friday, January 29th<br>
+
+
+</p>
+          
+
+          
+
+        </div>
+
+       
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+ 
+
+    
+{% include script-all-pages.html %}
+   
+    {% include footer.html %}
+
+
+
+</body>
+</html>

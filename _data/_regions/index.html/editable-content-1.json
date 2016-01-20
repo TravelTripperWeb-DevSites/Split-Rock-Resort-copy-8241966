@@ -2,6 +2,6 @@
 
 {
     "_template": "innertemp",
-    "content":"<a href='waterpark/index.html'><img data-interchange='[img/636x343-Homepage-Waterpark.jpg, (default)], [img/636x343-Homepage-Waterpark.jpg, (only screen and (max-width: 400px))]' src='img/636x343-Homepage-Waterpark.jpg' alt='Indoor Waterpark'></a>"
+    "content":"<a href='/waterpark/'><img data-interchange='[img/636x343-Homepage-Waterpark.jpg, (default)], [img/636x343-Homepage-Waterpark.jpg, (only screen and (max-width: 400px))]' src='img/636x343-Homepage-Waterpark.jpg' alt='Indoor Waterpark'></a>"
 }
 ]
