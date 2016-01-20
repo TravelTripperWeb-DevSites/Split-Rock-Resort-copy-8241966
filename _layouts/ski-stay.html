@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="text-with-gallery special-offers">
+    <div class="row  detail">
+    
+        <div class="content">
+
+             
+
+             <h2>Ready for a little fun in the snow?</h2><p></p>
+
+             <p>Take advantage of our Ski and Stay Package featuring a deluxe accommodation, breakfast daily and a Jack Frost and Big Boulder Lift Ticket. That’s right experience not just one ski adventure mountain, but two.</p>
+
+             <p><strong>Jack Frost Mountain</strong> provides a variety of inviting terrain with a summit elevation of 2000 feet, base elevation of 1,400 feet and vertical drop of 600 feet. 21 different slopes including: ski school learning slope, 4 Easiest (beginner slopes, 6 More Difficult (intermediate slopes), 8 Most Difficult (advanced slopes) and 2 Terrain Parks. Lifts: 1 quad, 2 triples, 6 doubles and 1 ski carpet (used for kids lessons only).</p>
+
+
+
+
+<p><strong>Hours of Operation:</strong></p>
+
+<ul>
+
+                    <li>Monday – Friday: 9AM – 4PM</li>
+
+<li>Saturday &amp; Sunday: 8AM – 4PM</li>
+
+
+
+</ul>
+                
+
+<p><strong>Big Boulder Ski Area</strong> is devoting 50% of its overall terrain to park features. The base elevation is 1700 feet with a summit elevation of 2,175 feet and a vertical drop of 475 feet. Big Boulder boasts the most progressive and innovative terrain park program. 15 different slopes to include: 4 Easiest (beginner slopes), 3 More Difficult (intermediate slopes), 3 Most Difficult (advanced slopes) and 5 Terrain Parks. Lifts: 2 triples, 5 doubles and 2 ski carpets (1 at ski school and 1 at snow tubing).</p>
+<p><strong>Hours of Operation:</strong></p>
+<ul>
+
+                    <li>Monday – Thursday: 3PM – 9PM</li>
+
+<li>Friday: 3PM – 10PM</li>
+<li>Saturday: 8AM – 10PM</li>
+<li>Sunday: 8AM – 8PM</li>
+
+
+
+</ul>
+
+<p>For more information visit <a href="http://jfbb.com/" target="_blank"> Jack Frost Big Boulder</a>.</p>
+
+<p style="padding-top:20px;"><a href="https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=125300&vr=3" class="bttn empty">BOOK Now</a></p>
+
+<p><span class="disclaimer">*Rates are per person, per night, double occupancy. Includes lift ticket without equipment rental. Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href="../resort-fee/index.html">Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. Minimum stay may be required. Offer cannot be combined with any other offer or discount program. Higher rates and/or minimum stay may be in effect for certain special events, holidays, and peak travel periods. Rates subject to change without notice. Some restrictions/blackout dates apply.</span></p>
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+</section>
+
+<div class="hr-page-full"></div>
+
+
+
+  {% include sign-up.html %}
+
+    
+{% include script-all-pages.html %}
+   
+    {% include footer.html %}
+
+
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="two-column-text special-offers">
+        <div class="row extra-padding">
+        
+        <div class="col1 left">
+            <img src="/img/435X653-ahood.jpg"  alt="Alvin and the Chipmunks: The Road Chip: PG 92 min">
+
+            
+        </div>
+        <div class="col2 right">
+           
+            
+                  
+
+<div style="width:100%; float:left;">
+
+<div style="width:70%; float:left;">
+    <p><strong>Alvin and the Chipmunks: The Road Chip: PG 92 min</strong></p>
+<ul>
+  <li>1.15-1.22</li>
+    <li>Friday: 6pm & 9pm</li>
+<li>Saturday: 3pm, 6pm & 9pm</li>
+<li>Sunday: 3pm & 6pm</li>
+<li>Monday-Thursday: 3pm & 6pm</li>
+
+</ul>
+</div>
+
+</div>
+
+ <p style="margin-bottom:20px !important; clear:both"><strong>Synopsis:</strong> Music manager Dave (Jason Lee) is not only enjoying a burgeoning career, but a blossoming romance with Samantha (Kimberly Williams-Paisley), a beautiful doctor who works in the emergency room. Through a series of misunderstandings, the chipmunks start to believe that a marriage proposal is on the horizon. Dreading the thought of an antagonistic stepbrother (Josh Green), Alvin (Justin Long), Theodore and Simon embark on a cross-country odyssey to prevent their best pal from ruining their lives.</p>
+          
+            <div class="explore-info-icons" id="icons-col1" style="width:300px;">
+                
+                <ul class="icons-ul">
+                    <li>
+                        <i class="icon-li fa  fa-phone"> </i> (570) 722-9111 
+                    </li>
+                    <li>
+                        <i class="icon-li fa  fa-dollar"> </i> 
+                        Matinée: 
+                        $6.50 Adult | $5.00 Child<br>  
+                        Evening: 
+                        $9.50 Adult | $7.00 Child </li>
+                </ul>
+
+                <!--<a href="https://tix.extremetix.com/Online/?siteID=1998" class="bttn empty">Buy Tickets</a>--><p></p>
+
+                
+          </div>
+            <!--<div class="explore-info-icons" id="icons-col2">
+                <ul class="icons-ul">
+                    <li>
+                        <i class="icon-li fa  fa-clock-o"> </i> 
+                        Mon: 6pm<br>
+                        Tue: 3pm &amp; 6pm <br>
+                        Wed: 6pm<br>
+                        Thu: 3pm &amp; 6pm<br>
+                        Fri: 6pm &amp; 9pm <br> 
+                        Sat: 3pm, 6pm, &amp; 9pm <br>  
+                        Sun: 3pm &amp; 8pm <br>
+                  </li>
+                </ul>
+            </div>-->
+            
+        </div>
+        <div class="hr-2" ></div>
+        
+        
+
+    </div>
+</div>
+</section>
+
+<section>
+<div class="two-column-text special-offers">
+        <div class="row extra-padding">
+        
+        <div class="col1 left">
+            <img src="/img/435X653-kung-fu-panda.jpg"  alt="Kung Fu Panda: PG 95 min">
+
+            
+        </div>
+        <div class="col2 right">
+           
+            
+                  
+
+<div style="width:100%; float:left;">
+
+<div style="width:70%; float:left;">
+    <p><strong>Kung Fu Panda: PG 95 min</strong></p>
+<ul>
+  <li>1.22-2.4</li>
+    <li>Friday: 6pm & 9pm</li>
+<li>Saturday: 3pm, 6pm & 9pm</li>
+<li>Sunday: 3pm & 6pm</li>
+<li>Monday-Thursday: 3pm & 6pm</li>
+
+</ul>
+</div>
+
+</div>
+
+ <p style="margin-bottom:20px !important; clear:both"><strong>Synopsis:</strong> After reuniting with his long-lost father (Bryan Cranston), Po (Jack Black) must train a village of clumsy pandas to help him defeat the villainous Kai (J.K. Simmons). Continuing his "legendary adventures of awesomeness", Po must face two hugely epic, but different threats: one supernatural and the other a little closer to his home.</p>
+          
+            <div class="explore-info-icons" id="icons-col1" style="width:300px;">
+                
+                <ul class="icons-ul">
+                    <li>
+                        <i class="icon-li fa  fa-phone"> </i> (570) 722-9111 
+                    </li>
+                    <li>
+                        <i class="icon-li fa  fa-dollar"> </i> 
+                        Matinée: 
+                        $6.50 Adult | $5.00 Child<br>  
+                        Evening: 
+                        $9.50 Adult | $7.00 Child </li>
+                </ul>
+
+                <p></p>
+
+                
+          </div>
+           
+        </div>
+        
+        
+        
+
+    </div>
+</div>
+</section>
+
+
+
+
+    
+{% include script-all-pages.html %}
+   
+    {% include footer.html %}
+
+
+
+</body>
+</html>

@@ -8,22 +8,39 @@
     {% include mobile.html %}
     {% include header.html %}
   {% include booking-widget-all-pages.html %}
-    <section>
-<div id="hero-section" class="page full">
-    <div class="caption-wrapper">
-        <div class="caption right">
-            <h1>Split Rock Resort</h1>
-            <h4>A Four-Season Destination</h4>
-        </div>
-    </div>
-    <div class="single-image-hero">
-        <!--
-        <img data-interchange="[/img/heros/650x600-property-overview.jpg, (small)],[/img/heros/1500x600-property-overview.jpg, (medium)], [/img/heros/2000x600-property-overview.jpg, (xlarge)]" src="/img/heros/1500x600-property-overview.jpg" alt="Split Rock Resort">-->
+  {% for items in site.data.banners.slider %}
 
-        {% region banner %}
-    </div>
-</div>
-</section>
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
 <div id="toggleheader"></div>
 
                 <!-- section 1 START-->
@@ -152,49 +169,8 @@ If you’re into exploring, then you’ll enjoy the area’s excellent nearby <s
 
     {% include sign-up.html %}
 
-    
-    <script type="text/javascript" src="../js/modernizr.js"></script>
-<script type="text/javascript" src="../js/jquery.min.js"></script>
-<script type="text/javascript" src="../js/jquery-ui.js"></script>
-<script type="text/javascript" src="../js/nav2.js"></script>
-<script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="../js/foundation.min.js"></script>
-<script type="text/javascript" src="../js/foundation.interchange.js"></script>
-<script type="text/javascript" src="../js/jquery.waypoints.min.js"></script>
-<script type="text/javascript" src="../js/slick.min.js"></script>
-<script type="text/javascript" src="../js/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="../js/app.js"></script>
+    {% include script-all-pages.html %}
 
-
-
-
-
-
-
-<script>
-
-<!-- Magnific Popup Function -->
-$('.gallerygroup').each(function() { // the containers for all your galleries
-    $(this).magnificPopup({
-        delegate: 'a', // the selector for gallery item
-        type: 'image',
-        gallery: {
-          enabled:true
-        }
-    });
-});
-
-$(document).ready(function() {
-    var waypoint = new Waypoint({
-      element: document.getElementById('toggleheader'),
-      handler: function(direction) {
-        $("#header-wrapper").toggleClass("stickynav");
-        //alert("i am 20 pixels away");
-      },
-      offset: 20 
-    })
-})
-</script>
    
     {% include footer.html %}
 

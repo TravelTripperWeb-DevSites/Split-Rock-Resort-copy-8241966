@@ -1,0 +1,29 @@
+{
+	"slider":
+			
+			[
+
+				{
+					"id":1,
+					"url": "/special-offers/ski-stay/",
+					"tool-tip":"Split Rock Resort",
+					"img-data":"[/img/heros/750x370-ski-stay.jpg, (small)],[/img/heros/1500x740-ski-stay.jpg, (medium)], [/img/heros/2000x740-ski-stay.jpg, (xlarge)]"
+				},
+
+				{
+					"id":1,
+					"url": "/special-offers/teen-night/",
+					"tool-tip":"Split Rock Resort",
+					"img-data":"[/img/heros/TeenNight-750x350.jpg, (small)],[/img/heros/TeenNight-1500x740.jpg, (medium)], [/img/heros/TeenNight-2000x740.jpg, (xlarge)]"
+				},
+
+				{
+					"id":1,
+					"url": "/special-offers/",
+					"tool-tip":"Split Rock Resort",
+					"img-data":"[/img/heros/home-slide-1-mob.jpg, (small)],[/img/heros/home-slide-1-default.jpg, (medium)], [/img/heros/home-slide-1-large.jpg, (xlarge)]"
+				}
+
+
+			]
+}

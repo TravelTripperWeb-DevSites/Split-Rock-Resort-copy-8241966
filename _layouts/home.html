@@ -10,7 +10,21 @@
 
   {% include header-booking-widget.html %}
 
-  {% region homeregions %}
+  <section>
+<div id="hero-section" class="full slideshow" style="padding-top:47px;">
+
+    <div class="home-slider">
+    
+                {% for items in site.data.home-carousel.slider %}
+
+       <div><a href="{{items.url}}"><img data-interchange="{{items.img-data}}" alt="{{items.tool-tip}}"></a></div>
+
+                {% endfor %}
+  
+
+    </div>
+</div>
+</section>
  
 <div id="toggleheader"></div>
 

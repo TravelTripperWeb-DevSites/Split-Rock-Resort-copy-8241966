@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="two-column-text">
+       <div class="row  detail">
+
+        <div class="content" style="padding-top:20px;">
+          <h2>Bowling Party Package</h2>
+            <div class="col1 left">
+
+            <p>If the water park isn’t your idea of a good time, but bowling is, then you’ll love celebrating at our 8 Lane Bowling Center! A bowling party package includes:</p>
+            
+            <ul>
+            <li>1 Game of Bowling</li>
+            <li>Arcade Pass ($15 Value)</li>
+            <li>Pizza Party &amp; Beverages</li>
+            <li>Party Room </li>
+          </ul>
+          
+          <p>Total Package Price (based on a 10 person minimum) $270<br>
+            *Each additional person is $27<br>
+            **Cake or Cupcakes may be added for $30</p>
+            <p><strong>Call 1-888-802-2348 x812</strong> for availability and more details.</p>
+
+
+            </div>
+            <div class="col2 right">
+
+        <br>             
+      
+        <p><img src="/img/SRR-Amenities-Bowling-Center.jpg" alt="Bowling Party Package"></p>
+        
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
+
+<div class="hr-page-full"></div>
+
+
+
+  {% include sign-up.html %}
+
+    
+{% include script-all-pages.html %}
+   
+    {% include footer.html %}
+
+
+
+</body>
+</html>

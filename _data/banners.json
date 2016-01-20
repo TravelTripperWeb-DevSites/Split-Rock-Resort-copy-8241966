@@ -1,0 +1,92 @@
+{
+	"slider":
+			
+			[
+
+				{
+					"id":1,
+					"title":"Ski and Stay Package | Offers | Split Rock Resort",
+					"heading": "Ski and Stay Package",
+					"sub-heading":"At Jack Frost Mountain",
+					"tool-tip":"Sky and Stay",
+					"src-small":"/img/heros/650x600-ski-stay.jpg",
+					"src-medium":"/img/heros/1500x600-ski-stay.jpg",
+					"src-large":"/img/heros/2000x600-ski-stay.jpg",
+					"src-main":"/img/heros/1500x600-ski-stay.jpg"
+				},
+
+				{
+					"id":2,
+					"title":"TEEN NIGHT – EVERY FRIDAY FROM 5-8P",
+					"heading": "TEEN NIGHT",
+					"sub-heading":"At Split Rock Resort",
+					"tool-tip":"TEEN NIGHT",
+					"src-small":"/img/heros/TeenNight-650x600.jpg",
+					"src-medium":"/img/heros/TeenNight-1500x600.jpg",
+					"src-large":"/img/heros/TeenNight-2000x600.jpg",
+					"src-main":"/img/heros/TeenNight-1500x600.jpg"
+				},
+
+				{
+					"id":3,
+					"title":"Family Resorts in Pennsylvania | Split Rock Resort",
+					"heading": "Split Rock Resort",
+					"sub-heading":"A Four-Season Destination",
+					"tool-tip":"Split Rock Resort",
+					"src-small":"/img/heros/650x600-property-overview.jpg",
+					"src-medium":"/img/heros/1500x600-property-overview.jpg",
+					"src-large":"/img/heros/2000x600-property-overview.jpg",
+					"src-main":"/img/heros/1500x600-property-overview.jpg"
+				},
+
+				{
+					"id":4,
+					"title":"Resorts In Poconos PA | Rooms & Suites | Split Rock Resort",
+					"heading": "The Rooms",
+					"sub-heading":"Make your selection",
+					"tool-tip":"Split Rock Resort",
+					"src-small":"/img/heros/650x600-rooms-and-suites.jpg",
+					"src-medium":"/img/heros/1500x600-rooms-and-suites.jpg",
+					"src-large":"/img/heros/2000x600-rooms-and-suites.jpg",
+					"src-main":"/img/heros/1500x600-rooms-and-suites.jpg"
+				},
+
+				{
+					"id":5,
+					"title":"Lake Harmony Hotels | Amenities | Split Rock Resort",
+					"heading": "Resort Amenities",
+					"sub-heading":"For all ages, interests and weather",
+					"tool-tip":"Indoor Pool",
+					"src-small":"/img/heros/650x600-Amenities.jpg.jpg",
+					"src-medium":"/img/heros/1500x600-Amenities.jpg",
+					"src-large":"/img/heros/2000x600-Amenities.jpg",
+					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				},
+
+
+				{
+					"id":6,
+					"title":"Lake Harmony Hotels | Amenities | Upcoming Movies | Split Rock Resort",
+					"heading": "Resort Amenities",
+					"sub-heading":"For all ages, interests and weather",
+					"tool-tip":"Indoor Pool",
+					"src-small":"/img/heros/650x600-Amenities.jpg.jpg",
+					"src-medium":"/img/heros/1500x600-Amenities.jpg",
+					"src-large":"/img/heros/2000x600-Amenities.jpg",
+					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				},
+
+				{
+					"id":7,
+					"title":"Lake Harmony Hotels | Amenities - Bowling Party Packages | Split Rock Resort",
+					"heading": "Resort Amenities",
+					"sub-heading":"For all ages, interests and weather",
+					"tool-tip":"Indoor Pool",
+					"src-small":"/img/heros/650x600-Amenities.jpg.jpg",
+					"src-medium":"/img/heros/1500x600-Amenities.jpg",
+					"src-large":"/img/heros/2000x600-Amenities.jpg",
+					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				}
+
+			]
+}

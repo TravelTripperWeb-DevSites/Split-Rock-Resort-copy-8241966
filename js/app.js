@@ -75,6 +75,10 @@ $(document).ready(function () {
 		var checkout =root.find("input[name='depart']"); 
 		var checkin = root.find("input[name='arrive']"); 
 		$(form).submit(function(){
+
+            console.log("checking form");
+             
+
 			var disableAvailRates = false;
 			var checkoutValue = checkout.val().toUpperCase();
 			var checkinValue = checkin.val().toUpperCase();
@@ -91,6 +95,9 @@ $(document).ready(function () {
 				
 					form.find("input[name='start']").attr("disabled", 'disabled');
 				}
+
+               
+                 
 		})
 	});
     $(".flexDates input[type=checkbox],.optionalCodes input[type=checkbox]").change(function () {
@@ -133,10 +140,37 @@ $(document).ready(function () {
 
 
 
+function populateDefaultValues() {
+    var today = new Date();
+    var month = today.getMonth(),
+        year = today.getFullYear();
+    if (month < 0) {
+        month = 11;
+        year -= 1;
+    }
+    var oneMonthAgo = new Date(year, month, today.getDate()+1);
+    $('#datein').val($.datepicker.formatDate('dd-M-yy', today));
+    $('#dateout').val($.datepicker.formatDate('dd-M-yy', oneMonthAgo));
+    $('#datein-page').val($.datepicker.formatDate('dd-M-yy', today));
+    $('#dateout-page').val($.datepicker.formatDate('dd-M-yy', oneMonthAgo));
+     $('#datein-home').val($.datepicker.formatDate('dd-M-yy', today));
+    $('#dateout-home').val($.datepicker.formatDate('dd-M-yy', oneMonthAgo));
+
+   
+}
+
+$(function() {
+    
+populateDefaultValues();
+    
+});
+
 
  $(window).load(function(){
     $(document).ready(function () {
+
     
+                 
         $("#datein-home").datepicker({
             dateFormat: "dd-M-yy",
             minDate: 0,
