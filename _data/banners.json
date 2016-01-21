@@ -134,7 +134,93 @@
 					"src-medium":"/img/heros/1500x600-Events.jpg",
 					"src-large":"/img/heros/2000x600-Events.jpg",
 					"src-main":"/img/heros/1500x600-Events.jpg"
+				},
+
+				{
+					"id":12,
+					"title":"The Great Tastes Of Pennsylvania Wine & Food Festival",
+					"heading": "Wine Festival",
+					"sub-heading":"A Taste of Pennsylvania",
+					"tool-tip":"Wine Festival",
+					"src-small":"/img/heros/650x600-Events-Wine.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Wine.jpg",
+					"src-large":"/img/heros/2000x600-Events-Wine.jpg",
+					"src-main":"/img/heros/1500x600-Events-Wine.jpg"
+				},
+
+				{
+					"id":13,
+					"title":"The Pennsylvania Blues Festival | Split Rock Resort",
+					"heading": "Blues Festival",
+					"sub-heading":"Food, fun, and excellent music",
+					"tool-tip":"Blues Festival",
+					"src-small":"/img/heros/650x600-Events-Blues.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Blues.jpg",
+					"src-large":"/img/heros/2000x600-Events-Blues.jpg",
+					"src-main":"/img/heros/1500x600-Events-Blues.jpg"
+				},
+
+				{
+					"id":14,
+					"title":"The Pennsylvania Blues Festival | Weekend Entertainment | Split Rock Resort",
+					"heading": "Blues Festival",
+					"sub-heading":"Food, fun, and excellent music",
+					"tool-tip":"Blues Festival",
+					"src-small":"/img/heros/650x600-Events-Blues.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Blues.jpg",
+					"src-large":"/img/heros/2000x600-Events-Blues.jpg",
+					"src-main":"/img/heros/1500x600-Events-Blues.jpg"
+				},
+
+				{
+					"id":15,
+					"title":"The Great Tastes Of Pennsylvania Wine Festival",
+					"heading": "BEER FESTIVAL",
+					"sub-heading":"26th Annual Great Brews Festival",
+					"tool-tip":"BEER FESTIVAL",
+					"src-small":"/img/heros/SR-Banners-Beerfest26-650x600px-12-2015.jpg",
+					"src-medium":"/img/heros/SR-Banners-Beerfest26-1500x600px-12-2015.jpg",
+					"src-large":"/img/heros/SR-Banners-Beerfest26-1500x600px-12-2015.jpg",
+					"src-main":"/img/heros/SR-Banners-Beerfest26-1500x600px-12-2015.jpg"
+				},
+
+				{
+					"id":16,
+					"title":"Poconos Indoor Water Park | Split Rock Resort",
+					"heading": "Water Park",
+					"sub-heading":"Indoor fun for everyone",
+					"tool-tip":"Indoor Water Park",
+					"src-small":"/img/heros/650x600-Waterpark-Exterior.jpg",
+					"src-medium":"/img/heros/1500x600-Waterpark-Exterior.jpg",
+					"src-large":"/img/heros/2000x600-Waterpark-Exterior.jpg",
+					"src-main":"/img/heros/1500x600-Waterpark-Exterior.jpg"
 				}
+				,
+
+				{
+					"id":17,
+					"title":"Party Packages | Poconos Indoor Water Park | Split Rock Resort",
+					"heading": "Party Packages",
+					"sub-heading":"Celebrate at the Waterpark or Bowling Alley",
+					"tool-tip":"Indoor Water Park",
+					"src-small":"/img/heros/650x600-Party-Packages.jpg",
+					"src-medium":"/img/heros/1500x600-Party-Packages.jpg",
+					"src-large":"/img/heros/2000x600-Party-Packages.jpg",
+					"src-main":"/img/heros/1500x600-Party-Packages.jpg"
+				},
+
+				{
+					"id":18,
+					"title":"Party Packages | Poconos Indoor Water Park | Split Rock Resort",
+					"heading": "Party Packages",
+					"sub-heading":"Celebrate at the Waterpark or Bowling Alley",
+					"tool-tip":"Indoor Water Park",
+					"src-small":"/img/heros/650x600-Party-Packages.jpg",
+					"src-medium":"/img/heros/1500x600-Party-Packages.jpg",
+					"src-large":"/img/heros/2000x600-Party-Packages.jpg",
+					"src-main":"/img/heros/1500x600-Party-Packages.jpg"
+				}
+
 
 
 			]

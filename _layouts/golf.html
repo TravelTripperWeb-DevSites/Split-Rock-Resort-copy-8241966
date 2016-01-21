@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html class="no-js" lang="en">
   {% include head.html %}
@@ -8,94 +7,77 @@
     {% include mobile.html %}
     {% include header.html %}
   {% include booking-widget-all-pages.html %}
-    <section>
-<div id="hero-section" class="page full">
-    <div class="caption-wrapper">
-        <div class="caption right">
-            <h1>Split Rock Golf Club</h1>
-            <h4>Stay at Split Rock Resort &amp; Play Golf</h4>
-        </div>
-    </div>
-    <div class="single-image-hero">
-        {% region banner %}
-    </div>
-</div>
-</section>
-<div id="toggleheader"></div>
-
-                <!-- section 1 START-->
 
 
-               <section>
-<div class="text-with-gallery">
-    <div class="row">
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="text-with-gallery special-offers">
+    <div class="row  detail">
+    
         <div class="content">
-            <h2>A Golfing Experience</h2>
-            <div class="text left">
-            
-<p>Golfing in the Poconos just got even better. Discover your best game at the <strong>Split Rock Golf Club</strong>, our <strong>27-hole</strong> championship golf course nestled in the <strong>Pocono Mountains</strong>. The course’s unique design and <strong>natural terrain</strong> makes it challenging for all levels of play. With some of the most spectacular views in the entire Northeast, our course boasts <strong>undulating fairways</strong> and <strong>demanding water hazards</strong>. </p>
 
-<p>Our fully trained professionals are always on staff to offer knowledgeable information on everything from your club choice to the latest trends in <strong>golfing apparel</strong>. Our teaching pros are also available to provide valuable advice and host a number of <strong>lessons and clinics</strong> for all abilities. </p> 
+             
 
-<p>For more information visit: <a href="http://www.golfsplitrock.com/" target="_blank" rel="nofollow">http://www.golfsplitrock.com</a></p>
+          {% region editable-content %}
 
-          </div>
-            <div class="gallery right">
-            <div class="gallerygroup">
-                <a href="/img/800x600-Golf-Approach.jpg" title="Split Rock Resort Golf Approach"><img src="/img/435x275-Golf-Approach.jpg" width="215" height="137" alt="Split Rock Resort Golf Approach"></a>
-                <a href="/img/800x600-Golf-Clubhouse.jpg" title="Split Rock Resort Golf Clubhouse"><img src="/img/435x275-Golf-Clubhouse.jpg" width="215" height="137" alt="Split Rock Resort Golf Clubhouse"></a>
-                <a href="/img/800x600-Golf-Pond.jpg" title="Split Rock Resort Golf Pond"><img src="/img/435x275-Golf-Pond.jpg" width="215" height="137" alt="Split Rock Resort Golf Pond"></a>
-                <a href="/img/800x600-Golf-Tee.jpg" title="Split Rock Resort Golf Tee"><img src="/img/435x275-Golf-Tee.jpg" width="215" height="137" alt="Split Rock Resort Golf Tee"></a> 
-                </div><div class="clearfix"></div>
-<br class="clearfix"><p align="center"><a href="http://www.golfsplitrock.com/pocono-mountains-golf-course/book-a-tee-time" rel="nofollow" target="_blank" class="bttn filled">Book Tee Times</a></p>
-            </div>
+
+
+
+
         </div>
     </div>
 </div>
 </section>
 
-<section>
-<div class="text-with-gallery detail">
-    <div class="row detail">
-        <div class="hr-content-width" style="margin: -25px 20px 25px 20px;"></div>
-    </div>
-</div>
-</section>
+<div class="hr-page-full"></div>
 
 
-<section>
-<div class="two-column-text">
-    <div class="row">
-        <div class="col1 left"><br/>
-            
-        {% region editable-content-1 %}
-        {% region editable-content-2 %}
 
-</div>
-        <div class="col2 right"><br/>
-            
-
-            {% region editable-content-3 %}
-            {% region editable-content-4 %}
-       
-          </div>
-             <div class="clearfix"></div>
-                
-            </div>
-           
-        </div>
-    </div>
-</div>
-
-</section>
-
+  {% include sign-up.html %}
 
     
-    {% include script-all-pages.html %}
+{% include script-all-pages.html %}
    
     {% include footer.html %}
 
 
-  </body>
 
+</body>
 </html>
