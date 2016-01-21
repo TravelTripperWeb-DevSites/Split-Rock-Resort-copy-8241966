@@ -121,17 +121,7 @@
 
                   ],
 
-      "home-slider":[
-
-
-            {"url":"/events/brew-fest/", "imgArray":["/img/heros/1500x740-Beer-Fest.jpg, (small)","/img/heros/1500x740-Beer-Fest.jpg, (medium)","/img/heros/2000x740-Beer-Fest.jpg, (xlarge)"]},
-            {"url":"/special-offers/", "imgArray":["/img/heros/home-slide-1-mob.jpg, (small)","/img/heros/home-slide-1-default.jpg, (medium)","/img/heros/home-slide-1-large.jpg, (xlarge)"]},
-            {"url":"/golf/", "imgArray":["/img/heros/home-slide-5-mob.jpg, (small)","/img/heros/home-slide-5-default.jpg, (medium)","/img/heros/home-slide-5-large.jpg, (xlarge)"]}
-            
-
-
-        ],
-
+      
         "promo-section": {"img-src":"/img/single-photo-home.jpg", "url":"/resort-overview/rooms-suites/"},
 
       "social-media":[
