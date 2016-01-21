@@ -1,0 +1,227 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+{% if page.title == "Cultural Activities In The Poconos | Attractions | Split Rock Resort" %}
+    
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+{% for items in site.data._models.attractions.explore limit:3 %}
+
+    {% if items.id ==1 %}
+<section>
+<div class="two-column-text special-offers">
+        <div class="row ">
+
+          {% if items.main-header != "none" %}
+
+            <h2 class="explore-category">{{items.main-header}}</h2>
+
+        {% endif %}
+
+    <h3>{{items.heading}}</h3>
+
+      <div class="col1 left">
+                    <img src="{{items.img-data}}"  alt="{{items.tag}}">
+
+        </div>
+        <div class="col2 right">
+     {{items.content}}
+
+{% if items.has-info == "yes" %}
+
+<div class="explore-info-icons" id="icons-col1">
+      
+      <ul class="icons-ul">
+
+        {% if items.phone != "no" %}
+          
+          <li><i class="icon-li fa  fa-phone"> </i> {{items.phone}}</li>
+
+        {% endif %}
+
+            
+
+           {% if items.time != "no" %} 
+            <li>
+      <i class="icon-li fa  fa-clock-o"> </i> {{items.time}} </li>
+
+            {% endif %}
+        </ul>
+    </div>
+
+    
+    <div class="explore-info-icons" id="icons-col2">
+        <ul class="icons-ul">
+
+          {% if items.address != "no" %} 
+             
+             <li><i class="icon-li fa  fa-globe"> </i> {{items.address}}  </li>
+
+          {% endif %}
+
+           {% if items.price != "no" %} 
+             
+              <li><i class="icon-li fa  fa-dollar"> </i> {{items.price}}</li>
+
+              {% endif %}
+         </ul>
+        </div>
+
+       {% endif %}
+                       
+
+          </div>
+          <div class="hr-2" ></div>
+      </div>
+  </div>
+  </section>
+
+                  {% else %}
+
+
+
+                                <section>
+<div class="two-column-text special-offers">
+        <div class="row extra-padding">
+
+          {% if items.main-header != "none" %}
+
+            <h2 class="explore-category">{{items.main-header}}</h2>
+
+        {% endif %}
+
+    <h3>{{items.heading}}</h3>
+
+      <div class="col1 left">
+                    <img src="{{items.img-data}}"  alt="{{items.tag}}">
+
+        </div>
+        <div class="col2 right">
+     {{items.content}}
+
+{% if items.has-info == "yes" %}
+
+<div class="explore-info-icons" id="icons-col1">
+      
+      <ul class="icons-ul">
+
+        {% if items.phone != "no" %}
+          
+          <li><i class="icon-li fa  fa-phone"> </i> {{items.phone}}</li>
+
+        {% endif %}
+
+            
+
+           {% if items.time != "no" %} 
+            <li>
+      <i class="icon-li fa  fa-clock-o"> </i> {{items.time}} </li>
+
+            {% endif %}
+        </ul>
+    </div>
+
+    
+    <div class="explore-info-icons" id="icons-col2">
+        <ul class="icons-ul">
+
+          {% if items.address != "no" %} 
+             
+             <li><i class="icon-li fa  fa-globe"> </i> {{items.address}}  </li>
+
+          {% endif %}
+
+           {% if items.price != "no" %} 
+             
+              <li><i class="icon-li fa  fa-dollar"> </i> {{items.price}}</li>
+
+              {% endif %}
+         </ul>
+        </div>
+
+       {% endif %}
+                       
+
+          </div>
+          <div class="hr-2" ></div>
+
+          {% if forloop.last %}
+
+          <div class="specials-separator">
+
+            {% endif %}
+      </div>
+  </div>
+  </section>
+
+
+
+
+   {% endif %}
+
+   {% endfor %}
+
+   {% endif %}
+
+
+
+
+
+
+
+
+
+
+
+    
+{% include script-all-pages.html %}
+   
+    {% include footer.html %}
+
+
+
+</body>
+</html>

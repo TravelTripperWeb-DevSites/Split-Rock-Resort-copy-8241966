@@ -1,0 +1,54 @@
+{
+	"explore":
+			
+			[
+
+				{
+					"id":1,
+					"main-header": "Cultural Activities",
+					"heading":"Dorflinger Glass Museum",
+					"tag":"Explore the Dorflinger Glass Museum",
+					"img-data":"/img/435x275-Explore-Dorflinger-Glass-Museum.jpg",
+					"content":"<p>Check out this <strong>19th century gem!</strong> The history of this museum is quite an exhibit. Learn about the <strong>history of Christian Dorflinger </strong>and the European skilled glass artisans that came to work for him in <strong>White Mills.</strong> You’ll see special exhibits and glass collections from the <strong>Adolph Linke</strong>, <strong>Firmstone and Larson/Falk families</strong>.</p>",
+					"has-info": "yes",
+					"phone" : "(570) 253-1185",
+					"time": "Wed-Sat: 10am-4pm<br>Sun: 1-4pm",
+					"address": "37 Suydam Drive, <br/>White Mills",
+					"price": "$5 Adults, $2 for ages 6-17"
+
+
+				},
+
+				{
+					"id":2,
+					"main-header": "none",
+					"heading":"Delaware &amp; Lehigh National Heritage Corridor",
+					"tag":"Delaware & Leigiigh National Heirtage Corridor",
+					"img-data":"/img/435x275-Explore-Delaware-Lehigh-Corridor.jpg",
+					"content":"<p>Explore the areas of the eastern Pennsylvania’s Wyoming Valley and Carbon County, Leigh Valley, and Delaware valley for a journey you’ll never forget! Whether by car, boat, bike, or foot, you’ll enjoy the scenic beauty while learning about the culture and heritage of the area’s people and industries.</p>",
+					"has-info": "no"
+					
+
+
+				},
+
+				{
+					"id":3,
+					"main-header": "none",
+					"heading":"Lehigh Gorge Scenic Railway",
+					"tag":"Explore Lehigh Gorge Scenic Railway",
+					"img-data":"/img/435x275-Explore-Lehigh-Gorge.jpg",
+					"content":"<p>Climb aboard this 2005 passenger train, a descendent of the <strong>1985 Blue Mountain & Reading Railroad</strong>. The <strong>Lehigh Gorge Scenic Railway</strong> operates trains into the <strong>Lehigh Gorge State Park</strong> from the former Central Railroad of New Jersey station in <strong>historic downtown Jim Thorpe</strong>. This <strong>16-mile</strong>, narrated, round trip train ride is a fun, family friendly adventure. </p>",
+					"has-info": "yes",
+					"phone" : "(570) 325-8485",
+					"time": "Daily: 11am, 1pm and 3pm",
+					"address": "1 Susquehanna Street, <br/>Jim Thorpe",
+					"price": "$13, $10 ages 3-12"
+
+
+				},
+
+				
+
+			]
+}

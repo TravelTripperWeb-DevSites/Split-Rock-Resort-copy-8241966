@@ -211,15 +211,76 @@
 
 				{
 					"id":18,
-					"title":"Party Packages | Poconos Indoor Water Park | Split Rock Resort",
-					"heading": "Party Packages",
-					"sub-heading":"Celebrate at the Waterpark or Bowling Alley",
-					"tool-tip":"Indoor Water Park",
-					"src-small":"/img/heros/650x600-Party-Packages.jpg",
-					"src-medium":"/img/heros/1500x600-Party-Packages.jpg",
-					"src-large":"/img/heros/2000x600-Party-Packages.jpg",
-					"src-main":"/img/heros/1500x600-Party-Packages.jpg"
+					"title":"Golf In The Poconos | Golf  | Split Rock Resort",
+					"heading": "Split Rock Golf Club",
+					"sub-heading":"Stay at Split Rock Resort &amp; Play Golf",
+					"tool-tip":"Golf experience",
+					"src-small":"/img/heros/650x600-Golf.jpg",
+					"src-medium":"/img/heros/1500x600-Golf.jpg",
+					"src-large":"/img/heros/2000x600-Golf.jpg",
+					"src-main":"/img/heros/1500x600-Golf.jpg"
+				},
+
+				{
+					"id":19,
+					"title":"Cultural Activities In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":20,
+					"title":"Fall & Winter Activities In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":21,
+					"title":"Spring & Summer Activities In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":22,
+					"title":"Nature In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":23,
+					"title":"Shopping In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
 				}
+
 
 
 
