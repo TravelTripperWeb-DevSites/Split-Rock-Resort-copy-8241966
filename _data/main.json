@@ -66,21 +66,45 @@
                         {"name":"Resort Overview", "url":"/resort-overview/", "isDropdown":"yes",
                                
                                "drop-links":[
-                                                {"name":"Rooms &amp; Suites","url":"/resort-overview/rooms-suites/"},
-                                                {"name":"Amenities","url":"/resort-overview/amenities/"},
-                                                {"name":"Resort Dining","url":"/resort-overview/resort-dining/"},
-                                                {"name":"Meetings","url":"/resort-overview/meetings/"},
-                                                {"name":"Photo Gallery","url":"/resort-overview/photo-gallery/"}
+                                                {"name":"Rooms &amp; Suites","url":"/resort-overview/rooms-suites/", "isDropdown":"yes",
+
+
+                                                "drop-links": [
+
+                                                                     {"name":"Galleria VIP Suite","url":"/resort-overview/rooms-suites/#gallery-vip-suite",  "isDropdown":"no"},
+                                                                     {"name":"Willowbrook One Bedroom Suite","url":"/resort-overview/rooms-suites/#willow 1",  "isDropdown":"no"},
+                                                                     {"name":"Willowbrook Two Bedroom Suite","url":"/resort-overview/rooms-suites/#willow 2",  "isDropdown":"no"},
+                                                                     {"name":"Galleria Two Bedroom Suite","url":"/resort-overview/rooms-suites/#gallery-2-bedroom",  "isDropdown":"no"},
+                                                                     {"name":"Galleria Slope Side Suite","url":"/resort-overview/rooms-suites/#gallery-slope",  "isDropdown":"no"},
+                                                                     {"name":"Galleria Mini Deluxe","url":"/resort-overview/rooms-suites/#gallery-min-deluxe",  "isDropdown":"no"},
+                                                                     {"name":"Lakeside Lodge","url":"/resort-overview/rooms-suites/#lakeside-lodge",  "isDropdown":"no"},
+                                                                     {"name":"Interior Two Bedroom Suite","url":"/resort-overview/rooms-suites/#interior-2-bedroom",  "isDropdown":"no"},
+                                                                     {"name":"Villas at Westwood","url":"/resort-overview/rooms-suites/#westwood",  "isDropdown":"no"},
+                                                                     {"name":"Cottage Duplex","url":"/resort-overview/rooms-suites/#cottage-duplex",  "isDropdown":"no"}
+                                                                    
+                                                               ]
+
+
+
+
+                                                },
+                                                {"name":"Resort Activities","url":"/resort-overview/amenities/", "isDropdown":"no"},
+                                                {"name":"Resort Dining","url":"/resort-overview/resort-dining/", "isDropdown":"no"},
+                                                {"name":"Meetings","url":"/resort-overview/meetings/", "isDropdown":"no"},
+                                                {"name":"Photo Gallery","url":"/resort-overview/photo-gallery/", "isDropdown":"no"}
+                                                                       
+
                                             ]
 
 
-                        },
+                                             },
                         {"name":"Events", "url":"/events/", "isDropdown":"yes",
 
                               "drop-links":[
-                                                      {"name":"Wine &amp; Food Festival","url":"/events/wine-festival/"},
-                                                      {"name":"Blues Festival","url":"/events/blues-festival/"},
-                                                      {"name":"Beer Festival","url":"/events/brew-fest/"}
+                                                      {"name":"Wine &amp; Food Festival","url":"/events/wine-festival/",  "isDropdown":"no"},
+                                                      {"name":"Blues Festival","url":"/events/blues-festival/",  "isDropdown":"no"},
+                                                      {"name":"Beer Festival","url":"/events/brew-fest/",  "isDropdown":"no"},
+                                                      {"name":"New Years Eve Bash","url":"/events/new-years-eve/",  "isDropdown":"no"}
                                                      
                                                       
                                           ]
@@ -89,17 +113,17 @@
 
                         {"name":"Groups", "url":"/groups/", "isDropdown":"no"},
 
-                        {"name":"Wedding", "url":"/wedding/", "isDropdown":"no"},
+                        {"name":"Wedding", "url":"/weddings/", "isDropdown":"no"},
 
 
-                        {"name":"Attractions", "url":"/explore/", "isDropdown":"yes",
+                        {"name":"Attractions", "url":"#", "isDropdown":"yes",
 
                               "drop-links":[
                                                    {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes",
 
                                                        "drop-links": [
 
-                                                                     {"name":"Party Packages","url":"/waterpark/party-packages/"}
+                                                                     {"name":"Party Packages","url":"/waterpark/party-packages/","isDropdown":"no"}
 
                                                                      ]
 
@@ -109,17 +133,17 @@
 
                                                        "drop-links": [
 
-                                                                     {"name":"A Golfing Experience","url":"/golf/"}
+                                                                     {"name":"A Golfing Experience","url":"/golf/",  "isDropdown":"no"}
 
                                                                      ]
 
 
                                                    },
-                                                   {"name":"Cultural Activities","url":"/attractions/cultural-act/"},
-                                                   {"name":"Spring &amp; Summer Activities","url":"/attractions/spring-summer/"},
-                                                   {"name":"Fall &amp; Winter Activities","url":"/attractions/fall-winter/"},
-                                                   {"name":"Shopping","url":"/attractions/shopping/"},
-                                                   {"name":"Nature","url":"/attractions/nature"}
+                                                   {"name":"Cultural Activities","url":"/attractions/cultural-act/", "isDropdown":"no"},
+                                                   {"name":"Spring &amp; Summer Activities","url":"/attractions/spring-summer/",  "isDropdown":"no"},
+                                                   {"name":"Fall &amp; Winter Activities","url":"/attractions/fall-winter/",  "isDropdown":"no"},
+                                                   {"name":"Shopping","url":"/attractions/shopping/",  "isDropdown":"no"},
+                                                   {"name":"Nature","url":"/attractions/nature",  "isDropdown":"no"}
                                                    
                                           ]
 

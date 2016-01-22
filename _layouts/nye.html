@@ -8,7 +8,7 @@
     {% include header.html %}
   {% include booking-widget-all-pages.html %}
 
-    
+
     {% for items in site.data.banners.slider %}
 
         {% if page.title == items.title %}
@@ -46,61 +46,39 @@
   <div id="toggleheader"></div>
 
 
-  <!-- Culture section -->
 
-  {% if page.title == "Cultural Activities In The Poconos | Attractions | Split Rock Resort" %}
+<section>
+<div class="text-with-gallery special-offers">
+    <div class="row  detail">
+    
+        <div class="content">
 
-  
-   
-  {% include culture.html %}
+             <h2>Eat. Drink. Celebrate.</h2>
 
+             <p></p>
+                
+             <p>More details coming soon!</p>
 
-  {% endif %}
+             <br><br>
 
-   <!-- Spring section -->
-
-  {% if page.title == "Spring & Summer Activities In The Poconos | Attractions | Split Rock Resort" %}
-
-  {% include spring.html %}
-
-
-  {% endif %}
-
-  <!-- Fall section -->
-
-  {% if page.title == "Fall & Winter Activities In The Poconos | Attractions | Split Rock Resort" %}
-
-  {% include fall.html %}
+           
 
 
-  {% endif %}
+        </div>
+    </div>
+</div>
+</section>
 
-  <!-- Shopping section -->
-
-  {% if page.title == "Shopping In The Poconos | Attractions | Split Rock Resort" %}
-
-  {% include shopping.html %}
-
-
-  {% endif %}
-
-   <!-- Nature section -->
-
-  {% if page.title == "Nature In The Poconos | Attractions | Split Rock Resort" %}
-
-  {% include nature.html %}
-
-
-  {% endif %}
+<div class="hr-page-full"></div>
 
 
 
-
+  {% include sign-up.html %}
 
     
 {% include script-all-pages.html %}
    
-{% include footer.html %}
+    {% include footer.html %}
 
 
 

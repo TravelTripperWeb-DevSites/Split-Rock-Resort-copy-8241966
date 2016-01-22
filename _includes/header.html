@@ -16,6 +16,7 @@
                 {% endfor %}
                 </ul>
                 <ul class="contact-options right">
+                    <li><a href="/"><i class="fa  fa-home"></i> Home</a></li>
 
             <li><a href="{{obj.contacts-info.url}}"><i class="fa  fa-envelope"></i> {{obj.contacts-info.contact-name}}</a></li>
             <li><a href="{{obj.phone.url}}"><i class="fa  fa-phone"></i> <span itemprop="telephone" class="phone"> {{obj.phone.contact-no}}</span></a></li>
@@ -34,18 +35,41 @@
                         <ul id="main-menu" class="">
                             {% for items in obj.top-links %}
 
-                            {% if items.isDropdown =="no" %}
-                            <li class="has-dropdown"><a href="{{items.url}}">{{items.name}}</a></li>
-                            {% endif %}
+                                    {% if items.isDropdown == "no" %}
+                                    <li><a href="{{items.url}}">{{items.name}}</a></li>
+                                    {% endif %}
 
-                             {% if items.isDropdown =="yes" %}
-                            <li class="has-dropdown"><a href="{{items.url}}">{{items.name}}</a>
+                             {% if items.isDropdown == "yes" %}
+                            
+                                    <li class="has-dropdown"><a href="{{items.url}}">{{items.name}}</a>
 
-                             <ul class="sub-menu dropdown">
+                                     <ul class="sub-menu dropdown">
 
-                                {% for sublinks in items.drop-links %}
+                                        {% for sublinks in items.drop-links %}
 
-                                <li><a href="{{sublinks.url}}">{{sublinks.name}}</a></li>
+                                            {% if sublinks.isDropdown == "yes" %}
+
+                                                <li class="has-dropdown"><a href="{{sublinks.url}}">{{sublinks.name}}</a>
+
+                                                 <ul class="sub-menu dropdown">
+
+                                                 {% for inlinks in sublinks.drop-links %}
+
+                                                <li><a href="{{inlinks.url}}">{{inlinks.name}}</a></li>
+
+                                                {% endfor %}
+
+                                            </ul>
+
+                                
+                                                
+
+                                            {% else %}
+
+                                            <li><a href="{{sublinks.url}}">{{sublinks.name}}</a></li>
+
+                                            {% endif %}
+
                                 {% endfor %}
 
                             </ul></li>

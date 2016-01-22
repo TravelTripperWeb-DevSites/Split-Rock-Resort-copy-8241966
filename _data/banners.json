@@ -185,6 +185,18 @@
 				},
 
 				{
+					"id":24,
+					"title":"New Year’s Eve Bash - SplitRock Resort",
+					"heading": "New Year’s Eve Bash",
+					"sub-heading":"At Split Rock Resort",
+					"tool-tip":"New Year’s Eve Bash",
+					"src-small":"/img/heros/650x600-new-year.jpg",
+					"src-medium":"/img/heros/1500x600-new-year.jpg",
+					"src-large":"/img/heros/2000x600-new-year.jpg",
+					"src-main":"/img/heros/1500x600-new-year.jpg"
+				},
+
+				{
 					"id":16,
 					"title":"Poconos Indoor Water Park | Split Rock Resort",
 					"heading": "Water Park",

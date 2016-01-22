@@ -48,6 +48,38 @@
 
 				},
 
+				{
+					"id":4,
+					"main-header": "none",
+					"heading":"Quiet Valley Living Historical Farm",
+					"tag":"Explore the Quiet Valley Living Hisorical Farm",
+					"img-data":"/img/435x275-Explore-Quiet-Valley-Farm.jpg",
+					"content":"<p>A favorite destination among visitors is this 19th century eastern <strong>Pennsylvania German farm </strong>dedicated to the <strong>preservation and education of rural farm life</strong>. Take a summer farm tour that portrays family members of the <strong>Johann Zepper descendants</strong>—re-enacting the life of the original Pennsylvania German family who lived on the farm from the 1760s to 1913&ndash;an <strong>educational workshop</strong>, or attend one of the many <strong>special events held at the farm</strong>. </p>",
+					"has-info": "yes",
+					"phone" : "(570) 992-6161",
+					"time": "Tue-Sat: 10am-5pm<br>Sun: Noon-5pm",
+					"address": "347 Quiet Valley Road<br/> Stroudsburg",
+					"price": "$10 Adults, $5 for ages 3-12"
+
+
+				},
+
+				{
+					"id":5,
+					"main-header": "none",
+					"heading":"Penn's Peak Concert Venue",
+					"tag":"Explore Penn'ss Peak Concert Venue",
+					"img-data":"/img/435x275-Explore-Penns-Peak.jpg",
+					"content":"<p>See what's happening at the premier entertainment venue in the <strong>Lehigh Valley and Poconos Mountain</strong>! Offering a <strong>variety of events</strong>, <strong>Penn's Peak </strong>showcases popular musicians, orchestra and big band performances, and luncheon shows. Complete your trip to Penn's Peak by <strong>dining at their Roadies Restaurant Bar</strong> and visiting their <strong>No Peaking Gift Shop</strong>. </p>",
+					"has-info": "yes",
+					"phone" : "1 (866) 605-7325",
+					"time": "none",
+					"address": "325 Maury Road<br> Jim Thorpe",
+					"price": "none"
+
+
+				}
+
 				
 
 			]
