@@ -119,7 +119,7 @@
                         {"name":"Attractions", "url":"#", "isDropdown":"yes",
 
                               "drop-links":[
-                                                   {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes",
+                                                   {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes", "moveright":"true",
 
                                                        "drop-links": [
 
@@ -128,7 +128,7 @@
                                                                      ]
 
                                                    },
-                                                   {"name":"Golf", "url":"/golf/", "isDropdown":"yes",
+                                                   {"name":"Golf", "url":"/golf/", "isDropdown":"yes", "moveright":"true",
 
 
                                                        "drop-links": [

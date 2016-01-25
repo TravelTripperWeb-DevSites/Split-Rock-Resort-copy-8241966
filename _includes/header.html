@@ -51,7 +51,10 @@
 
                                                 <li class="has-dropdown"><a href="{{sublinks.url}}">{{sublinks.name}}</a>
 
-                                                 <ul class="sub-menu dropdown">
+
+                                                    {% if sublinks.moveright == "true" %}
+
+                                                 <ul class="sub-menu dropdown" style="left:auto; right:100%;">
 
                                                  {% for inlinks in sublinks.drop-links %}
 
@@ -60,6 +63,22 @@
                                                 {% endfor %}
 
                                             </ul>
+
+                                            {% else %}
+
+
+                                            <ul class="sub-menu dropdown">
+
+                                                 {% for inlinks in sublinks.drop-links %}
+
+                                                <li><a href="{{inlinks.url}}">{{inlinks.name}}</a></li>
+
+                                                {% endfor %}
+
+                                                 </ul>
+
+                                                 {% endif %}
+
 
                                 
                                                 
