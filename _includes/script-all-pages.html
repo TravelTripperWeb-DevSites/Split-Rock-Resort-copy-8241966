@@ -10,7 +10,32 @@
 <script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/js/app.js"></script>
 
+{% if page.title =="Poconos Wedding Packages | Weddings | Split Rock Resort" %}
 
+<script src="/js/owl.carousel.js" type="text/javascript"></script>
+
+<script>
+ $(document).ready(function() {
+     
+      $("#wedding-carousel").owlCarousel({
+     
+          navigation : false, // Show next and prev buttons
+          slideSpeed : 5000,
+          paginationSpeed : 400,
+          singleItem:true,
+    paginationNumbers: false,
+    autoPlay: true,
+    transitionStyle: "fade",
+    autoHeight : true,
+    stopOnHover: true
+     
+      });
+     
+    });
+
+</script>
+
+{% endif %}
 
 
 
@@ -40,3 +65,44 @@ $(document).ready(function() {
     })
 })
 </script>
+
+
+
+{% if page.title == "Poconos Mountains Resort | Directions | Split Rock Resort" %}
+
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+
+<script>
+
+var myCenter=new google.maps.LatLng(41.065556, -75.617791);
+function initialize() {
+var mapProp = { center:myCenter, zoom: 15,  mapTypeId:google.maps.MapTypeId.ROADMAP };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker=new google.maps.Marker({ position:myCenter, });
+
+marker.setMap(map);
+var infowindow = new google.maps.InfoWindow({ content:"Split Rock Resort" });
+infowindow.open(map,marker);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+$(document).ready(function() {
+  var waypoint = new Waypoint({
+    element: document.getElementById('toggleheader'),
+    handler: function(direction) {
+    $("#header-wrapper").toggleClass("stickynav");
+    //alert("i am 20 pixels away");
+    },
+    offset: 20 
+  })
+})
+</script>
+
+{% endif %} 
+
+
+

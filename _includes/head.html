@@ -31,6 +31,49 @@
 <link rel="stylesheet" href="{{items}}" type="text/css">
 {% endfor %}
 
+{% if page.title == "Poconos Wedding Packages | Weddings | Split Rock Resort" %}
+
+<link rel="stylesheet" href="/css/mobile-booking.css" type="text/css">
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+<link href="/css/owl.transitions.css" rel="stylesheet">
+<style>
+	.wedding-reviews {
+	width: 90%;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+}
+.heading {
+	font-size: 32px;
+	text-align:center;
+}
+
+</style>
+
+{% endif %} 
+
+{% if page.title == "Poconos Mountains Resort | Directions | Split Rock Resort" %}
+
+<style type="css">.gmapcontainer  {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.gmapcontainer iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+</style>
+
+{% endif %} 
+
 <!--[if IE 9]>
 <style type="text/css">@media only screen and (min-width: 64.063em) { 
 #hero-section { min-height: 120px; }  }
