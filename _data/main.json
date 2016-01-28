@@ -62,7 +62,6 @@
 
       "top-links":[
 
-                        {"name":"Special Offers", "url":"/special-offers/", "isDropdown":"no"},
                         {"name":"Resort Overview", "url":"/resort-overview/", "isDropdown":"yes",
                                
                                "drop-links":[
@@ -90,7 +89,6 @@
                                                 },
                                                 {"name":"Resort Activities","url":"/resort-overview/amenities/", "isDropdown":"no"},
                                                 {"name":"Resort Dining","url":"/resort-overview/resort-dining/", "isDropdown":"no"},
-                                                {"name":"Meetings","url":"/resort-overview/meetings/", "isDropdown":"no"},
                                                 {"name":"Photo Gallery","url":"/resort-overview/photo-gallery/", "isDropdown":"no"}
                                                                        
 
@@ -98,28 +96,10 @@
 
 
                                              },
-                        {"name":"Events", "url":"/events/", "isDropdown":"yes",
 
-                              "drop-links":[
-                                                      {"name":"Wine &amp; Food Festival","url":"/events/wine-festival/",  "isDropdown":"no"},
-                                                      {"name":"Blues Festival","url":"/events/blues-festival/",  "isDropdown":"no"},
-                                                      {"name":"Beer Festival","url":"/events/brew-fest/",  "isDropdown":"no"},
-                                                      {"name":"New Years Eve Bash","url":"/events/new-years-eve/",  "isDropdown":"no"}
-                                                     
-                                                      
-                                          ]
+                        {"name":"Specials", "url":"/special-offers/", "isDropdown":"no"},
 
-                        },
-
-                        {"name":"Groups", "url":"/groups/", "isDropdown":"no"},
-
-                        {"name":"Wedding", "url":"/weddings/", "isDropdown":"no"},
-
-
-                        {"name":"Attractions", "url":"#", "isDropdown":"yes",
-
-                              "drop-links":[
-                                                   {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes", "moveright":"true",
+                        {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes", "moveright":"true",
 
                                                        "drop-links": [
 
@@ -128,7 +108,9 @@
                                                                      ]
 
                                                    },
-                                                   {"name":"Golf", "url":"/golf/", "isDropdown":"yes", "moveright":"true",
+
+
+                        {"name":"Golf", "url":"/golf/", "isDropdown":"yes",
 
 
                                                        "drop-links": [
@@ -139,11 +121,51 @@
 
 
                                                    },
-                                                   {"name":"Cultural Activities","url":"/attractions/cultural-act/", "isDropdown":"no"},
-                                                   {"name":"Spring &amp; Summer Activities","url":"/attractions/spring-summer/",  "isDropdown":"no"},
-                                                   {"name":"Fall &amp; Winter Activities","url":"/attractions/fall-winter/",  "isDropdown":"no"},
-                                                   {"name":"Shopping","url":"/attractions/shopping/",  "isDropdown":"no"},
-                                                   {"name":"Nature","url":"/attractions/nature",  "isDropdown":"no"}
+                        {"name":"Events", "url":"/events/", "isDropdown":"yes",
+
+                              "drop-links":[
+                                                      {"name":"Wine Festival","url":"/events/wine-festival/",  "isDropdown":"no"},
+                                                      {"name":"Blues Festival","url":"/events/blues-festival/",  "isDropdown":"no"},
+                                                      {"name":"Beer Festival","url":"/events/brew-fest/",  "isDropdown":"no"},
+                                                      {"name":"NYE Bash","url":"/events/new-years-eve/",  "isDropdown":"no"}
+                                                     
+                                                      
+                                          ]
+
+                        },
+
+                        {"name":"Groups", "url":"/groups/", "isDropdown":"yes",
+
+                                                       "drop-links": [
+
+                                                                     {"name":"Meetings","url":"/groups/meetings/", "isDropdown":"no"},
+
+                                                                     ]
+
+                                                   },
+
+                        {"name":"Weddings", "url":"/weddings/", "isDropdown":"no"},
+
+
+                        {"name":"Things To Do", "url":"#", "isDropdown":"yes",
+
+                              "drop-links":[
+                                                  
+                                                   
+                                                   {"name":"Cultural Activities","url":"/things-to-do/cultural-act/", "isDropdown":"no"},
+                                                   {"name":"Spring &amp; Summer Activities","url":"/things-to-do/spring-summer/",  "isDropdown":"no"},
+                                                   {"name":"Fall &amp; Winter Activities","url":"/things-to-do/fall-winter/",  "isDropdown":"no"},
+                                                   {"name":"Shopping","url":"/things-to-do/shopping/",  "isDropdown":"no"},
+                                                   {"name":"Nature","url":"/things-to-do/nature",  "isDropdown":"yes", "moveright":"true", 
+
+
+                                                   "drop-links": [
+
+                                                                     {"name":"Hiking Trails","url":"https://alltrails.com/explore?q=Lake%20Harmony%20Pa", "isDropdown":"no", "open":"newWindow"},
+
+                                                                     ]
+
+                                                   }
                                                    
                                           ]
 

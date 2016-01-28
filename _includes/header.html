@@ -58,7 +58,17 @@
 
                                                  {% for inlinks in sublinks.drop-links %}
 
-                                                <li><a href="{{inlinks.url}}">{{inlinks.name}}</a></li>
+                                                 {% if inlinks.open == "newWindow" %}
+
+                                                 <li><a href="{{inlinks.url}}" target="_blank">{{inlinks.name}}</a></li>
+
+                                                 {% else %}
+
+                                                 <li><a href="{{inlinks.url}}">{{inlinks.name}}</a></li>
+
+                                                 {% endif %}
+
+                                                
 
                                                 {% endfor %}
 

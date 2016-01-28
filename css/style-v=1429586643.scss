@@ -6290,11 +6290,11 @@ p {
 	line-height: 1.6;
 }
 .site-header {
-	font-size: 15px;
+	font-size: 14px;
 }
 .site-header #site-nav .top-bar li a {
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 14px;
 	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6);
 	font-family: Montserrat, Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -6623,7 +6623,7 @@ ul {
 	width: 100%;
 }
 #header-wrapper .logo {
-	margin: 30px 0 0 10px;
+	margin: 15px 0 0 10px;
 }
 #cd-logo .logo {
 	margin: 0;
@@ -6631,7 +6631,7 @@ ul {
 #header-wrapper #site-nav {
 	float: right;
 	width: auto;
-	padding-top: 10px;
+	padding-top: 0px;
 }
 #header-wrapper #site-nav #nav {
 	float: right;
@@ -6666,7 +6666,7 @@ ul {
 	display: none;
 }
 #header-wrapper #site-nav #nav .top-bar #main-menu .has-dropdown > a {
-	padding: 0 9px !important;
+	padding: 0 5px !important;
 }
  #header-wrapper #site-nav #nav .top-bar #main-menu li:not(.has-form) a:not(.button) {
  padding: 0 6px;
@@ -6703,6 +6703,7 @@ ul {
 	width: auto;
 	text-align: right;
 	padding-top: 10px;
+	padding-bottom:0px;
 }
 .contact .social-media li, .contact .contact-options li {
 	display: inline-block;
@@ -6772,7 +6773,7 @@ _:-ms-input-placeholder, :root #hero-section { min-height: 120px\9; }
 	text-align: center;
 }
 #hero-section .single-image-hero img {
-	margin: 47px auto 0;
+	margin: 58px auto 0;
 }
 #hero-section .home-slider {
 	margin-bottom: 0;
