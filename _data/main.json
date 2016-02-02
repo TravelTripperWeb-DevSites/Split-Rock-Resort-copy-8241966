@@ -87,7 +87,7 @@
 
 
                                                 },
-                                                {"name":"Resort Activities","url":"/resort-overview/amenities/", "isDropdown":"no"},
+                                                {"name":"Resort Activities","url":"/resort-overview/resort-activites/", "isDropdown":"no"},
                                                 {"name":"Resort Dining","url":"/resort-overview/resort-dining/", "isDropdown":"no"},
                                                 {"name":"Photo Gallery","url":"/resort-overview/photo-gallery/", "isDropdown":"no"}
                                                                        
@@ -97,7 +97,7 @@
 
                                              },
 
-                        {"name":"Specials", "url":"/special-offers/", "isDropdown":"no"},
+                        {"name":"Specials", "url":"/specials/", "isDropdown":"no"},
 
                         {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes", "moveright":"true",
 
@@ -121,35 +121,40 @@
 
 
                                                    },
-                        {"name":"Events", "url":"/events/", "isDropdown":"yes",
-
-                              "drop-links":[
-                                                      {"name":"Wine Festival","url":"/events/wine-festival/",  "isDropdown":"no"},
-                                                      {"name":"Blues Festival","url":"/events/blues-festival/",  "isDropdown":"no"},
-                                                      {"name":"Beer Festival","url":"/events/brew-fest/",  "isDropdown":"no"},
-                                                      {"name":"NYE Bash","url":"/events/new-years-eve/",  "isDropdown":"no"}
-                                                     
-                                                      
-                                          ]
-
-                        },
+                        
 
                         {"name":"Groups", "url":"/groups/", "isDropdown":"yes",
 
                                                        "drop-links": [
 
-                                                                     {"name":"Meetings","url":"/groups/meetings/", "isDropdown":"no"},
+                                                                     {"name":"Weddings", "url":"/groups/weddings/", "isDropdown":"no"},
+
+                                                                     {"name":"Meetings","url":"/groups/meetings/", "isDropdown":"no"}
 
                                                                      ]
 
                                                    },
 
-                        {"name":"Weddings", "url":"/weddings/", "isDropdown":"no"},
+                        
 
 
-                        {"name":"Things To Do", "url":"#", "isDropdown":"yes",
+                        {"name":"Things To Do", "url":"/things-to-do/events", "isDropdown":"yes",
 
                               "drop-links":[
+
+
+                              {"name":"Events", "url":"/things-to-do/events", "isDropdown":"yes","moveright":"true",
+
+                              "drop-links":[
+                                                      {"name":"Wine Festival","url":"/things-to-do/events/wine-festival/",  "isDropdown":"no"},
+                                                      {"name":"Blues Festival","url":"/things-to-do/events/blues-festival/",  "isDropdown":"no"},
+                                                      {"name":"Beer Festival","url":"/things-to-do/events/brew-fest/",  "isDropdown":"no"},
+                                                      {"name":"NYE Bash","url":"/things-to-do/events/new-years-eve/",  "isDropdown":"no"}
+                                                     
+                                                      
+                                          ]
+
+                        },
                                                   
                                                    
                                                    {"name":"Cultural Activities","url":"/things-to-do/cultural-act/", "isDropdown":"no"},
