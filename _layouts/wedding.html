@@ -4,27 +4,48 @@
   {% include head.html %}
 
   <body>
+
     {% include ga.html %}
     {% include mobile.html %}
     {% include header.html %}
   {% include booking-widget-all-pages.html %}
-    <section>
-<div id="hero-section" class="page full">
-    <div class="caption-wrapper">
-        <div class="caption right">
-            <h1>Split Rock Resort</h1>
-            <h4>A Four-Season Destination</h4>
-        </div>
-    </div>
-    <div class="single-image-hero">
-        <!--
-        <img data-interchange="[/img/heros/650x600-property-overview.jpg, (small)],[/img/heros/1500x600-property-overview.jpg, (medium)], [/img/heros/2000x600-property-overview.jpg, (xlarge)]" src="/img/heros/1500x600-property-overview.jpg" alt="Split Rock Resort">-->
 
-        {% region banner %}
-    </div>
-</div>
-</section>
-<div id="toggleheader"></div>
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption right">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
 
                 <!-- section 1 START-->
 
@@ -156,9 +177,10 @@ For more information or additional Questions, please email us or call <a href="t
     {% include sign-up.html %}
 
     
-    {% include script-all-pages.html %}
+    
    
     {% include footer.html %}
+    {% include script-all-pages.html %}
 
 
   </body>

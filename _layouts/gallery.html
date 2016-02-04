@@ -236,57 +236,9 @@ a:focus, *:focus {
 
 
 
-
-
-  
-
-    
-<script type="text/javascript" src="/js/modernizr.js"></script> 
-<script type="text/javascript" src="/js/jquery.min.js"></script> 
-<script type="text/javascript" src="/js/jquery-ui.js"></script> 
-<script type="text/javascript" src="/js/nav2.js"></script> 
-<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script> 
-<script type="text/javascript" src="/js/foundation.min.js"></script> 
-<script type="text/javascript" src="/js/foundation.interchange.js"></script> 
-<script type="text/javascript" src="/js/jquery.waypoints.min.js"></script> 
-<script type="text/javascript" src="/js/slick.min.js"></script> 
-<script type="text/javascript" src="/js/fancybox/jquery.fancybox.pack.js"></script> 
-<script type="text/javascript" src="/js/app.js"></script> 
-<script type="text/javascript">
-$('.gallery').each(function() { // the containers for all your galleries
-    $(this).magnificPopup({
-        delegate: 'a', // the selector for gallery item
-        type: 'image',
-        gallery: {
-          enabled:true
-        },
-    zoom: {
-      enabled: true,
-      duration: 300 // don't foget to change the duration also in CSS
-    }
-    });
-});
-
-$(document).ready(function() {
-  var waypoint = new Waypoint({
-    element: document.getElementById('toggleheader'),
-    handler: function(direction) {
-    $("#header-wrapper").toggleClass("stickynav");
-    //alert("i am 20 pixels away");
-    },
-    offset: 20 
-  })
-  // gallery magnifying glass
-    $(".gallery a").append("<span class='glass'></span>");
-    $(".gallery a").hover(function(){
-       $(this).children("span.glass").fadeIn(600);
-    },function(){
-       $(this).children("span.glass").fadeOut(200);
-    });
-})
-</script>
-   
     {% include footer.html %}
+
+     {% include script-all-pages.html %}
 
 
 

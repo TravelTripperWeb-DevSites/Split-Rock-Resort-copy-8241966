@@ -50,7 +50,7 @@
 
       "footer-links":[
 
-                        {"name":"Carrers", "url":"/careers/"},
+                        {"name":"Careers", "url":"/careers/"},
                         {"name":"Directions", "url":"/directions/"},
                         {"name":"Press", "url":"/press/"},
                         {"name":"Resort Fee", "url":"/resort-fee/"},
@@ -115,7 +115,7 @@
 
                                                        "drop-links": [
 
-                                                                     {"name":"A Golfing Experience","url":"/golf/",  "isDropdown":"no"}
+                                                                     {"name":"A Golfing Experience","url":"/golf#golfexp",  "isDropdown":"no"}
 
                                                                      ]
 
@@ -127,13 +127,15 @@
 
                                                        "drop-links": [
 
-                                                                     {"name":"Weddings", "url":"/groups/weddings/", "isDropdown":"no"},
+                                                                    
 
                                                                      {"name":"Meetings","url":"/groups/meetings/", "isDropdown":"no"}
 
                                                                      ]
 
                                                    },
+
+                                                    {"name":"Weddings", "url":"/weddings/", "isDropdown":"no"},
 
                         
 

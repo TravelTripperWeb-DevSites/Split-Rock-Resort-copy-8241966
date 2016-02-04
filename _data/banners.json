@@ -291,6 +291,30 @@
 					"src-medium":"/img/heros/1500x600-Explore.jpg",
 					"src-large":"/img/heros/2000x600-Explore.jpg",
 					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":24,
+					"title":"Poconos Wedding Packages | Weddings | Split Rock Resort",
+					"heading": "Poconos Weddings",
+					"sub-heading":"Split Rock Resort's Wedding Packages",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Weddings.jpg",
+					"src-medium":"/img/heros/1500x600-Weddings.jpg",
+					"src-large":"/img/heros/2000x600-Weddings.jpg",
+					"src-main":"/img/heros/1500x600-Weddings.jpg"
+				},
+
+				{
+					"id":25,
+					"title":"Poconos Family Vacation | Groups | Split Rock Resort",
+					"heading": "Group Events",
+					"sub-heading":"Exclusive Group rates",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Groups.jpg",
+					"src-medium":"/img/heros/1500x600-Groups.jpg",
+					"src-large":"/img/heros/2000x600-Groups.jpg",
+					"src-main":"/img/heros/1500x600-Groups.jpg"
 				}
 
 
