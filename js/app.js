@@ -149,12 +149,12 @@ function populateDefaultValues() {
         year -= 1;
     }
     var oneMonthAgo = new Date(year, month, today.getDate()+1);
-    $('#datein').val($.datepicker.formatDate('dd-M-yy', today));
-    $('#dateout').val($.datepicker.formatDate('dd-M-yy', oneMonthAgo));
-    $('#datein-page').val($.datepicker.formatDate('dd-M-yy', today));
-    $('#dateout-page').val($.datepicker.formatDate('dd-M-yy', oneMonthAgo));
-     $('#datein-home').val($.datepicker.formatDate('dd-M-yy', today));
-    $('#dateout-home').val($.datepicker.formatDate('dd-M-yy', oneMonthAgo));
+    $('#datein').val($.datepicker.formatDate('yy-mm-dd', today));
+    $('#dateout').val($.datepicker.formatDate('yy-mm-dd', oneMonthAgo));
+    $('#datein-page').val($.datepicker.formatDate('yy-mm-dd', today));
+    $('#dateout-page').val($.datepicker.formatDate('yy-mm-dd', oneMonthAgo));
+     $('#datein-home').val($.datepicker.formatDate('yy-mm-dd', today));
+    $('#dateout-home').val($.datepicker.formatDate('yy-mm-dd', oneMonthAgo));
 
    
 }
@@ -172,7 +172,7 @@ populateDefaultValues();
     
                  
         $("#datein-home").datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             minDate: 0,
             onSelect: function (date) {
                 var date2 = $('#datein-home').datepicker('getDate');
@@ -183,7 +183,7 @@ populateDefaultValues();
             }
         });
         $('#dateout-home').datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             onClose: function () {
                 var dt1 = $('#datein-home').datepicker('getDate');
                 console.log(dt1);
@@ -198,7 +198,7 @@ populateDefaultValues();
 		
 		
 		 $("#datein-page").datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             minDate: 0,
             onSelect: function (date) {
                 var date2 = $('#datein-page').datepicker('getDate');
@@ -209,7 +209,7 @@ populateDefaultValues();
             }
         });
         $('#dateout-page').datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             onClose: function () {
                 var dt1 = $('#datein-page').datepicker('getDate');
                 console.log(dt1);
@@ -223,7 +223,7 @@ populateDefaultValues();
 		
 		
 		 $("#datein").datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             minDate: 0,
             onSelect: function (date) {
                 var date2 = $('#datein').datepicker('getDate');
@@ -234,7 +234,7 @@ populateDefaultValues();
             }
         });
         $('#dateout').datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             onClose: function () {
                 var dt1 = $('#datein').datepicker('getDate');
                 console.log(dt1);
