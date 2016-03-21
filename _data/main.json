@@ -87,7 +87,7 @@
 
 
                                                 },
-                                                {"name":"Resort Activities","url":"/resort-overview/resort-activites/", "isDropdown":"no"},
+                                                {"name":"Resort Activities","url":"/resort-overview/resort-activities/", "isDropdown":"no"},
                                                 {"name":"Resort Dining","url":"/resort-overview/resort-dining/", "isDropdown":"no"},
                                                 {"name":"Photo Gallery","url":"/resort-overview/photo-gallery/", "isDropdown":"no"}
                                                                        
