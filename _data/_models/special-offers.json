@@ -38,6 +38,17 @@
 				},
 
 				{
+					"id":2,
+					"tag-name":"golf-stay",
+					"category": "none",
+					"pos":"none",
+					"heading":"Golf and Stay Package",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=151370&vr=3'><img src='/img/435x275-golf-stay.jpg' data-interchange='[/img/435x275-golf-stay.jpg, (default)], [/img/435x275-golf-stay.jpg, (only screen and (max-width: 400px))]'  alt='Golf and Stay Package'></a>",
+					"content":"<p> Looking for a great way to play a Championship Golf caliber course and expierence everything Split Rock has to offer?</p><p>Look no further than our Golf and Stay Package. Our package includes accomodations in one of our many hotel rooms, breakfast at the Split Rock Grill, Dinner at Sunset Green, Split Rock Grill or Lake View Tavern, 18 Holes of golf at the Split Rock Country Club with cart and a bucket of range balls per person per night stayed.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$129</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=151370&vr=3' class='bttn empty'>BOOK NOW</a></p><p><span class='disclaimer'>*Rates are per person, per night, double occupancy. Taxes, 19% service charge and a <a href='/resort-fee/'>daily resort fee</a> of $20 plus tax per occupied room not included. Minimum stay may be required. Offer cannot be combined with any other offer or discount program. Higher rates and/or minimum stay may be in effect for certain special events, holidays, and peak travel periods. Rates subject to change without notice. Some restrictions/blackout dates apply.</span></p>"
+
+				},
+
+				{
 					"id":5,
 					"tag-name":"romance",
 					"category": "none",
@@ -96,22 +107,13 @@
 					"id":11,
 					"tag-name":"military-special",
 					"category": "none",
-					"pos":"none",
+					"pos":"last",
 					"heading":"Military Appreciation Rate",
 					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108787&vr=3'><img src='/img/435x275-Military.jpg' data-interchange='[/img/435x275-Military.jpg, (default)], [/img/435x275-Military.jpg, (only screen and (max-width: 400px))]'  alt='Military Discount'></a>",
 					"content":"<p> Thank you for your service! <strong>Active military members</strong> enjoy <strong>discounted rates</strong> at <strong>Split Rock Resort</strong>. Valid military ID required at check-in. </p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$89</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108787&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p> <strong>Booking/Travel:</strong> Year-round<br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='/resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
 
-				},
-				{
-					"id":2,
-					"tag-name":"golf-stay",
-					"category": "none",
-					"pos":"last",
-					"heading":"Golf and Stay Package",
-					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=151370&vr=3'><img src='/img/435x275-golf-stay.jpg' data-interchange='[/img/435x275-golf-stay.jpg, (default)], [/img/435x275-golf-stay.jpg, (only screen and (max-width: 400px))]'  alt='Golf and Stay Package'></a>",
-					"content":"<p> Looking for a great way to play a Championship Golf caliber course and expierence everything Split Rock has to offer?</p><p>Look no further than our Golf and Stay Package. Our package includes accomodations in one of our many hotel rooms, breakfast at the Split Rock Grill, Dinner at Sunset Green, Split Rock Grill or Lake View Tavern, 18 Holes of golf at the Split Rock Country Club with cart and a bucket of range balls per person per night stayed.</p><p class='pricing'> <span class='tag'><strong>STARTING FROM</strong></span> <span class='price'><strong>$129</strong></span> <span class='nights'>PER NIGHT</span> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=151370&vr=3' class='bttn empty'>BOOK NOW</a></p><p><span class='disclaimer'>*Rates are per person, per night, double occupancy. Taxes, 19% service charge and a <a href='/resort-fee/'>daily resort fee</a> of $20 plus tax per occupied room not included. Minimum stay may be required. Offer cannot be combined with any other offer or discount program. Higher rates and/or minimum stay may be in effect for certain special events, holidays, and peak travel periods. Rates subject to change without notice. Some restrictions/blackout dates apply.</span></p>"
-
 				}
+				
 
 
 			]
