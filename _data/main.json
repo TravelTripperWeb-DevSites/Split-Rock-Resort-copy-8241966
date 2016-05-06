@@ -52,6 +52,7 @@
 
                         {"name":"Careers", "url":"/careers/"},
                         {"name":"Directions", "url":"/directions/"},
+						{"name":"Property Map", "url":"/pdfs/property-map.pdf"},
                         {"name":"Press", "url":"/press/"},
                         {"name":"Resort Fee", "url":"/resort-fee/"},
                         {"name":"Sitemap", "url":"/sitemap/"},
@@ -151,7 +152,7 @@
                                                       {"name":"Wine Festival","url":"/things-to-do/events/wine-festival/",  "isDropdown":"no"},
                                                       {"name":"Blues Festival","url":"/things-to-do/events/blues-festival/",  "isDropdown":"no"},
                                                       {"name":"Beer Festival","url":"/things-to-do/events/brew-fest/",  "isDropdown":"no"},
-                                                      {"name":"NYE Bash","url":"/things-to-do/events/new-years-eve/",  "isDropdown":"no"}
+                                                      {"name":"Music Fest","url":"/things-to-do/events/music-fest/",  "isDropdown":"no"}
                                                      
                                                       
                                           ]
