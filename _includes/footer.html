@@ -24,6 +24,17 @@
      
       </ul>
     <div class="contact right">
+
+         <ul class="social-media right">
+
+
+                {% for items in obj.social-media %}
+
+                <li><a href="{{items.url]}}" rel="nofollow" target="_blank"><i class="{{items.class-name}}"></i></a></li>
+        
+                {% endfor %}
+                    
+        </ul>
       
         <ul class="contact-options right">
 
