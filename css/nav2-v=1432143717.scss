@@ -563,3 +563,36 @@ header.is-fixed {
 
 }
 
+.winespons
+{
+  
+  width:100%;
+  padding-top:30px;
+  text-align:center;
+  padding-bottom:30px;
+
+  .textflow
+  {
+    padding-bottom:20px;
+    
+  }
+
+    ul
+    {
+      margin:0;
+      padding:0;
+    }
+
+     li
+    {
+      list-style-type:none;
+      display:inline-block;
+      width:33%;
+    }
+
+    img
+    {
+      width:50%;
+    }
+}
+
