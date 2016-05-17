@@ -6,6 +6,9 @@ baseurl: ""
 url: "http://www.splitrockresort.com/" # the base hostname & protocol for your site
 permalink: pretty
 
+default_lang: 'en'
+languages: ['en']
+
 
 # Build settings
 markdown: kramdown
