@@ -1,4 +1,6 @@
 _site
 .sass-cache
-*.md
-*.db
+.jekyll-metadata
+.htaccess
+sitemap.json
+.DS_Store
