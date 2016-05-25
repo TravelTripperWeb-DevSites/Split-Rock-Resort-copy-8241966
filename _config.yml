@@ -12,4 +12,12 @@ languages: ['en']
 
 # Build settings
 markdown: kramdown
-port: 8080
+
+
+exclude:
+  - 'sitemap.json'
+  - 'assets'
+  
+keep_files: ['assets']
+rsync_copy: ['_assets']
+  
