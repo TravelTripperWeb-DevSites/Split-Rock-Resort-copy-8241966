@@ -1,0 +1,22 @@
+{	
+	activities:
+				[
+					{ 
+						"image": "Ski and Stay Package | Offers | Split Rock Resort",
+						"heading": "Ski and Stay Package",
+						"text": "At Jack Frost Mountain"
+				  },
+				  { "required": true,
+						"title":"Ski and Stay Package | Offers | Split Rock Resort",
+						"heading": "Ski and Stay Package",
+						"sub-heading":"At Jack Frost Mountain"
+				  },
+				  { "required": true,
+						"title":"Ski and Stay Package | Offers | Split Rock Resort",
+						"heading": "Ski and Stay Package",
+						"sub-heading":"At Jack Frost Mountain"
+				  },
+
+				]
+
+}
