@@ -88,38 +88,20 @@
 
 <section>
     <div class="text-with-gallery special-offers">
-    <div class="row  detail">
-    <div class="hr-content-width" style="margin: 0 20px 25px 20px;"></div>
-        <div class="content">
-            
+      <div class="row  detail">
+      <div class="hr-content-width" style="margin: 0 20px 25px 20px;"></div>
+          <div class="content">
             <h2 class="heading">Bridal Reviews</h2>
-            
-            <div id="wedding-carousel" class="owl-carousel owl-theme">
-            
-                <div class="item">
-                    <p class="wedding-reviews">We had our wedding at Split Rock Resort this past Friday October 16th. Our wedding specialist was Gladys and she went above and beyond! She was absolutely amazing!! Not only was she very attentive to our needs but she was also with our wedding party and guests! Gladys was great to communicate and work with. Our wedding ran smoothly because of her. She made sure we were taken care of until we were in our room for the night and even checked in with us the next morning. She really cared about our wedding and made it perfect!! We couldn't have asked for a better person!! The resort it self was wonderful as well! It was beautiful and all of the staff were very pleasant and helpful!! We are beyond happy and satisfied with our experience!!</p>
-                    <p><strong>-Heather</strong></p>
-                </div>
-                <div class="item">
-                    <p class="wedding-reviews">This was a great place to have our wedding. We had the ceremony there down at the lake side which was beautiful, everyone commented on it. When we started our Journey with split Rock we had one wedding specialist, then she left and we had another then she left and we had gotten another. The last wedding specialist that we had, had come just about three or four months before our wedding. At this time we were a little worried about things, because we had been through so many by this point. I'm still glad we went with Split Rock though because I can not say enough about our wedding specialist Gladys, she was so accommodating in every way! She was available for us at all times and she was the only one out of all of them that took her time with us and explained everything. I recommend this venue just because of her. We had met with different people and management in between all of our different wedding specials and I was not impressed with any of them, but Gladys did an amazing job over all, and also in a short period of time. I can't not Thank her enough and be more happier with their service she provided for us. She was also very nice and so down to earth.</p>
-                    <p><strong>-Nicole</strong></p>
-                </div>
-                <div class="item">
-                    <p class="wedding-reviews">Split rock did a fabulous job on my wedding! Kristen won me over in the first meeting. She was so accommodating and prepared to work with what I wanted not try to fit me into their box of their typical wedding! And I feel I got a lot for the price! Chris(my maitre de) was incredibly attentive without being overbearing!! he kept things running smoothly and was always there to help when needed. Thanks for an awesome day Kristen and Chris!</p>
-                    <p><strong>-Private User</strong></p>
-                </div>
-                <div class="item">
-                    <p class="wedding-reviews">We love Kristen Rock! Kristen is a wonderful wedding specialist and made sure our ideas came to life, making our wedding a dream come true! Kristen's crew was very friendly and accommodating going above and beyond their duties. The food is phenomenal... and the preferred vendors are seriously the best of the best! We had our ceremony indoors at the Lodge which really gave our wedding that cozy intimate feeling. We like that Split Rock had different ballrooms to accommodate any size wedding. We requested the Governor's Ballroom which can hold 100 people nicely. Great dance floor! This venue offers a great package deal, helping you to create an elegant wedding on a low budget!</p>
-                    <p><strong>-Amanda</strong></p>
-                </div>
-                <div class="item">
-                    <p class="wedding-reviews">Kristen and crew were amazing. For the price we paid, we thought we were going to get a lot less...solo pleasantly surprised. We have friends who paid at least three times more than we did and didn't have the one on one attention that we did. Chris was amazing, always reminding my husband and I t have a seat and eat some food and always with a drink for us before we even expected it. Kristen made sure all went well throughout the entire planning and partying...especially since we live 2 hours away. I never felt I had to follow up or ask twice for anything. She was awesome. Totally renewing our vows there!!! Our friends always ask when we are going back because they loves it! Final thought: it totally rained and ruined our outdoor wedding but Kristen and crew moved it all indoors and made it so nice I wouldn't have it any other way today.</p>
-                    <p><strong>-Ana</strong></p>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
+              <div id="wedding-carousel" class="owl-carousel owl-theme">
+                {% for review in site.data._models.bridal_review %}
+                  <div class="item">
+                    {{% review.text %}}
+                  </div>
+                {% endfor %}            
+              </div>
+          </div>
+      </div>
+    </div>
 </section>
 
 
