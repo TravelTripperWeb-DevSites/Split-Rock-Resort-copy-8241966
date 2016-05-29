@@ -95,7 +95,7 @@
               <div id="wedding-carousel" class="owl-carousel owl-theme">
                 {% for review in site.data._models.bridal_review %}
                   <div class="item">
-                    {{% review.text %}}
+                    {{ review.text }}
                   </div>
                 {% endfor %}            
               </div>
