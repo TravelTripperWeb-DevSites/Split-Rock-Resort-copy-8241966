@@ -103,7 +103,7 @@ a:focus, *:focus {
         {% for ra in site.data._models.gallery_rooms_suites %}
           <a href= {{ra.image.url}} title = {{ ra.image.name }} >
           <img src= {{ra.image.url}} width="271" height="170" alt= {{ ra.image.name }} ><br />
-          <span>{{ ra.image.name }}</span></a>
+          <span>{{ ra.name }}</span></a>
         {% endfor %}
         <hr style="visibility: hidden; margin: 0;">
         <div class="hr"></div>
