@@ -52,6 +52,7 @@
 
                         {"name":"Careers", "url":"/careers/"},
                         {"name":"Directions", "url":"/directions/"},
+						{"name":"Property Map", "url":"/pdfs/property-map.pdf"},
                         {"name":"Press", "url":"/press/"},
                         {"name":"Resort Fee", "url":"/resort-fee/"},
                         {"name":"Sitemap", "url":"/sitemap/"},
@@ -151,7 +152,7 @@
                                                       {"name":"Wine Festival","url":"/things-to-do/events/wine-festival/",  "isDropdown":"no"},
                                                       {"name":"Blues Festival","url":"/things-to-do/events/blues-festival/",  "isDropdown":"no"},
                                                       {"name":"Beer Festival","url":"/things-to-do/events/brew-fest/",  "isDropdown":"no"},
-                                                      {"name":"NYE Bash","url":"/things-to-do/events/new-years-eve/",  "isDropdown":"no"}
+                                                      {"name":"Music Fest","url":"/things-to-do/events/music-fest/",  "isDropdown":"no"}
                                                      
                                                       
                                           ]
@@ -193,8 +194,8 @@
 
                         {"class-name":"fa fa-facebook", "url":"http://www.facebook.com/splitrockresortpa/"},
                         {"class-name":"fa fa-twitter", "url":"https://twitter.com/splitrockresort/"},
-                        {"class-name":"fa fa-youtube", "url":"http://www.youtube.com/splitrockresort"},
-                        {"class-name":"fa fa-pinterest", "url":"http://pinterest.com/splitrockresort/"},
+                        {"class-name":"fa fa-instagram", "url":"http://www.Instagram.com/splitrockresort"}
+                        
 
 
                     ],
