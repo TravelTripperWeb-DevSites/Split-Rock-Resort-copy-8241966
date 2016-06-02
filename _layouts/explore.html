@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+    
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+  <!-- Culture section -->
+
+  {% if page.title == "Cultural Activities In The Poconos | Attractions | Split Rock Resort" %}
+
+  
+   
+  {% include culture.html %}
+
+
+  {% endif %}
+
+   <!-- Spring section -->
+
+  {% if page.title == "Spring & Summer Activities In The Poconos | Attractions | Split Rock Resort" %}
+
+  {% include spring.html %}
+
+
+  {% endif %}
+
+  <!-- Fall section -->
+
+  {% if page.title == "Fall & Winter Activities In The Poconos | Attractions | Split Rock Resort" %}
+
+  {% include fall.html %}
+
+
+  {% endif %}
+
+  <!-- Shopping section -->
+
+  {% if page.title == "Shopping In The Poconos | Attractions | Split Rock Resort" %}
+
+  {% include shopping.html %}
+
+
+  {% endif %}
+
+   <!-- Nature section -->
+
+  {% if page.title == "Nature In The Poconos | Attractions | Split Rock Resort" %}
+
+  {% include nature.html %}
+
+
+  {% endif %}
+
+
+
+
+
+    
+
+   
+{% include footer.html %}
+{% include script-all-pages.html %}
+
+
+
+</body>
+</html>

@@ -50,10 +50,9 @@
 
       "footer-links":[
 
-                        {"name":"Carrers", "url":"/careers/"},
-                        {"name":"Groups", "url":"/groups/"},
-                        {"name":"Weddings", "url":"/weddings/"},
+                        {"name":"Careers", "url":"/careers/"},
                         {"name":"Directions", "url":"/directions/"},
+						{"name":"Property Map", "url":"/pdfs/property-map.pdf"},
                         {"name":"Press", "url":"/press/"},
                         {"name":"Resort Fee", "url":"/resort-fee/"},
                         {"name":"Sitemap", "url":"/sitemap/"},
@@ -64,74 +63,130 @@
 
       "top-links":[
 
-                        {"name":"Special Offers", "url":"/special-offers/", "isDropdown":"no"},
                         {"name":"Resort Overview", "url":"/resort-overview/", "isDropdown":"yes",
                                
                                "drop-links":[
-                                                {"name":"Rooms &amp; Suites","url":"/resort-overview/rooms-suites/"},
-                                                {"name":"Amenities","url":"/resort-overview/amenities/"},
-                                                {"name":"Resort Dining","url":"/resort-overview/resort-dining/"},
-                                                {"name":"Meetings","url":"/resort-overview/meetings/"},
-                                                {"name":"Photo Gallery","url":"/resort-overview/Photo Gallery/"}
+                                                {"name":"Rooms &amp; Suites","url":"/resort-overview/rooms-suites/", "isDropdown":"yes",
+
+
+                                                "drop-links": [
+
+                                                                     {"name":"Galleria VIP Suite","url":"/resort-overview/rooms-suites/#gallery-vip-suite",  "isDropdown":"no"},
+                                                                     {"name":"Willowbrook One Bedroom Suite","url":"/resort-overview/rooms-suites/#willow 1",  "isDropdown":"no"},
+                                                                     {"name":"Willowbrook Two Bedroom Suite","url":"/resort-overview/rooms-suites/#willow 2",  "isDropdown":"no"},
+                                                                     {"name":"Galleria Two Bedroom Suite","url":"/resort-overview/rooms-suites/#gallery-2-bedroom",  "isDropdown":"no"},
+                                                                     {"name":"Galleria Slope Side Suite","url":"/resort-overview/rooms-suites/#gallery-slope",  "isDropdown":"no"},
+                                                                     {"name":"Galleria Mini Deluxe","url":"/resort-overview/rooms-suites/#gallery-min-deluxe",  "isDropdown":"no"},
+                                                                     {"name":"Lakeside Lodge","url":"/resort-overview/rooms-suites/#lakeside-lodge",  "isDropdown":"no"},
+                                                                     {"name":"Interior Two Bedroom Suite","url":"/resort-overview/rooms-suites/#interior-2-bedroom",  "isDropdown":"no"},
+                                                                     {"name":"Villas at Westwood","url":"/resort-overview/rooms-suites/#westwood",  "isDropdown":"no"},
+                                                                     {"name":"Cottage Duplex","url":"/resort-overview/rooms-suites/#cottage-duplex",  "isDropdown":"no"}
+                                                                    
+                                                               ]
+
+
+
+
+                                                },
+                                                {"name":"Resort Activities","url":"/resort-overview/resort-activities/", "isDropdown":"no"},
+                                                {"name":"Resort Dining","url":"/resort-overview/resort-dining/", "isDropdown":"no"},
+                                                {"name":"Photo Gallery","url":"/resort-overview/photo-gallery/", "isDropdown":"no"}
+                                                                       
+
                                             ]
 
 
-                        },
-                        {"name":"Events", "url":"/events/", "isDropdown":"yes",
+                                             },
+
+                        {"name":"Specials", "url":"/specials/", "isDropdown":"no"},
+
+                        {"name":"Waterpark","url":"/waterpark/","isDropdown":"yes", "moveright":"true",
+
+                                                       "drop-links": [
+
+                                                                     {"name":"Party Packages","url":"/waterpark/party-packages/","isDropdown":"no"}
+
+                                                                     ]
+
+                                                   },
+
+
+                        {"name":"Golf", "url":"/golf/", "isDropdown":"yes",
+
+
+                                                       "drop-links": [
+
+                                                                     {"name":"A Golfing Experience","url":"/golf#golfexp",  "isDropdown":"no"}
+
+                                                                     ]
+
+
+                                                   },
+                        
+
+                        {"name":"Groups", "url":"/groups/", "isDropdown":"yes",
+
+                                                       "drop-links": [
+
+                                                                    
+
+                                                                     {"name":"Meetings","url":"/groups/meetings/", "isDropdown":"no"}
+
+                                                                     ]
+
+                                                   },
+
+                                                    {"name":"Weddings", "url":"/weddings/", "isDropdown":"no"},
+
+                        
+
+
+                        {"name":"Things To Do", "url":"/things-to-do/events", "isDropdown":"yes",
 
                               "drop-links":[
-                                                      {"name":"Wine &amp; Food Festival","url":"/events/wine-festival/"},
-                                                      {"name":"Blues Festival","url":"/events/blues-festival/"},
-                                                      {"name":"Beer Festival","url":"/events/brew-fest/"},
-                                                      {"name":"Bridal Showcase","url":"/events/bridal-showcase/"}
+
+
+                              {"name":"Events", "url":"/things-to-do/events", "isDropdown":"yes","moveright":"true",
+
+                              "drop-links":[
+                                                      {"name":"Wine Festival","url":"/things-to-do/events/wine-festival/",  "isDropdown":"no"},
+                                                      {"name":"Blues Festival","url":"/things-to-do/events/blues-festival/",  "isDropdown":"no"},
+                                                      {"name":"Beer Festival","url":"/things-to-do/events/brew-fest/",  "isDropdown":"no"},
+                                                      {"name":"Music Fest","url":"/things-to-do/events/music-fest/",  "isDropdown":"no"}
+                                                     
                                                       
                                           ]
 
                         },
+                                                  
+                                                   
+                                                   {"name":"Cultural Activities","url":"/things-to-do/cultural-act/", "isDropdown":"no"},
+                                                   {"name":"Spring &amp; Summer Activities","url":"/things-to-do/spring-summer/",  "isDropdown":"no"},
+                                                   {"name":"Fall &amp; Winter Activities","url":"/things-to-do/fall-winter/",  "isDropdown":"no"},
+                                                   {"name":"Shopping","url":"/things-to-do/shopping/",  "isDropdown":"no"},
+                                                   {"name":"Nature","url":"/things-to-do/nature",  "isDropdown":"yes", "moveright":"true", 
 
 
-                        {"name":"Explore", "url":"/explore/", "isDropdown":"yes",
+                                                   "drop-links": [
 
-                              "drop-links":[
-                                                   {"name":"Cultural Activities","url":"/explore/#cultural"},
-                                                   {"name":"Spring &amp; Summer Activities","url":"/explore/#spring-summer"},
-                                                   {"name":"Fall &amp; Winter Activities","url":"/explore/#fall-winter"},
-                                                   {"name":"Shopping","url":"explore/#shopping"},
-                                                   {"name":"Nature","url":"explore/#nature"}
+                                                                     {"name":"Hiking Trails","url":"https://alltrails.com/explore?q=Lake%20Harmony%20Pa", "isDropdown":"no", "open":"newWindow"},
+
+                                                                     ]
+
+                                                   }
                                                    
                                           ]
 
 
 
-                        },
+                        }
 
 
-                        {"name":"Waterpark", "url":"waterpark/","isDropdown":"yes",
-
-                              "drop-links":[
-                                                   {"name":"Party Packages","url":"/waterpark/party-packages/"}
-                                          ]
-
-
-
-
-                        },
-                        {"name":"Golf", "url":"/golf/", "isDropdown":"no"}
-                       
+   
 
                   ],
 
-      "home-slider":[
-
-
-            {"url":"/events/brew-fest/", "imgArray":["/img/heros/1500x740-Beer-Fest.jpg, (small)","/img/heros/1500x740-Beer-Fest.jpg, (medium)","/img/heros/2000x740-Beer-Fest.jpg, (xlarge)"]},
-            {"url":"/special-offers/", "imgArray":["/img/heros/home-slide-1-mob.jpg, (small)","/img/heros/home-slide-1-default.jpg, (medium)","/img/heros/home-slide-1-large.jpg, (xlarge)"]},
-            {"url":"/golf/", "imgArray":["/img/heros/home-slide-5-mob.jpg, (small)","/img/heros/home-slide-5-default.jpg, (medium)","/img/heros/home-slide-5-large.jpg, (xlarge)"]}
-            
-
-
-        ],
-
+      
         "promo-section": {"img-src":"/img/single-photo-home.jpg", "url":"/resort-overview/rooms-suites/"},
 
       "social-media":[
@@ -139,8 +194,8 @@
 
                         {"class-name":"fa fa-facebook", "url":"http://www.facebook.com/splitrockresortpa/"},
                         {"class-name":"fa fa-twitter", "url":"https://twitter.com/splitrockresort/"},
-                        {"class-name":"fa fa-youtube", "url":"http://www.youtube.com/splitrockresort"},
-                        {"class-name":"fa fa-pinterest", "url":"http://pinterest.com/splitrockresort/"},
+                        {"class-name":"fa fa-instagram", "url":"http://www.Instagram.com/splitrockresort"}
+                        
 
 
                     ],
@@ -162,7 +217,7 @@
       "copy-rights":[
 
                         "Copyright &copy; 2012-2016 Split Rock Resort",
-                        "All rights reserved"
+                        "All rights reserved."
 
                     ]
 

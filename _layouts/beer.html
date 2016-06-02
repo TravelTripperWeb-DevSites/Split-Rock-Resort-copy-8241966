@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption left">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+    <div class="two-column-text">
+      <div class="row  detail">
+        <div class="content" style="padding-top:20px; ">
+          <h2  style="padding-bottom: 20px;">The Annual Great Brews Beer Festival </h2>
+          
+          
+          
+          <p><strong>will return November 19-20, 2016 with even MORE delicious beer!</strong></p>
+          <p><strong>Two days. Twice the fun!</strong></p>
+          <div class="col1 left" style="padding-bottom:30px;">
+            <p>This is the beer event of the season! The <strong>26th Annual Great Brews Beer Festival</strong>  is going to top the charts of beer festivals! From bold fall flavors and crisp hard ciders to your favorite stouts and ales, we have a beer style for everyone! With live music, tasty food and of course BEER this festival is the place to be!</p>
+            <p>Join us Saturday and Sunday, for the tasting event of the season! We have all of life's essentials covered... Food. Music. Giveaways. BEER. With live bands playing both days of the festival from start to finish. A one of a kind experience for beer aficionados and novices a like! Room packages are available, so make it a weekend getaway full of drinking great brews, delicious food and enjoying the beauty of fall!</p>
+            <p>Plus… Sour Sunday is making a comeback too! Select Breweries will have Sour Brew features, these one of a kind flavors are something you just have to try!! Don’t miss this great event!</p>
+            <p><strong>Even MORE details are to be announced!</strong></p>
+            
+            
+          </div>
+          <div class="col2 right"> <img src="/img/heros/SR-Banners-Beerfest26-650x600px-12-2015.jpg" alt="" >
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  {% include sign-up.html %}
+
+    
+
+   
+    {% include footer.html %}
+    {% include script-all-pages.html %}
+
+
+
+</body>
+</html>

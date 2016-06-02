@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+  <section>
+
+<div id="hero-section" class="page full">
+    <div class="caption-wrapper">
+        <div class="caption left">
+            
+            
+        </div>
+    </div>
+</div>
+</section>
+
+  <div id="toggleheader"></div>
+
+  <section>
+    <div class="entry">
+      <div class="row">
+        <div class="intro-text">
+          <h1>Special Offers at Split Rock Resort</h1>
+          <p><!--<a name="15"></a>--> 
+            Experience the many things that make <strong>Split Rock Resort &amp; Golf Club</strong> one of the <strong>premier four-season resorts in the Poconos</strong>. We offer a variety of <strong>discounted rates, seasonal promotions, and packages</strong>. Whether you’re planning a <strong>weekend getaway</strong> with friends, a <strong>romantic retreat</strong>, or a <strong>family vacation</strong>, you’re sure to find the right deal right here.</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% for items in site.data._site_info.special-offers.specials %}
+
+  {% if items.id ==1 %}
+
+  <section>
+ <a name="{{items.tag-name}}"></a>
+<div class="two-column-text special-offers">
+  <div class="row extra-padding">
+
+        <h3>{{items.heading}}</h3>
+
+        {% if items.category !="none" %}
+
+        <div class="category">{{items.category}}</div>
+
+        {% endif %}
+
+          <div class="col1 left">
+              
+              {{items.img-data}}
+          </div>
+        
+                      <div class="col2 right">
+
+                         {{items.content}}
+                        
+                    </div>
+        <div class="hr-2" ></div>
+    </div>
+</div>
+</section>
+
+  {% else %}
+ 
+<section>
+ <a name="{{items.tag-name}}"></a>
+<div class="two-column-text special-offers">
+  <div class="row extra-padding">
+
+        <h3>{{items.heading}}</h3>
+
+        {% if items.category !="none" %}
+
+        <div class="category">Water Park Package</div>
+
+        {% endif %}
+
+          <div class="col1 left">
+              
+              {{items.img-data}}
+          </div>
+        
+                      <div class="col2 right">
+
+                         {{items.content}}
+                        
+                    </div>
+        <div class="hr-2" ></div>
+
+
+
+        {% if items.pos !="none" %}
+
+        <div class="specials-separator"> </div>
+
+        {% endif  %}
+
+       
+    </div>
+</div>
+</section>
+
+{% endif %}
+
+
+
+
+{% endfor %}
+
+
+
+
+
+  {% include sign-up.html %}
+
+    
+
+   
+    {% include footer.html %}
+
+    {% include script-all-pages.html %}
+
+
+
+</body>
+</html>

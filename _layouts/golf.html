@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption right">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+<div class="text-with-gallery">
+    <div class="row">
+        <div class="content">
+          <a name="golfexp"></a>
+          <h2>A Golfing Experience</h2>
+
+
+            <div class="text left">
+            
+<p>Golfing in the Poconos just got even better. Discover your best game at the <strong>Split Rock Golf Club</strong>, our <strong>27-hole</strong> championship golf course nestled in the <strong>Pocono Mountains</strong>. The course’s unique design and <strong>natural terrain</strong> makes it challenging for all levels of play. With some of the most spectacular views in the entire Northeast, our course boasts <strong>undulating fairways</strong> and <strong>demanding water hazards</strong>. </p>
+
+<p>Our fully trained professionals are always on staff to offer knowledgeable information on everything from your club choice to the latest trends in <strong>golfing apparel</strong>. Our teaching pros are also available to provide valuable advice and host a number of <strong>lessons and clinics</strong> for all abilities. </p> 
+
+<p>For more information visit: <a href="http://www.golfsplitrock.com/" target="_blank" rel="nofollow">http://www.golfsplitrock.com</a></p>
+
+          </div>
+            <div class="gallery right">
+            <div class="gallerygroup">
+              <a href="/img/800x600-Golf-Approach.jpg" title="Split Rock Resort Golf Approach"><img src="/img/435x275-Golf-Approach.jpg" width="215" height="137" alt="Split Rock Resort Golf Approach"></a>
+                <a href="/img/800x600-Golf-Clubhouse.jpg" title="Split Rock Resort Golf Clubhouse"><img src="/img/435x275-Golf-Clubhouse.jpg" width="215" height="137" alt="Split Rock Resort Golf Clubhouse"></a>
+                <a href="/img/800x600-Golf-Pond.jpg" title="Split Rock Resort Golf Pond"><img src="/img/435x275-Golf-Pond.jpg" width="215" height="137" alt="Split Rock Resort Golf Pond"></a>
+                <a href="/img/800x600-Golf-Tee.jpg" title="Split Rock Resort Golf Tee"><img src="/img/435x275-Golf-Tee.jpg" width="215" height="137" alt="Split Rock Resort Golf Tee"></a> 
+                </div><div class="clearfix"></div>
+<br class="clearfix"><p align="center"><a href="http://www.golfsplitrock.com/pocono-mountains-golf-course/book-a-tee-time" rel="nofollow" target="_blank" class="bttn filled">Book Tee Times</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+<div class="text-with-gallery detail">
+    <div class="row detail">
+        <div class="hr-content-width" style="margin: -25px 20px 25px 20px;"></div>
+  </div>
+</div>
+</section>
+
+
+<section>
+<div class="two-column-text">
+    <div class="row">
+        <div class="col1 left"><br/>
+          <a href="http://www.golfsplitrock.com/pocono-mountains-golf-course/proshop" rel="nofollow" target="_blank"><img data-interchange="[/img/636x343-Golf-Pro-Shop.jpg, (default)], [/img/636x343-Golf-Pro-Shop.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Golf-Pro-Shop.jpg" alt="Golf Pro Shop"></a>
+          <h3>Shop the Gear</h3>
+            
+              <p>
+                The <a href="http://www.golfsplitrock.com/pocono-mountains-golf-course/proshop" rel="nofollow" target="_blank">Pro Shop at Split Rock Golf Club</a> sports many of the top brands in golf apparel, shoes and accessories for men, women and children. We presently stock Oakley, Nike, Foot Joy Shoes, Ahead, Sun Mt., Slazenger and Antigua, as well as a wide variety of logoed items.
+For more information about Split Rock Golf Club, visit our full website: <a href="http://www.golfsplitrock.com" target="_blank" rel="nofollow">http://www.golfsplitrock.com</a>
+</p>
+</div>
+        <div class="col2 right"><br/>
+          <a href="http://www.golfsplitrock.com/pocono-mountains-golf-course/proshop/online-store/memberships" target="_blank"><img data-interchange="[/img/636x343-Golf-Golf-Package.jpg, (default)], [/img/636x343-Golf-Golf-Package.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Golf-Golf-Package.jpg" alt="Golf Package"></a>
+
+              <h3>Membership &amp; Packages</h3>
+              <p>
+                A variety of membership options are available to <a href="http://www.golfsplitrock.com/pocono-mountains-golf-course/proshop/online-store/memberships" target="_blank">Split Rock Golf Club</a> for individuals, couples, families and corporations. The Club is devoted to the satisfaction of our members and offers many perks in addition to golf play including driving range balls, lockers, 10% off at Sunset Green Restaurant, 10% off Pro Shop Merchandise (not including sale items), and advance tee times.
+       
+          </div>
+             <div class="clearfix"></div>
+                
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+  {% include sign-up.html %}
+
+    
+
+   
+    {% include footer.html %}
+
+    {% include script-all-pages.html %}
+
+
+
+</body>
+</html>

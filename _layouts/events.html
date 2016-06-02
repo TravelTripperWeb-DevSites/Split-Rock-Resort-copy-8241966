@@ -1,0 +1,550 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include ga.html %}
+    {% include mobile.html %}
+    {% include header.html %}
+  {% include booking-widget-all-pages.html %}
+
+
+    {% for items in site.data.banners.slider %}
+
+        {% if page.title == items.title %}
+
+              <section>
+
+            <div id="hero-section" class="page full">
+
+              <div class="caption-wrapper">
+
+                    <div class="caption right">
+
+                      <h1>{{items.heading}}</h1>
+
+                        <h4>{{items.sub-heading}}</h4>
+
+                    </div>
+
+                </div>
+
+              <div class="single-image-hero">
+
+                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
+
+                </div>
+
+            </div>
+
+            </section>
+
+        {% endif %}
+
+      {% endfor %}
+
+  <div id="toggleheader"></div>
+
+
+
+<section>
+
+    <div class="entry">
+
+      <div class="row ">
+
+        <div class="intro-text">
+
+          <h2>Upcoming Events and Entertainment</h2>
+
+          <p>From <strong>live music</strong> to Pennsylvania’s most popular <strong>wine and food festival</strong>, Split Rock Resort continues to host some of the <strong>most anticipated events in the Poconos</strong>. Our signature events, <!--the <strong>Great Brews Classic Beer Festival</strong> and--> including the <strong>Great Tastes of Pennsylvania Wine & Food Festival</strong>, are held annually on the shores of <strong>Lake Harmony</strong>. Book your stay with us, and you will have <strong>convenient access</strong> to all of our fun events.</p>
+
+          <p>Don't forget to check out the weekly <a href="/pdfs/Split-Rock-Resort-Activity-Schedule.pdf" target="_blank" onClick="ga('send', 'event', 'pdflink', 'click', 'Split-Rock-Resort-Activity-Schedule');"><strong>Activity Schedule</strong></a> or pick up a copy in the lobby. From <strong>board games</strong> and <strong>bingo</strong> to <strong>dodgeball</strong> and <strong>turtle racing</strong>, there's always something fun going on at Split Rock Resort.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+      <!-- <div class="col1 left"> 
+
+         
+<br/>
+
+          <a href="http://carboncountyexpo.com/"><img data-interchange="[/img/636x343-carbon-county.jpg, (default)], [/img/636x343-carbon-county.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-carbon-county.jpg" alt="Carbon County Home Builders Expo"></a>
+
+          <h3>Carbon County Home Builders Expo</h3>
+
+          <p>Every Spring, the annual Carbon County Home Business and Outdoors Expo brings thousands of consumers together over the course of two days to visit over 150 exhibitors. Attend Carbon County’s original home, business and outdoor event featuring local professionals and surefire results for your home and landscaping needs, business connections and outdoor recreational activities. Discover new products and services, find solutions, exciting activities, and save time and money…by seeing everything you could possibly want or need for your home, business and leisure time under one roof.</p>
+          
+          <p>Admission: $3 for Adults, Seniors $2, Kids & Students Free.</p>
+
+          <p>Save The Date: April 23 - 24, 2016</p>
+
+          <p><a href="http://carboncountyexpo.com/" target="_blank" class="bttn filled">View More Info</a></p>
+          
+
+          
+        </div> -->
+
+
+
+        <!--   <div class="col1 right"> 
+
+         
+<br/>
+
+          <a href="http://www.escapetothepoconos.com/"><img data-interchange="[/img/636x343-smiling-david.jpg, (default)], [/img/636x343-smiling-david.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-smiling-david.jpg" alt="Smiling David's Dance School"></a>
+
+          <h3>Smiling David's Dance School</h3>
+
+          <p><strong>Brings the Best of Latin Dance to the Poconos come with us and Escape to the Poconos</strong></p>
+          
+          <p>See Salsa, Bachata and other Latin dance performed by some of the Best Dancers in the Northeast. Learn Latin dances or improve your technique at one of the many workshops</p>
+          
+          <p>Dance with the performers at the nightly Socials. Then relax at a picnic with the premiere dance instructors in the Region. Take full advantage of all the attractions offered at Split Rock</p>
+          
+          <p>Make Your Reservations Now!!!! <br>
+"Come and Escape With Us."</p>
+
+          <p>Save The Date: April 22 - 24, 2016</p>
+
+          <p><a href="http://www.escapetothepoconos.com/" target="_blank" class="bttn filled">View More Info</a></p>
+          
+
+          
+        </div> -->
+
+        
+
+
+         
+
+
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+  
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+
+        <div class="col1 left"> 
+
+           <br/>
+
+          <img data-interchange="[/img/636x343-fourth-july.jpg, (default)], [/img/636x343-fourth-july.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-fourth-july.jpg" alt="July fourth - Independance Day">
+
+          <h3>Forth of July Fireworks</h3>
+
+          <p><strong>Celebrate Independence Day</strong> with fireworks over gorgeous Lake Harmony. Donations will be accepted upon entering, and all procedes will go to the Lake Harmony Fire Department and Rescue Squad.</p>
+
+          <p>Save The Date: July 3, 2016</p>
+
+          
+    </div>
+       
+
+
+       <div class="col1 right"> 
+
+           <br/>
+
+          <a href="wine-festival/index.html"><img data-interchange="[/img/636x343-Events-Wine.jpg, (default)], [/img/636x343-Events-Wine.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Events-Wine.jpg" alt="Great Tastes of Pennsylvania Wine Festival"></a>
+
+          <h3>Annual Great Tastes of  Pennsylvania Wine Festival</h3>
+
+          <p><strong>The Great Tastes of Pennsylvania Wine &amp; Food Festival</strong> is held annually on resort grounds in June. This two-day, outdoor festival features <strong>musical entertainment</strong>, many of Pennsylvania's <strong>finest wineries</strong>, and a wide selection of <strong>food and craft vendors</strong>. Educational seminars are held during festival hours. Don’t miss all the fantastic new things happening each year as we celebrate some of the best things in life! </p>
+
+          <p>Save The Date: June 25th &amp; 26th, 2016</p>
+
+          <p><a href="wine-festival/index.html" class="bttn filled">View More Info</a></p>
+
+          
+        </div> 
+
+        
+
+
+         
+
+
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+  
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+
+        <div class="col1 left"> 
+
+          
+<br/>
+
+          <img data-interchange="[/img/636x343-Events-Raceway.jpg, (default)], [/img/636x343-Events-Raceway.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Events-Raceway.jpg" alt="Pocono Raceway Series"></a>
+
+          <h3>Pocono Raceway Series</h3>
+
+          <p>The energy of racing season is upon us. With <strong>Pocono Raceway</strong> just a <strong>15 minute drive</strong> from Split Rock, our resort serves as the perfect base to enjoy a <strong>weekend of racing excitement</strong>. There's nothing more electrifying than experiencing the speed and power of these high performance machines in person. </p>
+
+          <p> Pennsylvania 400 (NASCAR):&nbsp;July 29 - 31, 2016<br>
+
+            ABC Supply 500 (INDYCAR):&nbsp;August 20 - 21, 2016<br>
+
+          </p>
+
+          <p><a href="https://splitrockresort.reztrip.com/" class="bttn filled">Book Your Stay</a></p>
+          
+
+        </div>
+
+   
+
+
+       <div class="col1 right"> 
+
+           
+<br/>
+
+          <a href="http://www.saikoucon.com/guest-registration.html"><img data-interchange="[/img/636x343-saikoucon.jpg, (default)], [/img/636x343-saikoucon.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-saikoucon.jpg" alt="SaikouCon"></a>
+
+          <h3>SaikouCon</h3>
+
+
+          <p>SaikouCon, which means "best convention", is the large scale, annual anime convention of the Pocono Mountains. The convention will always feature some of the best live entertainment themed to Japanese culture as well as the best in J-Rock and J-Pop musical acts from all over the US and beyond. All of this plus top creators, writers, artists, distributors, industry insiders, English dub and original Japanese voice talent, some of the best cosplay talent, shows, masquerades; and so much more!</p>
+          
+          <p>"If you love anime, you'll love SaikouCon, and SaikouCon will love you."</p>
+
+          <p>Save The Date:  August 26 - 28, 2016</p>
+
+         <p><a href="http://www.saikoucon.com/guest-registration.html" class="bttn filled">Buy Tickets</a></p>
+         
+
+        </div>
+
+         
+
+
+         
+
+
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  
+
+
+
+  
+
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+
+
+        <div class="col1 left"> 
+
+         
+<br/>
+
+          <a href="blues-festival/index.html"><img data-interchange="[/img/636x343-Events-Blues.jpg, (default)], [/img/636x343-Events-Blues.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Events-Blues.jpg" alt="Pennsylvania Blues Festival"></a>
+
+          <h3>The Pennsylvania Blues Festival</h3>
+
+          <p><strong>The Pennsylvania  Blues Festival</strong> is an <strong>award-winning festival</strong> celebrating over 20 outstanding years of  the Blues in the Poconos. Join us for two days of performances from <strong>international and national artists</strong>.<!--, featuring headliner <strong>Shemekia Copeland,  "Queen of the Blues."</strong>--> Musicians perform on two stages on the grounds of  Split Rock Resort with evening concerts held inside the spacious Galleria Conference Center, within walking distance of the festival.</p>
+
+          <p>Save The Date: September 16 – 18, 2016</p>
+
+          <p><a href="blues-festival/index.html" class="bttn filled">View More Info</a></p>
+          
+
+          
+        </div>
+
+       
+
+
+
+        <div class="col1 right"> 
+
+           
+<br/>
+
+          <a href="brew-fest/index.html"><img data-interchange="[/img/636x343-Beerfest.jpg, (default)], [/img/636x343-Beerfest.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-Beerfest.jpg" alt="Great Tastes of Pennsylvania Wine Festival"></a>
+
+          <h3>26th Annual Great Brews Beer Festival</h3>
+
+          <p><strong>Two days. Twice the fun!</strong></p>
+
+          <p>This is the beer event of the season! The 26th Annual Great Brews Beer Festival is going to top the charts of beer festivals! From bold fall flavors and crisp hard ciders to your favorite stouts and ales, we have a beer style for everyone! With live music, tasty food and of course BEER this festival is the place to be!</p>
+
+          <p>Save The Date:  November 19-20, 2016</p>
+
+          <p><a href="brew-fest/index.html" class="bttn filled">View More Info</a></p>
+         
+
+        </div>
+
+        
+
+
+         
+
+
+
+        <div class="clearfix"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+<section>
+
+    <div class="two-column-text">
+
+      <div class="row">
+<div class="col1 left"> 
+
+           <br/>
+
+          <a href="/things-to-do/events/music-fest"><img data-interchange="[/img/636x343-music-fest.jpg, (default)], [/img/636x343-music-fest.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-music-fest.jpg" alt="Music Fest"></a>
+
+          <h3>Pennsylvania Music Festival</h3>
+
+
+          <p>This year Split Rock Resort is hosting its very first Music Fest. This festival is an event music lovers of all genres will love with a variety of blues, rock, roots, country, and folk bands.</p>
+      
+            <p>Save The Date: October 29 & 30, 2016</p>
+            
+            <p><a href="/things-to-do/events/music-fest" class="bttn filled">View More Info</a></p>
+            
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+
+
+  
+
+  <!--<section>
+
+<div class="text-with-gallery detail">
+
+    <div class="row detail">
+
+        <div class="hr-content-width" style="margin: -25px 20px 25px 20px;"></div>
+
+  </div>
+
+</div>
+
+</section>-->
+
+  
+
+   
+
+  <!--<section>
+
+<div class="text-with-gallery detail">
+
+    <div class="row detail">
+
+        <div class="hr-content-width" style="margin: -25px 20px 25px 20px;"></div>
+
+  </div>
+
+</div>
+
+</section>-->
+
+  
+  <section>
+
+    <div class="text-with-gallery detail">
+
+      <div class="row detail">
+
+        <div class="hr-content-width" style="margin: -25px 20px 0px 20px;"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="two-column-text">
+
+      <div class="row ">
+
+        <h2>
+
+        On-Site Musical Entertainment Schedule
+
+        </h2>
+
+         <div class="col1 left">
+
+          <h4>Rock Bar</h4>
+
+          
+
+<p>
+ 6/3 - John Graham Magic<br>
+6/4 - Andrew Schaffer<br>
+6/5 - The Frost<br>
+6/10 - Johnny D<br>
+6/11 - DJ Dance Party<br>
+6/12 - The Frost<br>
+6/17 - John Graham Magic<br>
+6/18 - DJ Dance Party<br>
+6/19 - The Frost<br>
+6/24 - John Graham Magic<br>
+6/25 - DJ Dance Party<br>
+6/26 - The Frost
+
+ 
+
+          </p>
+
+          <h4>Thirsty Moose </h4>
+
+          
+
+                <p>
+
+               6/3 - DJ Slm Jmm & Wisecrackers Comedy<br>
+                6/4 - Thirsty Moose Chatter<br>
+                6/10 - DJ Slm Jmm & Wisecrackers Comedy<br>
+                6/11 - Group Du Jour<br>
+                6/17 - DJ Slm Jmm & Wisecrackers Comedy<br>
+                6/18 - Harland Tucker Band<br>
+                6/24 - DJ & Wisecrackers Comedy<br>
+                6/25 - Long Time Coming
+
+</p>
+
+          
+          
+
+        </div>
+
+        <div class="col2 right"> 
+
+          <!--  <h4>Lake View Tavern <br><span style="font-weight:normal;">(Exclusive Dinner 6pm-11pm)</span></h4>
+
+                    <p>
+
+          07/03 - Harry Western
+
+                     <br><br>
+
+
+
+                </p> -->
+
+          
+
+       
+<h4>Sand Bar</h4>
+
+          
+
+                <p>
+
+            6/1 - Krazy Ken<br>
+6/3 - High Strung Trio<br>
+6/4 - Jackson V<br>
+6/5 - 2 Guyz<br>
+6/8 - Over Duet<br>
+6/10 - The Frost<br>
+6/11 - Christopher Dean<br>
+6/12 - The Wannabes Band<br>
+6/15 - Krazy Ken<br>
+6/17 - Hoopla Trio<br>
+6/18 - Nick Moccia<br>
+6/19 - Dynamic Duo<br>
+6/22 - Over Duet<br>
+6/25 - Pair of Nuts<br>
+6/26 - Pair of Nuts<br>
+6/29 - Krazy Ken
+
+
+
+</p>   
+
+          
+
+        </div>
+
+       
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+ 
+
+    
+
+   
+    {% include footer.html %}
+    {% include script-all-pages.html %}
+
+
+
+</body>
+</html>

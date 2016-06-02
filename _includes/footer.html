@@ -8,14 +8,24 @@
 
                 {% for items in obj.footer-links %}
 
+
+                {% if items.name == "Owners" %}
+
+                 <li><a href="{{items.url}}" target="_blank">{{items.name}}</a></li>
+
+                 {% else %}
+
                 <li><a href="{{items.url}}">{{items.name}}</a></li>
+
+                {% endif %}
                     
                 {% endfor %}
     
      
       </ul>
     <div class="contact right">
-        <ul class="social-media right">
+
+         <ul class="social-media right">
 
 
                 {% for items in obj.social-media %}
@@ -25,6 +35,7 @@
                 {% endfor %}
                     
         </ul>
+      
         <ul class="contact-options right">
 
                 

@@ -1,0 +1,42 @@
+{
+	"explore":
+			
+			[
+
+				{
+					"id":1,
+					"main-header": "SHOPPING",
+					"heading":"The Crossings Premium Outlets",
+					"tag":"Shoppinig gat the Crossings Premium Outlet",
+					"img-data":"/img/435x275-Explore-Waikele.jpg",
+					"content":"<p>With <strong>100 outlet stores</strong>, there’s something for everyone at The Crossings. You’ll find <strong>name brands at a bargain</strong>. Store likes <strong>Banana Republic</strong>, <strong>J. Crew</strong>, Kate Spade New York, Lucky Brand, <strong>The North Face</strong>, and <strong>Polo Ralph Lauren</strong>. Open everyday. Hours vary by season. </p>",
+					"has-info": "yes",
+					"phone" : "(570) 629-4650",
+					"time": "Daily: 10am-9pm ",
+					"address": "1000 Premium Outlets Drive, <br/>Tannersville, PA",
+					"price": "none"
+
+
+				},
+
+				{
+					"id":2,
+					"main-header": "none",
+					"heading":"Downtown Jim Thorpe",
+					"tag":"Shoppint at Downtown Jim Thorpe",
+					"img-data":"/img/435x275-Explore-Jim-Thorpe.jpg",
+					"content":" <p>Explore this <strong>historic Victorian town</strong>’s many <strong>shops</strong>, <strong>museums</strong>, and <strong>outdoor adventures</strong>. <strong>Jim Thorpe </strong>was home to the <strong>first railroad in the United States</strong>, and now is a premier destination for <strong>river adventures</strong>, <strong>mountain biking</strong>, the <strong>Old Jail Tour</strong>, and the <strong>Lehigh Gorge Scenic Railway</strong>, just to name a few!</p>",
+					"has-info": "yes",
+					"phone" : "none",
+					"time": "none",
+					"address": "Jim Thorpe, PA 18229",
+					"price": "none"
+					
+
+
+				}
+
+				
+
+			]
+}

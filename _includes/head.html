@@ -1,7 +1,7 @@
 <!-- Global -->
 {% assign name = obj %}
 {% assign obj = site.data.main %}
-{% assign mod = site.data._models.home-models %}
+{% assign mod = site.data._site_info.home-models %}
 
 {% assign name = counter %}
 {% assign counter = 0 %}
@@ -17,7 +17,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <script src="/js/resortsandlodges-head.js" type="text/javascript"></script>
+<script type="text/javascript">
+  (function() {
+    if(location.host.indexOf('rztrkr')===-1){
+        var rz = document.createElement('script'); rz.type = 'text/javascript'; rz.async = true;
+        rz.src = ('https:' == document.location.protocol ? 'https://www' : 'http://www') + '.rztrkr.com/track/return-tracking/';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(rz, s);
+    }})();
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-66072002-1', 'auto',{'allowLinker': true });
+
+ga('require', 'linker');
+
+ga('linker:autoLink', ['splitrockresort.reztrip.com','splitrockresort.reztripmobile.com']);
+
+ga('send', 'pageview');
+</script>
+
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
  <meta name="google-site-verification" content="2OygmiOnE3gOaSLtmx3c41jHLZTR4e3qYyI0vobPc40" />
  <link rel="canonical" href="index.html" />
@@ -30,6 +50,49 @@
 {% for items in obj.css %}
 <link rel="stylesheet" href="{{items}}" type="text/css">
 {% endfor %}
+
+{% if page.title == "Poconos Wedding Packages | Weddings | Split Rock Resort" %}
+
+<link rel="stylesheet" href="/css/mobile-booking.css" type="text/css">
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+<link href="/css/owl.transitions.css" rel="stylesheet">
+<style>
+	.wedding-reviews {
+	width: 90%;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+}
+.heading {
+	font-size: 32px;
+	text-align:center;
+}
+
+</style>
+
+{% endif %} 
+
+{% if page.title == "Poconos Mountains Resort | Directions | Split Rock Resort" %}
+
+<style type="css">.gmapcontainer  {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.gmapcontainer iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+</style>
+
+{% endif %} 
 
 <!--[if IE 9]>
 <style type="text/css">@media only screen and (min-width: 64.063em) { 
@@ -79,4 +142,31 @@
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-66072002-1', 'auto');ga('send', 'pageview');
 </script>
+
+{% if page.title == "Resorts In Poconos PA | Rooms & Suites | Split Rock Resort" %}
+
+<style type="text/css">.content h1, .two-column-text h2 { font-size:2em; }
+</style>
+
+{% endif %}
+
+{% if page.title == "Events In The Poconos | Upcoming Events | Split Rock Resort" %}
+
+<style type="text/css">
+
+.two-column-text .row .col1 h4, .two-column-text .row .col2 h4 {
+
+	border-bottom: 8px solid #7e716b;
+
+	margin-bottom: 20px;
+
+	margin-top: 15px;
+
+	padding-bottom: 15px;
+
+}
+
+</style> 
+
+{% endif %}
 </head>

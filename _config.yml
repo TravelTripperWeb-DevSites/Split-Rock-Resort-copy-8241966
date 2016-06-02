@@ -10,3 +10,14 @@ permalink: pretty
 # Build settings
 markdown: kramdown
 port: 8080
+
+default_lang: 'en'
+languages: ['en']
+
+exclude:
+  - 'sitemap.json'
+  - 'assets'
+  
+keep_files: ['assets']
+rsync_copy: ['_assets']
+  

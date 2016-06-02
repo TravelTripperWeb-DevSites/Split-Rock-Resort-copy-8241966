@@ -3,6 +3,8 @@
 ---
 /* -------------------------------- 
 
+/* -------------------------------- 
+
 Primary style
 
 -------------------------------- */
@@ -515,12 +517,29 @@ header.is-fixed {
    text-decoration:none !important;
 }
 
+#movie-pic
+{
+  display:inline-block;
+  float:left;
+  margin-top:35px;
+
+}
+
 
 
 
 @media only screen and (max-width: 355px) {
 #header-wrapper .logo, #cd-logo .logo { width: 130px !important; }  
 #cd-top-nav li.icon.phone, .more_hotel_options_2 .options_wrapper .flexDates { display: none; }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+#movie-pic
+{
+  display: none;
+}
 }
 
 
@@ -543,3 +562,37 @@ header.is-fixed {
 
 
 }
+
+.winespons
+{
+  
+  width:100%;
+  padding-top:30px;
+  text-align:center;
+  padding-bottom:30px;
+
+  .textflow
+  {
+    padding-bottom:20px;
+    
+  }
+
+    ul
+    {
+      margin:0;
+      padding:0;
+    }
+
+     li
+    {
+      list-style-type:none;
+      display:inline-block;
+      width:33%;
+    }
+
+    img
+    {
+      width:50%;
+    }
+}
+

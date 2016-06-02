@@ -75,6 +75,10 @@ $(document).ready(function () {
 		var checkout =root.find("input[name='depart']"); 
 		var checkin = root.find("input[name='arrive']"); 
 		$(form).submit(function(){
+
+            console.log("checking form");
+             
+
 			var disableAvailRates = false;
 			var checkoutValue = checkout.val().toUpperCase();
 			var checkinValue = checkin.val().toUpperCase();
@@ -91,6 +95,9 @@ $(document).ready(function () {
 				
 					form.find("input[name='start']").attr("disabled", 'disabled');
 				}
+
+               
+                 
 		})
 	});
     $(".flexDates input[type=checkbox],.optionalCodes input[type=checkbox]").change(function () {
@@ -133,12 +140,39 @@ $(document).ready(function () {
 
 
 
+function populateDefaultValues() {
+    var today = new Date();
+    var month = today.getMonth(),
+        year = today.getFullYear();
+    if (month < 0) {
+        month = 11;
+        year -= 1;
+    }
+    var oneMonthAgo = new Date(year, month, today.getDate()+1);
+    $('#datein').val($.datepicker.formatDate('yy-mm-dd', today));
+    $('#dateout').val($.datepicker.formatDate('yy-mm-dd', oneMonthAgo));
+    $('#datein-page').val($.datepicker.formatDate('yy-mm-dd', today));
+    $('#dateout-page').val($.datepicker.formatDate('yy-mm-dd', oneMonthAgo));
+     $('#datein-home').val($.datepicker.formatDate('yy-mm-dd', today));
+    $('#dateout-home').val($.datepicker.formatDate('yy-mm-dd', oneMonthAgo));
+
+   
+}
+
+$(function() {
+    
+populateDefaultValues();
+    
+});
+
 
  $(window).load(function(){
     $(document).ready(function () {
+
     
+                 
         $("#datein-home").datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             minDate: 0,
             onSelect: function (date) {
                 var date2 = $('#datein-home').datepicker('getDate');
@@ -149,7 +183,7 @@ $(document).ready(function () {
             }
         });
         $('#dateout-home').datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             onClose: function () {
                 var dt1 = $('#datein-home').datepicker('getDate');
                 console.log(dt1);
@@ -164,7 +198,7 @@ $(document).ready(function () {
 		
 		
 		 $("#datein-page").datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             minDate: 0,
             onSelect: function (date) {
                 var date2 = $('#datein-page').datepicker('getDate');
@@ -175,7 +209,7 @@ $(document).ready(function () {
             }
         });
         $('#dateout-page').datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             onClose: function () {
                 var dt1 = $('#datein-page').datepicker('getDate');
                 console.log(dt1);
@@ -189,7 +223,7 @@ $(document).ready(function () {
 		
 		
 		 $("#datein").datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             minDate: 0,
             onSelect: function (date) {
                 var date2 = $('#datein').datepicker('getDate');
@@ -200,7 +234,7 @@ $(document).ready(function () {
             }
         });
         $('#dateout').datepicker({
-            dateFormat: "dd-M-yy",
+            dateFormat: "yy-mm-dd",
             onClose: function () {
                 var dt1 = $('#datein').datepicker('getDate');
                 console.log(dt1);

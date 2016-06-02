@@ -1,0 +1,336 @@
+{
+	"slider":
+			
+			[
+
+				{
+					"id":1,
+					"title":"Ski and Stay Package | Offers | Split Rock Resort",
+					"heading": "Ski and Stay Package",
+					"sub-heading":"At Jack Frost Mountain",
+					"tool-tip":"Sky and Stay",
+					"src-small":"/img/heros/650x600-ski-stay.jpg",
+					"src-medium":"/img/heros/1500x600-ski-stay.jpg",
+					"src-large":"/img/heros/2000x600-ski-stay.jpg",
+					"src-main":"/img/heros/1500x600-ski-stay.jpg"
+				},
+
+				{
+					"id":2,
+					"title":"TEEN NIGHT – EVERY FRIDAY FROM 5-8P",
+					"heading": "TEEN NIGHT",
+					"sub-heading":"At Split Rock Resort",
+					"tool-tip":"TEEN NIGHT",
+					"src-small":"/img/heros/TeenNight-650x600.jpg",
+					"src-medium":"/img/heros/TeenNight-1500x600.jpg",
+					"src-large":"/img/heros/TeenNight-2000x600.jpg",
+					"src-main":"/img/heros/TeenNight-1500x600.jpg"
+				},
+
+				{
+					"id":3,
+					"title":"Family Resorts in Pennsylvania | Split Rock Resort",
+					"heading": "Split Rock Resort",
+					"sub-heading":"A Four-Season Destination",
+					"tool-tip":"Split Rock Resort",
+					"src-small":"/img/heros/650x600-property-overview.jpg",
+					"src-medium":"/img/heros/1500x600-property-overview.jpg",
+					"src-large":"/img/heros/2000x600-property-overview.jpg",
+					"src-main":"/img/heros/1500x600-property-overview.jpg"
+				},
+
+				{
+					"id":4,
+					"title":"Resorts In Poconos PA | Rooms & Suites | Split Rock Resort",
+					"heading": "The Rooms",
+					"sub-heading":"Make your selection",
+					"tool-tip":"Split Rock Resort",
+					"src-small":"/img/heros/650x600-rooms-and-suites.jpg",
+					"src-medium":"/img/heros/1500x600-rooms-and-suites.jpg",
+					"src-large":"/img/heros/2000x600-rooms-and-suites.jpg",
+					"src-main":"/img/heros/1500x600-rooms-and-suites.jpg"
+				},
+
+				{
+					"id":5,
+					"title":"Lake Harmony Hotels | Amenities | Split Rock Resort",
+					"heading": "Resort Amenities",
+					"sub-heading":"For all ages, interests and weather",
+					"tool-tip":"Indoor Pool",
+					"src-small":"/img/heros/650x600-Amenities.jpg.jpg",
+					"src-medium":"/img/heros/1500x600-Amenities.jpg",
+					"src-large":"/img/heros/2000x600-Amenities.jpg",
+					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				},
+
+
+				{
+					"id":6,
+					"title":"Lake Harmony Hotels | Amenities | Upcoming Movies | Split Rock Resort",
+					"heading": "Resort Amenities",
+					"sub-heading":"For all ages, interests and weather",
+					"tool-tip":"Indoor Pool",
+					"src-small":"/img/heros/650x600-Amenities.jpg.jpg",
+					"src-medium":"/img/heros/1500x600-Amenities.jpg",
+					"src-large":"/img/heros/2000x600-Amenities.jpg",
+					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				},
+
+				{
+					"id":7,
+					"title":"Lake Harmony Hotels | Amenities - Bowling Party Packages | Split Rock Resort",
+					"heading": "Resort Amenities",
+					"sub-heading":"For all ages, interests and weather",
+					"tool-tip":"Indoor Pool",
+					"src-small":"/img/heros/650x600-Amenities.jpg.jpg",
+					"src-medium":"/img/heros/1500x600-Amenities.jpg",
+					"src-large":"/img/heros/2000x600-Amenities.jpg",
+					"src-main":"/img/heros/1500x600-Amenities.jpg"
+				},
+
+				{
+					"id":8,
+					"title":"Poconos Resort Pennsylvania | Split Rock Resort",
+					"heading": "Resort Dining",
+					"sub-heading":"Convenient Cuisine At Split Rock Resort",
+					"tool-tip":"Hotel Dining",
+					"src-small":"/img/heros/650x600-Hotel-Dining.jpg",
+					"src-medium":"/img/heros/1500x600-Hotel-Dining.jpg",
+					"src-large":"/img/heros/2000x600-Hotel-Dining.jpg",
+					"src-main":"/img/heros/1500x600-Hotel-Dining.jpg"
+				},
+
+				{
+					"id":9,
+					"title":"Poconos Events | Meetings | Split Rock Resort",
+					"heading": "Meetings",
+					"sub-heading":"Plan Your Meeting In The Poconos",
+					"tool-tip":"Meeting",
+					"src-small":"/img/heros/650x600-Meetings.jpg",
+					"src-medium":"/img/heros/1500x600-Meetings.jpg",
+					"src-large":"/img/heros/2000x600-Meetings.jpg",
+					"src-main":"/img/heros/1500x600-Meetings.jpg"
+				},
+
+				{
+					"id":10,
+					"title":"Resort in Poconos PA | Gallery | Split Rock Resort",
+					"heading": "Meetings",
+					"sub-heading":"Convenient Cuisine At Split Rock Resort",
+					"tool-tip":"Hotel Dining",
+					"src-small":"/img/heros/650x600-Meetings.jpg",
+					"src-medium":"/img/heros/1500x600-Meetings.jpg",
+					"src-large":"/img/heros/2000x600-Meetings.jpg",
+					"src-main":"/img/heros/1500x600-Meetings.jpg"
+				},
+
+				{
+					"id":11,
+					"title":"Events In The Poconos | Upcoming Events | Split Rock Resort",
+					"heading": "Events",
+					"sub-heading":"Exciting Entertainment at Split Rock",
+					"tool-tip":"Events",
+					"src-small":"/img/heros/650x600-Events.jpg",
+					"src-medium":"/img/heros/1500x600-Events.jpg",
+					"src-large":"/img/heros/2000x600-Events.jpg",
+					"src-main":"/img/heros/1500x600-Events.jpg"
+				},
+
+				{
+					"id":12,
+					"title":"The Great Tastes Of Pennsylvania Wine & Food Festival",
+					"heading": "Wine Festival",
+					"sub-heading":"A Taste of Pennsylvania",
+					"tool-tip":"Wine Festival",
+					"src-small":"/img/heros/650x600-Events-Wine.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Wine.jpg",
+					"src-large":"/img/heros/2000x600-Events-Wine.jpg",
+					"src-main":"/img/heros/1500x600-Events-Wine.jpg"
+				},
+
+				{
+					"id":13,
+					"title":"The Pennsylvania Blues Festival | Split Rock Resort",
+					"heading": "Blues Festival",
+					"sub-heading":"Food, fun, and excellent music",
+					"tool-tip":"Blues Festival",
+					"src-small":"/img/heros/650x600-Events-Blues.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Blues.jpg",
+					"src-large":"/img/heros/2000x600-Events-Blues.jpg",
+					"src-main":"/img/heros/1500x600-Events-Blues.jpg"
+				},
+
+				{
+					"id":14,
+					"title":"The Pennsylvania Blues Festival | Weekend Entertainment | Split Rock Resort",
+					"heading": "Blues Festival",
+					"sub-heading":"Food, fun, and excellent music",
+					"tool-tip":"Blues Festival",
+					"src-small":"/img/heros/650x600-Events-Blues.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Blues.jpg",
+					"src-large":"/img/heros/2000x600-Events-Blues.jpg",
+					"src-main":"/img/heros/1500x600-Events-Blues.jpg"
+				},
+
+				{
+					"id":15,
+					"title":"The Great Tastes Of Pennsylvania Wine Festival",
+					"heading": "BEER FESTIVAL",
+					"sub-heading":"26th Annual Great Brews Festival",
+					"tool-tip":"BEER FESTIVAL",
+					"src-small":"/img/heros/SR-Banners-Beerfest26-650x600px-12-2015.jpg",
+					"src-medium":"/img/heros/SR-Banners-Beerfest26-1500x600px-12-2015.jpg",
+					"src-large":"/img/heros/SR-Banners-Beerfest26-1500x600px-12-2015.jpg",
+					"src-main":"/img/heros/SR-Banners-Beerfest26-1500x600px-12-2015.jpg"
+				},
+
+				{
+					"id":24,
+					"title":"New Year’s Eve Bash - SplitRock Resort",
+					"heading": "New Year’s Eve Bash",
+					"sub-heading":"At Split Rock Resort",
+					"tool-tip":"New Year’s Eve Bash",
+					"src-small":"/img/heros/650x600-new-year.jpg",
+					"src-medium":"/img/heros/1500x600-new-year.jpg",
+					"src-large":"/img/heros/2000x600-new-year.jpg",
+					"src-main":"/img/heros/1500x600-new-year.jpg"
+				},
+
+				{
+					"id":16,
+					"title":"Poconos Indoor Water Park | Split Rock Resort",
+					"heading": "Water Park",
+					"sub-heading":"Indoor fun for everyone",
+					"tool-tip":"Indoor Water Park",
+					"src-small":"/img/heros/650x600-Waterpark-Exterior.jpg",
+					"src-medium":"/img/heros/1500x600-Waterpark-Exterior.jpg",
+					"src-large":"/img/heros/2000x600-Waterpark-Exterior.jpg",
+					"src-main":"/img/heros/1500x600-Waterpark-Exterior.jpg"
+				}
+				,
+
+				{
+					"id":17,
+					"title":"Party Packages | Poconos Indoor Water Park | Split Rock Resort",
+					"heading": "Party Packages",
+					"sub-heading":"Celebrate at the Waterpark or Bowling Alley",
+					"tool-tip":"Indoor Water Park",
+					"src-small":"/img/heros/650x600-Party-Packages.jpg",
+					"src-medium":"/img/heros/1500x600-Party-Packages.jpg",
+					"src-large":"/img/heros/2000x600-Party-Packages.jpg",
+					"src-main":"/img/heros/1500x600-Party-Packages.jpg"
+				},
+
+				{
+					"id":18,
+					"title":"Golf In The Poconos | Golf  | Split Rock Resort",
+					"heading": "Split Rock Golf Club",
+					"sub-heading":"Stay at Split Rock Resort &amp; Play Golf",
+					"tool-tip":"Golf experience",
+					"src-small":"/img/heros/650x600-Golf.jpg",
+					"src-medium":"/img/heros/1500x600-Golf.jpg",
+					"src-large":"/img/heros/2000x600-Golf.jpg",
+					"src-main":"/img/heros/1500x600-Golf.jpg"
+				},
+
+				{
+					"id":19,
+					"title":"Cultural Activities In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":20,
+					"title":"Fall & Winter Activities In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":21,
+					"title":"Spring & Summer Activities In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":22,
+					"title":"Nature In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":23,
+					"title":"Shopping In The Poconos | Attractions | Split Rock Resort",
+					"heading": "Explore Poconos",
+					"sub-heading":"Things to do around Split Rock Resort",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Explore.jpg",
+					"src-medium":"/img/heros/1500x600-Explore.jpg",
+					"src-large":"/img/heros/2000x600-Explore.jpg",
+					"src-main":"/img/heros/1500x600-Explore.jpg"
+				},
+
+				{
+					"id":24,
+					"title":"Poconos Wedding Packages | Weddings | Split Rock Resort",
+					"heading": "Poconos Weddings",
+					"sub-heading":"Split Rock Resort's Wedding Packages",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Weddings.jpg",
+					"src-medium":"/img/heros/1500x600-Weddings.jpg",
+					"src-large":"/img/heros/2000x600-Weddings.jpg",
+					"src-main":"/img/heros/1500x600-Weddings.jpg"
+				},
+
+				{
+					"id":25,
+					"title":"Poconos Family Vacation | Groups | Split Rock Resort",
+					"heading": "Group Events",
+					"sub-heading":"Exclusive Group rates",
+					"tool-tip":"Attractions",
+					"src-small":"/img/heros/650x600-Groups.jpg",
+					"src-medium":"/img/heros/1500x600-Groups.jpg",
+					"src-large":"/img/heros/2000x600-Groups.jpg",
+					"src-main":"/img/heros/1500x600-Groups.jpg"
+				},
+				
+				{
+					"id":26,
+					"title":"Music Fest | Split Rock Resort",
+					"heading": "Music Fest",
+					"sub-heading":"At Split Rock Resort",
+					"tool-tip":"Music Fest",
+					"src-small":"/img/heros/650x600-Events-Blues.jpg",
+					"src-medium":"/img/heros/1500x600-Events-Blues.jpg",
+					"src-large":"/img/heros/2000x600-Events-Blues.jpg",
+					"src-main":"/img/heros/1500x600-Events-Blues.jpg"
+				}
+
+
+
+
+			]
+}
