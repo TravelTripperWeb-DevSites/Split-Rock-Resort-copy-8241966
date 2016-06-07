@@ -110,36 +110,11 @@ a:focus, *:focus {
       
       <div class="content detail gallery">
         <h3>Hotel Dining</h3>
-        <a href="/img/photo-gallery/800x600-Split-Rock-Convenience-Area.jpg" title="Split Rock Convenience Area"><img src="/img/photo-gallery/435x275-Split-Rock-Convenience-Area.jpg" width="271" height="170" alt="Split Rock  Convenience Area"><br /><span>Split Rock - Galleria Grab n Go</span></a>
-        
-         <a href="/img/photo-gallery/800x534-Galleria-Grab-Go-10.jpg" title="Split Rock Resort - Galleria Grab n Go"><img src="/img/photo-gallery/435x275-Galleria-Grab-Go-10.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Grab n Go"><br /><span>Split Rock Resort - Galleria Grab n Go</span></a>
-         
-          <a href="/img/photo-gallery/800x534-Galleria-Grab-Go-7.jpg" title="Split Rock Resort - Galleria Grab n Go"><img src="/img/photo-gallery/435x275-Galleria-Grab-Go-7.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Grab n Go"><br /><span>Split Rock Resort - Galleria Grab n Go</span></a> 
-          
-          <a href="/img/photo-gallery/800x534-Galleria-Grab-Go-15.jpg" title="Split Rock Resort - Galleria Grab n Go"><img src="/img/photo-gallery/435x275-Galleria-Grab-Go-15.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Grab n Go"><br /><span>Split Rock Resort - Galleria Grab n Go</span></a> 
-          
-          <a href="/img/photo-gallery/800x534-Galleria-Grab-Go-1.jpg" title="Split Rock Resort - Galleria Grab n Go"><img src="/img/photo-gallery/435x275-Galleria-Grab-Go-1.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Grab n Go"><br /><span>Split Rock Resort - Galleria Grab n Go</span></a> 
-          
-          <a href="/img/photo-gallery/800x534-Galleria-Food-Court-11.jpg" title="Split Rock Resort - Galleria Food Court"><img src="/img/photo-gallery/435x275-Galleria-Food-Court-11.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Food Court"><br /><span>Split Rock Resort - Galleria Food Court</span></a>
-          
-           <a href="/img/photo-gallery/800x534-Galleria-Food%20Court-3.jpg" title="Split Rock Resort - Galleria Food Court"><img src="/img/photo-gallery/435x275-Galleria-Food%20Court-3.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Food Court"><br /><span>Split Rock Resort - Galleria Food Court</span></a>
-           
-            <a href="/img/photo-gallery/800x600-Split-Rock-Grill-Dining-Room.jpg" title="Split Rock Grill"><img src="/img/photo-gallery/435x275-Split-Rock-Grill-Dining-Room.jpg" width="271" height="170" alt="Split Rock Grill"><br /><span>Split Rock Grill</span></a> 
-            
-            <a href="/img/photo-gallery/800x600-Split-Rock-Grill-Buffet-Area.jpg" title="Split Rock Grill"><img src="/img/photo-gallery/435x275-Split-Rock-Grill-Buffet-Area.jpg" width="271" height="170" alt="Split Rock Grill"><br /><span>Split Rock Grill</span></a> 
-            
-            <a href="/img/photo-gallery/800x600-Split-Rock-Deli.jpg" title="Split Rock Deli"><img src="/img/photo-gallery/435x275-Split-Rock-Deli.jpg" width="271" height="170" alt="Split Rock Deli"><br /><span>Split Rock Deli</span></a> 
-            
-            <a href="/img/photo-gallery/800x534-Lodge-Thirsty-Moose-11.jpg" title="Thirsty Moose"><img src="/img/photo-gallery/435x275-Lodge-Thirsty-Moose-11.jpg" width="271" height="170" alt="Thirsty Moose"><br /><span>Thirsty Moose</span></a>
-            
-             <a href="/img/photo-gallery/800x534-Lodge-Thirsty-Moose-6.jpg" title="Thirsty Moose"><img src="/img/photo-gallery/435x275-Lodge-Thirsty-Moose-6.jpg" width="271" height="170" alt="Thirsty Moose"><br /><span>Thirsty Moose</span></a>
-             
-              <a href="/img/photo-gallery/800x534-Lakeview-Tavern-14.jpg" title="Lake View Tavern"><img src="/img/photo-gallery/435x275-Lakeview-Tavern-14.jpg" width="271" height="170" alt="Lake View Tavern"><br /><span>Lake View Tavern</span></a> 
-              
-              <a href="/img/photo-gallery/800x534-Galleria-Split-Rock-Bar-1.jpg" title="Split Rock Bar"><img src="/img/photo-gallery/435x275-Galleria-Split-Rock-Bar-1.jpg" width="271" height="170" alt="Split Rock Bar"><br /><span>Split Rock Bar</span></a>
-              
-               <a href="/img/photo-gallery/800x534-Galleria-Split-Rock-Bar-2.jpg" title="Split Rock Bar"><img src="/img/photo-gallery/435x275-Galleria-Split-Rock-Bar-2.jpg" width="271" height="170" alt="Split Rock Bar"><br />
-        <span>Split Rock Bar</span></a> <br>
+          {% for ra in site.data._models.gallery_hotel_dining %}
+          <a href= {{ra.image.url}} title = {{ ra.name }} >
+            <img src= {{ ra.image.url | replace: "800x600", "435x275" | replace: "800x534", "435x275"  }} width="271" height="170" alt= {{ ra.name }} ><br />
+            <span>{{ ra.name }}</span></a>
+        {% endfor %}
         
         
         <br>
