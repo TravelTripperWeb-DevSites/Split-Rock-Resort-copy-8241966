@@ -75,36 +75,22 @@ a:focus, *:focus {
       
       <div class="content detail gallery">
         <h3>Lobby and Common Areas</h3>
-        <a href="/img/photo-gallery/800x534-Galleria-Lobby-6.jpg" title="Split Rock Resort - Galleria Lobby"><img src="/img/photo-gallery/435x275-Galleria-Lobby-6.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Lobby"><br />
-        <span>Split Rock Resort - Galleria Lobby</span></a> <a href="/img/photo-gallery/800x534-Galleria-Indoor-Pool-4.jpg" title="Split Rock Resort - Galleria Indoor Pool"><img src="/img/photo-gallery/435x275-Galleria-Indoor-Pool-4.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Indoor Pool"><br />
-        <span>Split Rock Resort - Galleria Indoor Pool</span></a> <a href="/img/photo-gallery/800x534-Galleria-Indoor-Pool-12.jpg" title="Split Rock Resort - Galleria Indoor Pool"><img src="/img/photo-gallery/435x275-Galleria-Indoor-Pool-12.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Indoor Pool"><br />
-        <span>Split Rock Resort - Galleria Indoor Pool</span></a> <a href="/img/photo-gallery/800x534-Galleria-Outdoor-Pool-1.jpg" title="Split Rock Resort - Galleria Outdoor Pool"><img src="/img/photo-gallery/435x275-Galleria-Outdoor-Pool-1.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Outdoor Pool"><br />
-        <span>Split Rock Resort - Galleria Outdoor Pool</span></a> <a href="/img/photo-gallery/800x534-Galleria-Outdoor-Pool-3.jpg" title="Split Rock Resort - Galleria Outdoor Pool"><img src="/img/photo-gallery/435x275-Galleria-Outdoor-Pool-3.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Outdoor Pool"><br />
-        <span>Split Rock Resort - Galleria Outdoor Pool</span></a> <a href="/img/photo-gallery/800x534-Galleria-Outdoor-Pool-6.jpg" title="Split Rock Resort - Galleria Outdoor Pool"><img src="/img/photo-gallery/435x275-Galleria-Outdoor-Pool-6.jpg" width="271" height="170" alt="Split Rock Resort - Galleria Outdoor Pool"><br />
-        <span>Split Rock Resort - Galleria Outdoor Pool</span></a> <a href="/img/photo-gallery/800x534-Galleria-Mini-Golf-4.jpg" title="Split Rock Resort - On-Site Mini Golf"><img src="/img/photo-gallery/435x275-Galleria-Mini-Golf-4.jpg" width="271" height="170" alt="Split Rock Resort - On-Site Mini Golf"><br />
-        <span>Split Rock Resort - On-Site Mini Golf</span></a>
-        
-         <a href="/img/photo-gallery/800x534-Galleria-Mini-Golf-14.jpg" title="Split Rock Resort - On-Site Mini Golf"><img src="/img/photo-gallery/435x275-Galleria-Mini-Golf-14.jpg" width="271" height="170" alt="Split Rock Resort - On-Site Mini Golf"><br /><span>Split Rock Resort - On-Site Mini Golf</span></a>
-        
-        
-         <a href="/img/photo-gallery/800x534-rock-bar.jpg" title="Split Rock Resort – Rock Bar"><img src="/img/photo-gallery/435x275-rock-bar.jpg" width="271" height="170" alt="Split Rock Resort – Rock Bar"><br /><span>Split Rock Resort – Rock Bar</span></a>
-        
-        
-          <a href="/img/photo-gallery/800x534-billiards-room.jpg" title="Split Rock Resort – Billiards Room"><img src="/img/photo-gallery/435x275-billiards-room.jpg" width="271" height="170" alt=" Split Rock Resort – Billiards Room"><br />
-          <span> Split Rock Resort – Billiards Room</span></a>        
-        
-        
+          {% for ra in site.data._models.gallery_lobby %}
+            <a href= {{ra.image.url}} title = {{ ra.name }} >
+            <img src= {{ra.image.url | replace: "800x534", "435x275" }} width="271" height="170" alt= {{ ra.name }} ><br />
+            <span>{{ ra.name }}</span></a>
+          {% endfor %}
         
         <div class="hr"></div>
       </div>
+
+      
       <div class="content detail gallery">
         <h3>Rooms &amp; Suites</h3>
-        <a href="/img/photo-gallery/SRR-800x600-Villas-at-Westwood.jpg" title="Split Rock Resort Deluxe Room"><img src="/img/photo-gallery/SRR-435x275-Villas-at-Westwood.jpg" width="271" height="170" alt="Split Rock Resort Villas at Westwood"><br /><span>Split Rock Villas at Westwood</span></a>
-        
         {% for ra in site.data._models.gallery_rooms_suites %}
-          <a href= {{ra.image.url}} title = {{ ra.image.name }} >
-          <img src= {{ra.image.url}} width="271" height="170" alt= {{ ra.image.name }} ><br />
-          <span>{{ ra.name }}</span></a>
+          <a href= {{ra.image.url}} title = {{ ra.name }} >
+            <img src= {{ra.image.url | replace: "800x600", "435x275" | replace: "800x534", "435x275" | replace: "large", "small" }} width="271" height="170" alt= {{ ra.name }} ><br />
+            <span>{{ ra.name }}</span></a>
         {% endfor %}
         <hr style="visibility: hidden; margin: 0;">
         <div class="hr"></div>
