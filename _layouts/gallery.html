@@ -62,8 +62,8 @@ a:focus, *:focus {
       <div class="content detail gallery">
         <h3>Exterior &amp; Grounds</h3>
         {% for ra in site.data._models.gallery %}
-          <a href= {{ra.image.url}} title = {{ ra.image.name }} >
-          <img src= {{ra.image.url}} width="271" height="170" alt= {{ ra.image.name }} ><br />
+          <a href= {{ra.image.url}} title = {{ ra.name }} >
+          <img src= {{ra.image.url}} width="271" height="170" alt= {{ ra.name }} ><br />
           <span>{{ ra.name }}</span></a>
         {% endfor %}
         
