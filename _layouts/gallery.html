@@ -62,8 +62,9 @@ a:focus, *:focus {
       <div class="content detail gallery">
         <h3>Exterior &amp; Grounds</h3>
         {% for ra in site.data._models.gallery %}
+
           <a href= {{ra.image.url}} title = {{ ra.name }} >
-          <img src= {{ra.image.url}} width="271" height="170" alt= {{ ra.name }} ><br />
+          <img src= {{ra.image.url | replace: "800x600", "435x275" | replace: "800x534", "435x275" | replace: "large", "small" }} width="271" height="170" alt= {{ ra.name }} ><br />
           <span>{{ ra.name }}</span></a>
         {% endfor %}
         
@@ -89,8 +90,8 @@ a:focus, *:focus {
          <a href="/img/photo-gallery/800x534-rock-bar.jpg" title="Split Rock Resort – Rock Bar"><img src="/img/photo-gallery/435x275-rock-bar.jpg" width="271" height="170" alt="Split Rock Resort – Rock Bar"><br /><span>Split Rock Resort – Rock Bar</span></a>
         
         
-<a href="/img/photo-gallery/800x534-billiards-room.jpg" title="Split Rock Resort – Billiards Room"><img src="/img/photo-gallery/435x275-billiards-room.jpg" width="271" height="170" alt=" Split Rock Resort – Billiards Room"><br />
-<span> Split Rock Resort – Billiards Room</span></a>        
+          <a href="/img/photo-gallery/800x534-billiards-room.jpg" title="Split Rock Resort – Billiards Room"><img src="/img/photo-gallery/435x275-billiards-room.jpg" width="271" height="170" alt=" Split Rock Resort – Billiards Room"><br />
+          <span> Split Rock Resort – Billiards Room</span></a>        
         
         
         
