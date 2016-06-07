@@ -13,6 +13,10 @@ languages: ['en']
 # Build settings
 markdown: kramdown
 
+port: 8080
+
+default_lang: 'en'
+languages: ['en']
 
 exclude:
   - 'sitemap.json'

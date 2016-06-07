@@ -1,24 +1,4 @@
-<section>
-  <div class="two-column-text special-offers">
-    <div class="row ">
-      <h2 class="explore-category">Cultural Activities</h2>
-    </div>
-    {% for ca in site.data._models.cultural_activity %}
-      <div class="row ">
-        <h3>{{ca.name}}</h3>
-        <div class="col1 left">
-          <img src="{{ca.image.url}}"  alt="{{ca.image.alt_text}}">
-        </div>
-        <div class="col2 right">
-          {{ca.text}}
-        </div>
-      </div>
-    {% endfor %}
-  </div>    
-</section>
-
 {% for items in site.data._site_info.culture.explore %}
-
 
     {% if items.id ==1 %}
 <section>
