@@ -55,9 +55,18 @@
 </div>
 </section>
 
+ 
+
+
 {% for ra in site.data._models.resort_activity %}
   <section>
   <div class="two-column-text special-offers">
+
+         {% if ra.name =="none" %}
+
+        <h2 class="explore-category">Things to Do at Split Rock Resort</h2>
+
+        {% endif %}
      
           
           <h3> {{ra.name}} </h3> 
