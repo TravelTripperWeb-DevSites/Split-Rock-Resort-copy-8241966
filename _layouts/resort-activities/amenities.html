@@ -55,11 +55,14 @@
 </div>
 </section>
 
+<div class="two-column-text special-offers">
+<h2 class="explore-category">Things to Do at Split Rock Resort</h2>
+{% for ra in site.data._models.resort_activity %}
+</div>
+
   <section>
   <div class="two-column-text special-offers">
           <div class="row">
-          <h2 class="explore-category">Things to Do at Split Rock Resort</h2>
-{% for ra in site.data._models.resort_activity %}
           <h3> {{ra.name}} </h3>
           <div class="col1 left">
               <img src = {{ra.image.url}} >
