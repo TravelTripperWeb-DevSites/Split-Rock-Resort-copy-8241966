@@ -55,8 +55,7 @@
 </div>
 </section>
 
-   
-
+ 
 
 {% for ra in site.data._models.resort_activity %}
   <section>
@@ -65,7 +64,10 @@
          {% if ra.name =="H2Oooohh! Indoor Water Park" %}
           <div class="row">
           <h2 class="explore-category">Things to Do at Split Rock Resort</h2>
-        {% endif %}
+
+         {% else %}
+          <div class="row extra-padding">
+         {% endif %}
      
           
           <h3> {{ra.name}} </h3> 
