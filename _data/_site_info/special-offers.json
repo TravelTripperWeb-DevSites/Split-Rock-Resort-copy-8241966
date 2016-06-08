@@ -3,16 +3,7 @@
 			
 			[
 
-				{
-					"id":8,
-					"tag-name":"corporate",
-					"category": "none",
-					"pos":"none",
-					"heading":"White Water Adventure",
-					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3'><img src='/img/white-water-adventure.jpg' data-interchange='[/img/white-water-adventure.jpg, (default)], [/img/white-water-adventure.jpg, (only screen and (max-width: 400px))]'  alt='white-water-adventure'></a>",
-					"content":"<p>Feeling adventurous? Our White Water package includes two night lodging accommodations, breakfast and a white water rafting trip through Pocono White Water. You'll raft for 5 hours through 12 miles of class III whitewater, which includes 17 rapids!</p><p>Ages 8 and up</p><p> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p><br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
-
-				}
+				
 
 
 				{
@@ -95,14 +86,16 @@
 
 				{
 					"id":8,
-					"tag-name":"corporate",
+					"tag-name":"fathers-day",
 					"category": "none",
 					"pos":"none",
 					"heading":"White Water Adventure",
 					"img-data":"<a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3'><img src='/img/white-water-adventure.jpg' data-interchange='[/img/white-water-adventure.jpg, (default)], [/img/white-water-adventure.jpg, (only screen and (max-width: 400px))]'  alt='white-water-adventure'></a>",
-					"content":"<p>Feeling adventurous? Our White Water package includes two night lodging accommodations, breakfast and a white water rafting trip through Pocono White Water. You'll raft for 5 hours through 12 miles of class III whitewater, which includes 17 rapids!</p><p>Ages 8 and up</p><p class='pricing'> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p><br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
+					"content":"<p>Feeling adventurous? Our White Water package includes two night lodging accommodations, breakfast and a white water rafting trip through Pocono White Water. You'll raft for 5 hours through 12 miles of class III whitewater, which includes 17 rapids!</p><p>Ages 8 and up</p><p> <a href='https://splitrockresort.reztrip.com/rt/ext/promoRate?property=802&mode=b&pm=true&sr=108785&vr=3' class='bttn empty'>BOOK NOW</a><br></p><p><br><span class='disclaimer'>* Taxes, 19% service charge and a daily resort fee of $20 plus tax per occupied room not included. <a href='resort-fee/'>Daily Resort Fee</a> is valid for all reservations confirmed on/after December 14, 2015. </span> </p>"
 
 				},
+
+				
 
 				{
 					"id":10,
