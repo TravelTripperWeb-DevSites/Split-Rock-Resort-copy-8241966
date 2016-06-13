@@ -61,9 +61,9 @@ a:focus, *:focus {
     
       <div class="content detail gallery">
         <h3>Exterior &amp; Grounds</h3>
-        {% assign photos = site.data._models.gallery | sort: "order" %}
-        {% for ra in  photos %}
-
+        {% assign gallery_pics = site.data._models.gallery | sort: "order" %}
+        {% for ra in gallery_pics %}
+        
           <a href= {{ra.image.url}} title = {{ ra.name }} >
           <img src= {{ra.image.url | replace: "800x600", "435x275" | replace: "800x534", "435x275" | replace: "large", "small" }} width="271" height="170" alt= {{ ra.name }} ><br />
           <span>{{ ra.name }}</span></a>
