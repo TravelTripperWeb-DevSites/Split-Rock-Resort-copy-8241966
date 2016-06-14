@@ -2,5 +2,5 @@
     "name": { "required": true },
     "image": { "type": "image" },
     "text": {"type": "richtext" },
-    "order": { "required": true }
+    "order": { "required": true, "type": "integer" }
 }
