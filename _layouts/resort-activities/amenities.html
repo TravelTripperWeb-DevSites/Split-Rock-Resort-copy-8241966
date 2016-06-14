@@ -58,32 +58,83 @@
  
 
 {% for ra in site.data._models.resort_activity %}
-  <section>
-  <div class="two-column-text special-offers">
 
-         {% if ra.name =="H2Oooohh! Indoor Water Park" %}
-          <div class="row">
-          <h2 class="explore-category">Things to Do at Split Rock Resort</h2>
+<section>
+<div class="two-column-text special-offers">
+    {% if ra.name =="H2Oooohh! Indoor Water Park" %}
+      <div class="row">
+      <h2 class="explore-category">Things to Do at Split Rock Resort</h2>
+    {% else %}
+      <div class="row extra-padding">
+    {% endif %}
 
-         {% else %}
+    <h3> {{ra.name}} </h3>
+      <div class="col1 left">
+          <img src= {{ ra.image.url }}  alt="First Run Movie Theater">
+      </div>
+      <div class="col2 right">
+            <p>
+            {{ra.text}}
+            </p>
+            {{ra.movieinfo}}
+                  
+          <div class="explore-info-icons" id="icons-col1" style="width:300px;">
+            
+                <ul class="icons-ul">
+                
+                    {% if ra.info %}
+                     <li>
+                        <i class="icon-li fa  fa-info"> </i> {{ ra.info  }}
+                     </li>   
+                    {% endif %}
+                    {% if ra.phone  %}    
+                      <li>
+                        <i class="icon-li fa  fa-phone"> </i> {{ ra.phone  }}
+                      </li> 
+                    {% endif %}
+                    {% if ra.price  %}    
+                      <li>
+                        <i class="icon-li fa  fa-phone"> </i>{{ ra.price  }}  
+                      </li> 
+                    {% endif %}
+                   
+                </ul>
+<!--<a href="https://tix.extremetix.com/Online/?siteID=1998" class="bttn empty">Buy Tickets</a>--><p></p>
 
-          <div class="row extra-padding">
-          
-         {% endif %}
-     
-          
-          <h3> {{ra.name}} </h3> 
-          <div class="col1 left">
-              <img src = {{ra.image.url}} >
-
+                
           </div>
-          <div class="col2 right">
-              {{ra.text}}
+          <div class="explore-info-icons" id="icons-col2">
+                <ul class="icons-ul">
+                {% if ra.info %}
+                     <li>
+                        <i class="icon-li fa  fa-info"> </i> {{ ra.info2 }}
+                     </li>
+                 {% endif %}
+                  {% if ra.schedule %}
+                     <li>
+                        <i class="icon-li fa  fa-info"> </i>{{ ra.schedule }} 
+                     </li>
+                  {% endif %}
+                    
+                </ul>
           </div>
-          <div class="hr-2" ></div>
+
+          <div style="clear:both;"></div>
+
+          <div style="width:100%; float:left;">
+            {{ ra.info3 }}
           </div>
-  </div>
-  </section>
+        
+
+            
+        </div>
+
+        <div class="hr-2" ></div>
+    </div>
+</div>
+</section>
+
+
 
 {% endfor %}
     
