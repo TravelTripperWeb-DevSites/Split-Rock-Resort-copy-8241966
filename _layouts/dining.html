@@ -60,21 +60,64 @@
 </div>
 </section>
 {% for dining in site.data._models.resort-dining %}
-<section>
-  <div class="two-column-text special-offers">
-    <a name="culture-and-history"></a>
-    <div class="row ">
-      <h3>{{ dining.name }}</h3>
-      <div class="col1 left">
-        <img src = {{ dining.image.url }} >
-      </div>
-      <div class="col2 right">
-        {{ dining.text }}
-      </div>
-      <div class="hr-2"></div>
 
+<section>
+<div class="two-column-text special-offers">
+    <div class="row">
+    <h3>{{ dining.name }}</h3>
+      <div class="col1 left">
+          <img src= {{ dining.image.url }}  alt="Thirsty Moose Saloon">
+        </div>
+        <div class="col2 right">
+            {{ dining.text }}
+
+          <div class="explore-info-icons" id="icons-col1">
+            <ul class="icons-ul">
+                   {% if dining.schedule %}
+                      <li>
+                          <i class="icon-li fa  fa-clock-o"> </i> 
+                          {{ dining.schedule }}
+                          
+                      </li>  
+                    {% endif %}    
+                    {% if dining.menu %}
+                      <li>
+                          <i class="icon-li fa  fa-cutlery"> </i> 
+                          {{ dining.menu }}
+                          
+                      </li>  
+                    {% endif %} 
+  
+            </ul>
+          </div>
+          <div class="explore-info-icons" id="icons-col2">
+            <ul class="icons-ul">
+                  {% if dining.phone %}
+                      <li>
+                          <i class="icon-li fa  fa-phone"> </i> 
+                          {{ dining.phone }}
+                          
+                      </li>  
+                  {% endif %}
+                  {% if dining.info %}
+                    <li>
+                        <i class="icon-li fa  fa-calendar"> </i> 
+                          {{ dining.info }}
+                        
+                    </li>  
+                  {% endif %}
+             </ul>
+          </div>
+            
+        </div>
+        <div class="hr-2" ></div>
+        {% if dining.name == "Sand Bar" %}
+          <span class="disclaimer">*Menu subject to change.</span>
+        {% endif %}
+        <br><br>
     </div>
-  </div>
+</div>
+
 </section>
 
 {% endfor %}
