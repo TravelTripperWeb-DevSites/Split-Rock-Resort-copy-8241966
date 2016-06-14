@@ -7,7 +7,7 @@
     "movieinfo": {"type": "richtext" },
     "info3": {"type": "richtext" },
     "phone": {"type": "string" },
-    "price": {"type": "string" },
+    "price": {"type": "richtext" },
     "schedule": {"type": "richtext" }
     
 }
