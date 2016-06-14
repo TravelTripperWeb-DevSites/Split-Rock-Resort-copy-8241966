@@ -7,4 +7,5 @@
     "phone": {"type": "string" },
     "price": {"type": "richtext" },
     "schedule": {"type": "richtext" }
+    "menu": {"type": "richtext" },
 }
