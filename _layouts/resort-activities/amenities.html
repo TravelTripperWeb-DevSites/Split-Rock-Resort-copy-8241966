@@ -81,18 +81,17 @@
           <div class="explore-info-icons" id="icons-col1" style="width:300px;">
             
                 <ul class="icons-ul">
-                
-                    {% if ra.info %}
+                    {% if ra.info and ra.info != "" %}
                      <li>
                         <i class="icon-li fa  fa-info"> </i> {{ ra.info  }}
                      </li>   
                     {% endif %}
-                    {% if ra.phone  %}    
+                    {% if ra.phone and ra.phone != ""  %}    
                       <li>
                         <i class="icon-li fa  fa-phone"> </i> {{ ra.phone  }}
                       </li> 
                     {% endif %}
-                    {% if ra.price  %}    
+                    {% if ra.price and ra.price != "" %}    
                       <li>
                         <i class="icon-li fa  fa-dollar"> </i>{{ ra.price  }}  
                       </li> 
@@ -105,12 +104,12 @@
           </div>
           <div class="explore-info-icons" id="icons-col2">
                 <ul class="icons-ul">
-                {% if ra.info %}
+                {% if ra.info2 and ra.info2 != "" %}
                      <li>
                         <i class="icon-li fa  fa-info"> </i> {{ ra.info2 }}
                      </li>
                  {% endif %}
-                  {% if ra.schedule %}
+                  {% if ra.schedule and ra.schedule != "" %}
                      <li>
                         <i class="icon-li fa  fa-clock-o"> </i>{{ ra.schedule }} 
                      </li>
