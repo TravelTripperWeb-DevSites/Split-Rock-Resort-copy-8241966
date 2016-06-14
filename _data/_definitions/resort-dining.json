@@ -1,5 +1,10 @@
 {
     "name": { "required": true },
     "image": { "type": "image" },
-    "text": {"type": "richtext" }
+    "text": {"type": "richtext" },
+    "info": {"type": "richtext" },
+    "info2": {"type": "richtext" },
+    "phone": {"type": "string" },
+    "price": {"type": "richtext" },
+    "schedule": {"type": "richtext" }
 }
