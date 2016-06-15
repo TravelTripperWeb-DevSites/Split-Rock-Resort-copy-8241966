@@ -56,8 +56,9 @@
 </section>
 
  
+{% assign resort_activities =  site.data._models.resort_activity  | sort: "order" %}
 
-{% for ra in site.data._models.resort_activity %}
+{% for ra in resort_activities %}
 
 <section>
 <div class="two-column-text special-offers">
