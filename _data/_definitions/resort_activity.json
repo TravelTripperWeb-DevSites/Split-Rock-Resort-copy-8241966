@@ -8,6 +8,7 @@
     "info3": {"type": "richtext" },
     "phone": {"type": "string" },
     "price": {"type": "richtext" },
-    "schedule": {"type": "richtext" }
+    "schedule": {"type": "richtext" },
+    "order": { "required": true, "type": "integer" }
     
 }
