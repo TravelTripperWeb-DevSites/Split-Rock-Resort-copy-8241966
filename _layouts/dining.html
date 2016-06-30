@@ -21,9 +21,9 @@
 
                     <div class="caption right">
 
-                      <h1>{{items.heading}}</h1>
+                      {{items.heading}}
 
-                        <h4>{{items.sub-heading}}</h4>
+                      {{items.sub-heading}}
 
                     </div>
 
@@ -51,307 +51,76 @@
 <div class="text-with-gallery">
   <div class="row">
     <div class="content">
-        <h2>Dining</h2>
-            <p>Indulge your cravings at the delicious restaurants exclusive to <strong>Split Rock Resort</strong>. From pizza at the <strong>H20 Island Oasis </strong>to the delicious breakfast spread at <strong>Split Rock Grill</strong> and traditional American favorites and brews at <strong>Thirsty Moose Saloon</strong>, we've got something to please every taste. <em>Dining hours of operation are subject to change without notice.</em> Don’t forget to visit our Food Court for coffee, ice cream, pizza, sandwich and more!</p>
-</div>
-    </div>
-</div>
-</section>
-<section>
-<div class="two-column-text special-offers">
-    <a name="culture-and-history"></a>
-        <div class="row ">
-    <h3>Split Rock Grill</h3>
-      <div class="col1 left">
-          <img src="/img/435x275-Dining-Split-Rock-Grille.jpg"  alt="Split Rock Grill">
-        </div>
-        <div class="col2 right">
-            <p>
-            This is dining at its best. Relax in our terraced dining room for delicious breakfast selections, Saturday and Sunday from 7:30am to 11:00am and Monday through Friday 7:30am to 11:00am in the Rock Lounge. Or join us for dinner, Friday and Saturday from 5:00pm to 10:00pm and Sunday through Thursday from 5:00pm to 10:00pm in the Rock Lounge.</p>
-          <div class="explore-info-icons" id="icons-col1">
-            <ul class="icons-ul">
-                  <li>
-            <i class="icon-li fa  fa-clock-o"> </i> 
-                        Breakfast<br>
-                        Daily: 7:30-11AM<br><br>
-                        Lunch<br> 
-                        Saturday:12:30-3PM<br><br>
-                        Dinner<br>
-                        Sunday - Thursday:<br>5-9PM<br>
-                        Friday & Saturday:<br>5-10PM<br>
-                        
-                       
-                  </li>
-                  
-                  <li><i class="icon-li fa fa-cutlery"></i> <a href="/pdfs/split-rock-grill.pdf" target="_blank">Menu</a></li>
-                
+        <h2>{% region dining_header %}</h2>
+        <p> {% region dining_text %} </p>
 
-              </ul>
-          </div>
-          <div class="explore-info-icons" id="icons-col2">
-            <ul class="icons-ul">
-                  <li>
-                <i class="icon-li fa  fa-phone"> </i> (570) 722-9111
-                  </li>
-              </ul>
-          </div>
-        </div>
-        <div class="hr-2" ></div>
+    </div>
     </div>
 </div>
+</div>
 </section>
+{% for dining in site.data._models.resort-dining %}
 
 <section>
 <div class="two-column-text special-offers">
-    <div class="row extra-padding">
-    <h3>Lake View Tavern</h3>
+    <div class="row">
+    <h3>{{ dining.name }}</h3>
       <div class="col1 left">
-          <img src="/img/435x275-Dining-Lake-View-Tavern-Steak.jpg"  alt="Lake View Tavern">
+          <img src= {{ dining.image.url }}  alt="Thirsty Moose Saloon">
         </div>
         <div class="col2 right">
-            <p>Our newest dining destination in the historic lodge with a deck overlooking Lake Harmony. The perfect place to relax and enjoy a cold drink, good food and a beautiful view.   </p>
-            
+            {{ dining.text }}
 
           <div class="explore-info-icons" id="icons-col1">
             <ul class="icons-ul">
-                  <li>
-            <i class="icon-li fa  fa-clock-o"> </i> 
-                       
-                        Monday: Closed<br>
-                        Tuesday: Closed<br>
-                        Wednesday: Closed<br>
-                        Thursday & Sunday:<br>
-                        5-9PM <br>
-                        Friday & Saturday:<br>
-                        5PM -10PM
-
-                        
-                  </li>
-                  <li><i class="icon-li fa fa-cutlery"></i> <a href="/pdfs/lake-view-tavern.pdf" target="_blank">Menu</a></li>
-                  
-                  
-              </ul>
-          </div>
-          <div class="explore-info-icons" id="icons-col2">
-            <ul class="icons-ul">
-                  <li>
-                <i class="icon-li fa  fa-phone"> </i> 570-722-3391
-                  </li>
+                   {% if dining.schedule %}
+                      <li>
+                          <i class="icon-li fa  fa-clock-o"> </i> 
+                          {{ dining.schedule }}
                           
-                  <li>
-            <i class="icon-li fa  fa-calendar"> </i> 
-                        Entertainment Schedule:
-                        <br>
-           Harry Western Every Thursday and Saturday
-             </li>
-             
-                  </ul>
-          </div>
-
-           
-            
-        </div>
-        <div class="hr-2" ></div>
-        <br><br>
-    </div>
-</div>
-</section>
-
-
-
-<section>
-<div class="two-column-text special-offers">
-    <div class="row">
-    <h3>Rock Bar</h3>
-      <div class="col1 left">
-          <img src="/img/435x275-Dining-Split-Rock-Lounge.jpg"  alt="Rock Lounge/Bar">
-        </div>
-        <div class="col2 right">
-            <p>
-            Offering <strong>handcrafted drinks</strong> and <strong>lively entertainment</strong>, the <strong>Rock Lounge</strong>, located in Split Rock Resort's Galleria, is the perfect way to spend the evening. Relax after a day of outdoor activities, enjoy a nightcap, or catch one of our entertainers.</p>
-            
-          <div class="explore-info-icons" id="icons-col1">
-            <ul class="icons-ul">
-                  <li>
-            <i class="icon-li fa  fa-clock-o"> </i> Monday - Thursday:<br>4-11PM <br>Friday & Saturday:<br>12PM-12AM<br>Sunday:<br>12PM-11PM
-                  </li>
-                <li>
-                <i class="icon-li fa  fa-phone"> </i> (570) 722-9111
-                  </li>
-                  <!--<li><i class="icon-li fa fa-cutlery"></i> <a href="/" target="_blank">Menu</a></li>-->
-
-                  
-              </ul>
+                      </li>  
+                    {% endif %}    
+                    {% if dining.menu %}
+                      <li>
+                          <i class="icon-li fa  fa-cutlery"> </i> 
+                          {{ dining.menu }}
+                          
+                      </li>  
+                    {% endif %} 
+  
+            </ul>
           </div>
           <div class="explore-info-icons" id="icons-col2">
             <ul class="icons-ul">
-                  <li>
-            <i class="icon-li fa  fa-calendar"> </i> 
-                        Entertainment Schedule:
-                        <br>
-          <a href="/pdfs/june-entertainment.pdf" target="_blank">June Entertainment Schedule</a>                  </li>
-              </ul>
-          </div>
-            
-        </div>
-        <div class="hr-2" ></div>
-        <br><br>
-    </div>
-</div>
-
-</section>
-
-
-<section>
-<div class="two-column-text special-offers">
-    <div class="row">
-    <h3>Thirsty Moose Saloon</h3>
-      <div class="col1 left">
-          <img src="/img/435x275-Dining-Thirsty-Moose-Saloon.jpg"  alt="Thirsty Moose Saloon">
-        </div>
-        <div class="col2 right">
-            <p>
-          Enjoy stunning views of Lake Harmony from the <strong>Thirsty Moose</strong>. Enjoy a refreshing brew or sip cocktails while taking in the majestic surroundings and relaxing atmosphere.</p>
-            
-            <p>
-          The <strong>Thirsty Moose Saloon</strong> is known for its selection of brews, live entertainment, and daily drink specials. You can even kick back and watch your <strong>favorite sports team</strong> on one of our many monitors and big screen television. The best spot in the area to enjoy the <strong>NFL Sunday Ticket!</strong></p>
-
-          <div class="explore-info-icons" id="icons-col1">
-            <ul class="icons-ul">
-                  <li>
-            <i class="icon-li fa  fa-clock-o"> </i> 
-                         Monday: Closed<br>
-                        Tuesday: Closed<br>
-                        Wednesday: Closed<br>Thursday:<br>4-10PM<br>Friday:<br>4-11PM<br>Saturday:<br>12PM-11PM<br>Sunday:<br>12PM - 9PM
+                  {% if dining.phone %}
+                      <li>
+                          <i class="icon-li fa  fa-phone"> </i> 
+                          {{ dining.phone }}
+                          
+                      </li>  
+                  {% endif %}
+                  {% if dining.info %}
+                    <li>
+                        <i class="icon-li fa  fa-calendar"> </i> 
+                          {{ dining.info }}
                         
-                  </li>                
-                <li>
-                <i class="icon-li fa  fa-phone"> </i> (570) 722-9111
-                  </li>
-                  <li><i class="icon-li fa fa-cutlery"></i> <a href="/pdfs/thirsty-moose-saloon.pdf" target="_blank">Menu</a></li>
-
-                  <!--<li> <i class="icon-li fa  fa-cutlery"> </i>
-          <a href="/pdfs/Thirsty_moose_menu.pdf" target="_blank">Thirsty Moose Menu</a> (PDF) </li>-->
-              </ul>
-          </div>
-          <div class="explore-info-icons" id="icons-col2">
-            <ul class="icons-ul">
-                  <li>
-            <i class="icon-li fa  fa-calendar"> </i> 
-                        Entertainment Schedule:
-                        <br>
-                   <a href="/pdfs/june-entertainment.pdf" target="_blank">June Entertainment Schedule</a>
-                    </li>
-              </ul>
+                    </li>  
+                  {% endif %}
+             </ul>
           </div>
             
         </div>
         <div class="hr-2" ></div>
+        {% if dining.name == "Sand Bar" %}
+          <span class="disclaimer">*Menu subject to change.</span>
+        {% endif %}
         <br><br>
     </div>
 </div>
 
 </section>
 
-<section>
-<div class="two-column-text special-offers">
-    <div class="row">
-    <h3>H2O Island Oasis</h3>
-      <div class="col1 left">
-          <img src="/img/435x275-Dining-H20-Island-Oasis.jpg"  alt="H2O Island Oasis">
-        </div>
-        <div class="col2 right">
-            <p>
-            Famished after a few too many spins on The Viper slide? We’ve got your hunger covered!  
-Enjoy a savory bite, <strong>from pizza and burgers to funnel cake fries</strong>. Our cabana themed island bar offers <strong>delicious frozen margaritas, piña coladas, and more tasty beverages</strong>. H2O Island Oasis is open during water park hours. </p>
-
-
-          <div class="explore-info-icons" id="icons-col1">
-          <ul class="icons-ul">
-
-            <li><i class="icon-li fa  fa-clock-o"></i>Coffee Shop 7:30AM-12AM<br>Daily Pizzeria & Deli: 11AM-12AM
-          	<li><i class="icon-li fa fa-cutlery"></i> <a href="/pdfs/h2o-island-oasis.pdf" target="_blank">Menu</a></li>
-            </ul>
-          </div>
-          <div class="explore-info-icons" id="icons-col2">
-            
-
-              </ul>
-          </div>
-
-           
-            
-        </div>
-        <div class="hr-2" ></div>
-    <br><br>
-    </div>
-</div>
-</section>
-
-
-<section>
-<div class="two-column-text special-offers">
-    <div class="row">
-    <h3>Food Court</h3>
-      <div class="col1 left">
-          <img src="/img/435x275-pizza-food-court.jpg"  alt="H2O Island Oasis">
-        </div>
-        <div class="col2 right">
-            <p>
-           When you have a busy day ahead, our food court is a convenient grab and go option with ready to go coffees, sandwiches, salads, and pizza.</p>
-
-
-          <div class="explore-info-icons" id="icons-col1">
-          <ul class="icons-ul">
-             <li>
-            <i class="icon-li fa  fa-clock-o"> </i> Coffee Shop 7:30AM-12AM <br>Daily Pizzeria & Deli: 11AM-12AM</li>
-            <li><i class="icon-li fa fa-cutlery"></i> Menu: <a href="/pdfs/SR-Flyer-PIZZA-8.5x11-12-2015-FINAL.pdf" target="_blank">Pizzera</a> and <a href="/pdfs/SR-MENU-Deli-8.5x11-12-2015-FINAL.pdf" target="_blank">Deli</a></li>
-            </ul>
-          </div>
-           
-            
-        </div>
-        <div class="hr-2" ></div>
-        <br><br>
-        
-    </div>
-</div>
-</section>
-
-<section>
-<div class="two-column-text special-offers">
-    <div class="row">
-    <h3>Sand Bar</h3>
-      <div class="col1 left">
-          <img src="/img/435x275-sand-bar.jpg"  alt="H2O Island Oasis">
-        </div>
-        <div class="col2 right">
-            <p>
-          Enjoy a delicious frozen drink at our Sand Bar while overlooking the beautiful Lake Harmony.</p>
-
-
-          <div class="explore-info-icons" id="icons-col1">
-          <ul class="icons-ul">
-             <li>
-            <i class="icon-li fa  fa-clock-o"> </i> Hours: Opening Memorial Day weekend!</li>
-            
-            </ul>
-          </div>
-           
-            
-        </div>
-        <div class="hr-2" ></div>
-        <span class="disclaimer">*Menu subject to change.</span>
-        <br><br>
-        
-    </div>
-</div>
-</section>
-
-
-
-
-    
+{% endfor %}
 
    
     {% include footer.html %}

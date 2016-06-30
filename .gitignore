@@ -1,5 +1,9 @@
 _site
 .sass-cache
+.jekyll-metadata
+.htaccess
+sitemap.json
+.DS_Store
 *.md
 *.db
 sitemap.json
