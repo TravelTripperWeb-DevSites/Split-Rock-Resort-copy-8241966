@@ -116,7 +116,7 @@
 
                                                        "drop-links": [
 
-                                                                     {"name":"A Golfing Experience","url":"/golf#golfexp",  "isDropdown":"no"}
+                                                                     {"name":"A Golfing Experience","url":"/golf/#golfexp",  "isDropdown":"no"}
 
                                                                      ]
 
@@ -141,12 +141,12 @@
                         
 
 
-                        {"name":"Things To Do", "url":"/things-to-do/events", "isDropdown":"yes",
+                        {"name":"Things To Do", "url":"/things-to-do/events/", "isDropdown":"yes",
 
                               "drop-links":[
 
 
-                              {"name":"Events", "url":"/things-to-do/events", "isDropdown":"yes","moveright":"true",
+                              {"name":"Events", "url":"/things-to-do/events/", "isDropdown":"yes","moveright":"true",
 
                               "drop-links":[
                                                       {"name":"Wine Festival","url":"/things-to-do/events/wine-festival/",  "isDropdown":"no"},
@@ -164,7 +164,7 @@
                                                    {"name":"Spring &amp; Summer Activities","url":"/things-to-do/spring-summer/",  "isDropdown":"no"},
                                                    {"name":"Fall &amp; Winter Activities","url":"/things-to-do/fall-winter/",  "isDropdown":"no"},
                                                    {"name":"Shopping","url":"/things-to-do/shopping/",  "isDropdown":"no"},
-                                                   {"name":"Nature","url":"/things-to-do/nature",  "isDropdown":"yes", "moveright":"true", 
+                                                   {"name":"Nature/","url":"/things-to-do/nature/",  "isDropdown":"yes", "moveright":"true", 
 
 
                                                    "drop-links": [
