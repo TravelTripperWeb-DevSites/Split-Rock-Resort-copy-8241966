@@ -44,21 +44,7 @@
 
 				},
 
-				{
-					"id":4,
-					"main-header": "none",
-					"heading":"ATVs",
-					"tag":"Experience Poconos from an ATV",
-					"img-data":"/img/435x275-Explore-ATV.jpg",
-					"content":" <p><strong>Experience the Pocono Mountains </strong>a bit differently, from an <strong>all-terrain vehicle</strong>! Discover the excitement of scaling big rocks, climbing over mountainous terrain, and drudging through overflowing streams while on your very own ATV. You’ll go places you would otherwise miss as <strong>your guide takes you through acres of scenic trails</strong>. </p>",
-					"has-info": "yes",
-					"phone" : "(57) 243-8877",
-					"time": "none",
-					"address": "<a href='http://www.PoconoATVs.com' target='_blank'>www.PoconoATVs.com</a>",
-					"price": "none"
-
-
-				},
+				
 
 				{
 					"id":5,
