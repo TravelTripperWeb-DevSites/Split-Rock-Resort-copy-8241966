@@ -8,3 +8,5 @@ AuthName "SplitRock"
 AuthUserFile "/home5/btmhostc/.htpasswds/public_html/staging-splitrockresort/passwd"
 AuthType Basic
 require valid-user
+
+Redirect 301 /resort-activites/ http://www.splitrockresort.com/resort-overview/resort-activities/
