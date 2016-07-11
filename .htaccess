@@ -9,4 +9,4 @@ AuthUserFile "/home5/btmhostc/.htpasswds/public_html/staging-splitrockresort/pas
 AuthType Basic
 require valid-user
 
-http://www.splitrockresort.com/resort-overview/resort-activites/
+Redirect 301 /resort-overview/resort-activites/ http://www.splitrockresort.com/resort-overview/resort-activities/
