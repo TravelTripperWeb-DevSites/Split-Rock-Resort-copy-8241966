@@ -1,4 +1,5 @@
 ---
+- winefest: events/wine-festival/
 - special-offers/index.html: specials/index.html
 - special-offers/: specials/
 - resort-overview/resort-activites/index.html: resort-overview/resort-activities/index.html
