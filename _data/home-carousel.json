@@ -3,29 +3,10 @@
 			
 			[
 
+				
+
 				{
 					"id":1,
-					"url": "/things-to-do/events/wine-festival/",
-					"tool-tip":"Split Rock Resort",
-					"img-data":"[/img/heros/WineFestival-750x370.jpg, (small)],[/img/heros/WineFestival-1500x740.jpg, (medium)], [/img/heros/WineFestival-2000x740.jpg, (xlarge)]"
-				},
-
-				{
-					"id":2,
-					"url": "/specials/#golf-stay",
-					"tool-tip":"Golf and Stay",
-					"img-data":"[/img/heros/golf-stay-750x370.jpg, (small)],[/img/heros/golf-stay-1500x740.jpg, (medium)], [/img/heros/golf-stay-2000x740.jpg, (xlarge)]"
-				},
-
-				{
-					"id":3,
-					"url": "/specials/teen-night/",
-					"tool-tip":"Split Rock Resort",
-					"img-data":"[/img/heros/TeenNight-750x350.jpg, (small)],[/img/heros/TeenNight-1500x740.jpg, (medium)], [/img/heros/TeenNight-2000x740.jpg, (xlarge)]"
-				},
-
-				{
-					"id":4,
 					"url": "/specials/",
 					"tool-tip":"Split Rock Resort",
 					"img-data":"[/img/heros/home-slide-1-mob.jpg, (small)],[/img/heros/home-slide-1-default.jpg, (medium)], [/img/heros/home-slide-1-large.jpg, (xlarge)]"
