@@ -3,10 +3,22 @@
 			
 			[
 
-				
-
 				{
 					"id":1,
+					"url": "/things-to-do/events/blues-festival/",
+					"tool-tip":"Blues Fest Package",
+					"img-data":"[/img/heros/blue-750x370.jpg, (small)],[/img/heros/blue-1500x740.jpg, (medium)], [/img/heros/blue-2000x740.jpg, (xlarge)]"
+				},
+
+				{
+					"id":2,
+					"url": "#",
+					"tool-tip":"Pennsylvania Music Festival",
+					"img-data":"[/img/heros/music-750x370.jpg, (small)],[/img/heros/music-1500x740.jpg, (medium)], [/img/heros/music-2000x740.jpg, (xlarge)]"
+				},
+
+				{
+					"id":3,
 					"url": "/specials/",
 					"tool-tip":"Split Rock Resort",
 					"img-data":"[/img/heros/home-slide-1-mob.jpg, (small)],[/img/heros/home-slide-1-default.jpg, (medium)], [/img/heros/home-slide-1-large.jpg, (xlarge)]"
