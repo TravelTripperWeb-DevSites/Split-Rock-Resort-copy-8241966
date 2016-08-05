@@ -1,4 +1,8 @@
 ---
+- bluesfest: things-to-do/events/blues-festival/
+- musicfest: things-to-do/events/music-fest/
+- beerfest: things-to-do/events/brew-fest/
+- winefest: things-to-do/events/wine-festival/
 - special-offers/index.html: specials/index.html
 - special-offers/: specials/
 - resort-overview/resort-activites/index.html: resort-overview/resort-activities/index.html
