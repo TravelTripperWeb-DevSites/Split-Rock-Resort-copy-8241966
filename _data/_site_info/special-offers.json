@@ -4,8 +4,27 @@
 			[
 
 				
+				{
+					"id":9,
+					"tag-name":"Beer Fest",
+					"category": "none",
+					"pos":"none",
+					"heading":"Beer Fest",
+					"img-data":"<a href='https://splitrockresort.reztrip.com/ext/promoRate?property=802&mode=b&pm=true&sr=170612&vr=3'><img src='/img/435x275-beer-fest.jpg' data-interchange='[/img/435x275-beer-fest.jpg, (default)], [/img/435x275-beer-stay.jpg, (only screen and (max-width: 400px))]'  alt='Beer Fest Package'></a>",
+					"content":"<p>Split Rock Resort is hosting its 26th Annual Great Brews Beer Festival on November 19 & 20, 2016. There will be live musical entertainment, giveaways, delicious food, and of course, BEER! With bold flavors, crisp hard ciders, smooth stouts, hoppy IPAs, fruitty and pale ales, and even Sour Sundays there's a beer for everyone's tastes! This package includes lodging and one day general admission ticket.</p> <a href='https://splitrockresort.reztrip.com/ext/promoRate?property=802&mode=b&pm=true&sr=170612&vr=3 ' class='bttn empty'>BOOK NOW</a>"
 
+				},			
 
+				{
+					"id":12,
+					"tag-name":"Music Fest ",
+					"category": "none",
+					"pos":"none",
+					"heading":"Music Fest ",
+					"img-data":"<a href=' https://splitrockresort.reztrip.com/ext/promoRate?property=802&mode=b&pm=true&sr=170615&vr=3'><img src='/img/435x275-music-fest2.jpg' data-interchange='[/img/435x275-music-fest2.jpg, (default)], [/img/435x275-music-fest2.jpg, (only screen and (max-width: 400px))]'  alt='Music Fest Package'></a>",
+					"content":"<p>This year Split Rock Resort is hosting the very first Pennsylvania Music Fest with Devon Allman headlining. This festival is an event for music lovers of all genres will love with a mixture of blues, rock, roots, country, and folk bands throughout two stages on both days. This package includes lodging and one day general admission ticket.  </p> <a href=' https://splitrockresort.reztrip.com/ext/promoRate?property=802&mode=b&pm=true&sr=170615&vr=3' class='bttn empty'>BOOK NOW</a>"
+
+				},
 				
 				
 				{
