@@ -15,9 +15,9 @@
 
     <div class="home-slider">
     
-                {% for items in site.data.home-carousel.slider %}
-
-       <div><a href="{{items.url}}"><img data-interchange="{{items.img-data}}" alt="{{items.tool-tip}}"></a></div>
+                {% for items in site.data._models.carousel-images %}
+        
+       <div><a href="{{items.url}}"><img data-interchange="{{ [items.small-image.url, (small)], [items.small-image.url, (medium)], [items.small-image.url, (xlarge)] }}" alt="{{items.tool-tip}}"></a></div>
 
                 {% endfor %}
   
