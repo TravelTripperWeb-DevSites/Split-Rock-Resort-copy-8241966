@@ -15,11 +15,14 @@
 
     <div class="home-slider">
     
-                {% for items in site.data.home-carousel.slider %}
-
-       <div><a href="{{items.url}}"><img data-interchange="{{items.img-data}}" alt="{{items.tool-tip}}"></a></div>
-
-                {% endfor %}
+      {% for items in site.data._models.carousel-images %}
+        {% capture data_interchange %}[{{items.small-image.url}}, (small)], [{{items.medium-image.url}}, (medium)], [{{items.large-image.url}}, (xlarge)]{% endcapture %}
+        <div>
+          <a href="{{items.url}}">
+            <img data-interchange="{{ data_interchange }}" alt="{{items.tool-tip}}" />
+          </a>
+        </div>
+      {% endfor %}
   
 
     </div>
