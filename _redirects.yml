@@ -1,4 +1,5 @@
 ---
+- events: things-to-do/events/
 - bluesfest: things-to-do/events/blues-festival/
 - musicfest: things-to-do/events/music-fest/
 - beerfest: things-to-do/events/brew-fest/
