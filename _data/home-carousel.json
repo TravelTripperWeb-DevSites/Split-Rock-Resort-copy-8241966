@@ -23,14 +23,7 @@
 					"url": "/specials/",
 					"tool-tip":"Split Rock Resort",
 					"img-data":"[/img/heros/home-slide-1-mob.jpg, (small)],[/img/heros/home-slide-1-default.jpg, (medium)], [/img/heros/home-slide-1-large.jpg, (xlarge)]"
-				},
-				{
-					"id":4,
-					"url": "#",
-					"tool-tip":"Fall Foliage",
-					"img-data":"[/img/heros/fall-foliage-750x370.jpg, (small)],[/img/heros/fall-foliage-1500x740.jpg, (medium)], [/img/heros/fall-foliage-2000x740.jpg, (xlarge)]"
 				}
-
 
 			]
 }
