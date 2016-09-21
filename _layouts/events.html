@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    {% include ga.html %}
+<body>
+{% include ga.html %}
     {% include mobile.html %}
     {% include header.html %}
   {% include booking-widget-all-pages.html %}
@@ -12,264 +12,81 @@
     {% for items in site.data.banners.slider %}
 
         {% if page.title == items.title %}
-
-              <section>
-
-            <div id="hero-section" class="page full">
-
-              <div class="caption-wrapper">
-
-                    <div class="caption right">
-
-                      <h1>{{items.heading}}</h1>
-
-                        <h4>{{items.sub-heading}}</h4>
-
-                    </div>
-
-                </div>
-
-              <div class="single-image-hero">
-
-                  <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}">
-
-                </div>
-
-            </div>
-
-            </section>
-
-        {% endif %}
+<section>
+  <div id="hero-section" class="page full">
+    <div class="caption-wrapper">
+      <div class="caption right">
+        <h1>{{items.heading}}</h1>
+        <h4>{{items.sub-heading}}</h4>
+      </div>
+    </div>
+    <div class="single-image-hero"> <img data-interchange="[{{items.src-small}}, (small)],[{{items.src-medium}}, (medium)], [{{items.src-large}}, (xlarge)]" src="{{items.src-main}}" alt="{{items.tool-tip}}"> </div>
+  </div>
+</section>
+{% endif %}
 
       {% endfor %}
-
-  <div id="toggleheader"></div>
-
-
-
+<div id="toggleheader"></div>
 <section>
-
-    <div class="entry">
-
-      <div class="row ">
-
-        <div class="intro-text">
-         {% region events_first %}
-          
-        </div>
-
-      </div>
-
+  <div class="entry">
+    <div class="row ">
+      <div class="intro-text"> {% region events_first %} </div>
     </div>
-
-  </section>
-
-  
-  <section>
-
-    <div class="two-column-text">
-
-      <div class="row">
-
-      <!-- <div class="col1 left"> 
-
-         
-<br/>
-
-          <a href="http://carboncountyexpo.com/"><img data-interchange="[/img/636x343-carbon-county.jpg, (default)], [/img/636x343-carbon-county.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-carbon-county.jpg" alt="Carbon County Home Builders Expo"></a>
-
-          {% region events_second %}
-
-          <p><a href="http://carboncountyexpo.com/" target="_blank" class="bttn filled">View More Info</a></p>
-          
-
-          
-        </div> -->
-
-
-
-        <!--   <div class="col1 right"> 
-
-         
-<br/>
-
-          <a href="http://www.escapetothepoconos.com/"><img data-interchange="[/img/636x343-smiling-david.jpg, (default)], [/img/636x343-smiling-david.jpg, (only screen and (max-width: 400px))]" src="/img/636x343-smiling-david.jpg" alt="Smiling David's Dance School"></a>
-
-          {% region events_third %}
-
-          <p><a href="http://www.escapetothepoconos.com/" target="_blank" class="bttn filled">View More Info</a></p>
-          
-
-          
-        </div> -->
-
-        
-
-
-         
-
-
-
-        <div class="clearfix"></div>
-
-      </div>
-
-    </div>
-
-  </section>
-  
- 
-  
-  <section>
-
-    <div class="two-column-text">
-
-      <div class="row">
-
-
-        <div class="col1 left"> 
-
-          
-<br/>
-
-          <a href="http://www.poconoraceway.com"> {% region pocono_header %}</a>
-
-          {% region events_sixth %}
-
-          <p><a href="https://splitrockresort.reztrip.com/" class="bttn filled">Book Your Stay</a></p>
-          
-
-        </div>
-
-   
-
-
-       <div class="col1 right"> 
-
-           
-<br/>
-
-          <a href="http://www.saikoucon.com/guest-registration.html"> {% region saikoucon_header %} </a>
-
-          {% region events_seventh %}
-
-         <p><a href="http://www.saikoucon.com/guest-registration.html" class="bttn filled">Buy Tickets</a></p>
-         
-
-        </div>
-
-         
-
-
-         
-
-
-
-        <div class="clearfix"></div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  
-
-
-
-  
-
-  <section>
-
-    <div class="two-column-text">
-
-      <div class="row">
-
-
-        <div class="col1 left"> 
-
-         
-<br/>
-
-          <a href="blues-festival/index.html"> {% region blues-festival_header %} </a>
-          {% region events_eight %}
-         
-          <p><a href="blues-festival/index.html" class="bttn filled">View More Info</a></p>
-          
-
-          
-        </div>
-
-       
-
-
-
-        <div class="col1 right"> 
-
-
-
-           
-<br/>
-           <a href="/things-to-do/events/music-fest"> {% region musicfest_header %} </a>
-           {% region events_tenth %}
-
-        </div>
-
-
-        <div class="clearfix"></div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
+  </div>
+</section>
 <section>
-
-    <div class="two-column-text">
-
-      <div class="row">
-<div class="col1 left"> 
-
-           <br/>
-
-<a href="brew-fest/index.html"> {% region brewfest_header %} </a>
-
-          {% region events_ninth %}
-
-          <p><a href="brew-fest/index.html" class="bttn filled">View More Info</a></p>
-       
-          
-        </div>
-<div class="col1 right"> 
-
-           <br/>
-
-          <a href="wine-festival/index.html"> {% region winefestival_header %}  </a>
-
-          {% region events_fifth %}
-
-          <p><a href="wine-festival/index.html" class="bttn filled">View More Info</a></p>
-
-          
-        </div> 
-
-
+  <div class="two-column-text">
+    <div class="row">
+      <div class="col1 left"> <br/>
+        <a href="blues-festival/index.html"> {% region blues-festival_header %} </a> {% region events_eight %}
+        <p><a href="blues-festival/index.html" class="bttn filled">View More Info</a></p>
+      </div>
+      <div class="col1 right"> <br/>
+        <a href="/things-to-do/events/music-fest"> {% region musicfest_header %} </a> {% region events_tenth %} </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="two-column-text">
+    <div class="row">
+      <div class="col1 left"> <br/>
+        <a href="brew-fest/index.html"> {% region brewfest_header %} </a> {% region events_ninth %}
+        <p><a href="brew-fest/index.html" class="bttn filled">View More Info</a></p>
+      </div>
+      <div class="col1 right"> <br/>
+        <a href="wine-festival/index.html"> {% region winefestival_header %} </a> {% region events_fifth %}
+        <p><a href="wine-festival/index.html" class="bttn filled">View More Info</a></p>
       </div>
     </div>
-  </section>
-  
+  </div>
+</section>
+<section>
+  <div class="two-column-text">
+    <div class="row">
+      <div class="col1 left"> <br/>
+        <a href="http://www.poconoraceway.com"> {% region pocono_header %}</a> {% region events_sixth %}
+        <p><a href="https://splitrockresort.reztrip.com/" class="bttn filled">Book Your Stay</a></p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  
+<!--<section>
 
+<div class="text-with-gallery detail">
 
+    <div class="row detail">
 
-  
+        <div class="hr-content-width" style="margin: -25px 20px 25px 20px;"></div>
 
-  <!--<section>
+  </div>
+
+</div>
+
+</section>--> 
+
+<!--<section>
 
 <div class="text-with-gallery detail">
 
@@ -283,65 +100,19 @@
 
 </section>-->
 
-  
-
-   
-
-  <!--<section>
-
-<div class="text-with-gallery detail">
-
+<section>
+  <div class="text-with-gallery detail">
     <div class="row detail">
-
-        <div class="hr-content-width" style="margin: -25px 20px 25px 20px;"></div>
-
+      <div class="hr-content-width" style="margin: -25px 20px 0px 20px;"></div>
+    </div>
   </div>
-
-</div>
-
-</section>-->
-
-  
-  <section>
-
-    <div class="text-with-gallery detail">
-
-      <div class="row detail">
-
-        <div class="hr-content-width" style="margin: -25px 20px 0px 20px;"></div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <section>
-
-    <div class="two-column-text">
-
-     <div class="row ">
-        {% region events_leventh %}
-    </div>
-
-
-    </div>
-
-  </section>
-
-
-
-
-
- 
-
-    
-
-   
-    {% include footer.html %}
+</section>
+<section>
+  <div class="two-column-text">
+    <div class="row "> {% region events_leventh %} </div>
+  </div>
+</section>
+{% include footer.html %}
     {% include script-all-pages.html %}
-
-
-
 </body>
 </html>

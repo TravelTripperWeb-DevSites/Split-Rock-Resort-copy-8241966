@@ -3,6 +3,7 @@
 			
 			[
 
+				
 				{
 					"id":1,
 					"url": "/things-to-do/events/blues-festival/",
@@ -23,7 +24,6 @@
 					"tool-tip":"Split Rock Resort",
 					"img-data":"[/img/heros/home-slide-1-mob.jpg, (small)],[/img/heros/home-slide-1-default.jpg, (medium)], [/img/heros/home-slide-1-large.jpg, (xlarge)]"
 				}
-
 
 			]
 }

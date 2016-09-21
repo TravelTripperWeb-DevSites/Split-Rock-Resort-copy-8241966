@@ -15,7 +15,7 @@
 
     <div class="home-slider">
     
-      {% for items in site.data._models.carousel-images %}
+      {% for items in site.data._models.carousel-images | sort: "id"  %}
         {% capture data_interchange %}[{{items.small-image.url}}, (small)], [{{items.medium-image.url}}, (medium)], [{{items.large-image.url}}, (xlarge)]{% endcapture %}
         <div>
           <a href="{{items.url}}">
