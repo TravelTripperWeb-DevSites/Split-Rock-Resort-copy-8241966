@@ -198,3 +198,21 @@ input[type='button']:focus, input[type='button']:active {
   
 .special .offer a:hover  { background-color: #4cb3ca; }
 .special .offer a:active { background-color: #3e92a4; }
+a.book-btn {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 120px;
+    line-height: 32px;
+    padding: 8px 15px;
+    background: none repeat scroll 0 0 #ff9800;
+    border-bottom: solid 5px #E17104;
+    transition: none 0s ease 0s;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a.book-btn:hover{background: none repeat scroll 0 0 #FF7700;}
