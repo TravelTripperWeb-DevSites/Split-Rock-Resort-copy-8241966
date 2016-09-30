@@ -153,8 +153,7 @@
                               "drop-links":[
                                                       {"name":"Wine Festival","url":"/things-to-do/events/wine-festival/",  "isDropdown":"no"},
                                                       {"name":"Blues Festival","url":"/things-to-do/events/blues-festival/",  "isDropdown":"no"},
-                                                      {"name":"Beer Festival","url":"/things-to-do/events/brew-fest/",  "isDropdown":"no"},
-                                                      {"name":"Music Fest","url":"/things-to-do/events/music-fest/",  "isDropdown":"no"}
+                                                      {"name":"Beer Festival","url":"/things-to-do/events/brew-fest/",  "isDropdown":"no"}
                                                      
                                                       
                                           ]
