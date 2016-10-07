@@ -17,6 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
 <script type="text/javascript">
   (function() {
     if(location.host.indexOf('rztrkr')===-1){
@@ -38,7 +40,7 @@ ga('linker:autoLink', ['splitrockresort.reztrip.com','splitrockresort.reztripmob
 ga('send', 'pageview');
 </script>
 
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
  <meta name="google-site-verification" content="2OygmiOnE3gOaSLtmx3c41jHLZTR4e3qYyI0vobPc40" />
  <link rel="canonical" href="index.html" />
 <link rel="shortcut icon" href="favicon.ico" type="/image/vnd.microsoft.icon">
@@ -148,7 +150,7 @@ height: 100% !important;
 
 {% endif %}
 
-{% if page.title == "Events In The Poconos | Upcoming Events | Split Rock Resort" %}
+{% if page.title == "Events & Entertainment in the Poconos | Split Rock Resort PA" %}
 
 <style type="text/css">
 
