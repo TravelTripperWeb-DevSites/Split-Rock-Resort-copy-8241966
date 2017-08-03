@@ -1,0 +1,17 @@
+{
+  "name": "pdf_logo_sample",
+  "file_name": "pdf_logo_sample.gif",
+  "file_type": "image/gif",
+  "url": "https://s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/2_47_434/media/2017-08-03-103646/pdf-logo-sample.gif",
+  "date_added": "2017-08-03 10:37:00",
+  "tags": "",
+  "file_size": 25122.0,
+  "width": 468,
+  "height": 400,
+  "description": "",
+  "url_large": "//s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/2_47_434/media/2017-08-03-103646/large_pdf_logo_sample.gif",
+  "url_medium": "//s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/2_47_434/media/2017-08-03-103646/medium_pdf_logo_sample.gif",
+  "url_small": "//s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/2_47_434/media/2017-08-03-103646/small_pdf_logo_sample.gif",
+  "url_xsmall": "//s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/2_47_434/media/2017-08-03-103646/xsmall_pdf_logo_sample.gif",
+  "url_thumb": "//s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/2_47_434/media/2017-08-03-103646/thumb_pdf_logo_sample.gif"
+}
